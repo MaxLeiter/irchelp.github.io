@@ -1,0 +1,830 @@
+<!doctype html>
+<html>
+<head>
+    <title>IRCHelp.org &mdash; Untitled Page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="Comprehensive information on everything Internet Relay Chat" />
+    <meta name="author" content="irchelpers" />
+    <meta name="generator" content="PieCrust 1.3.0-dev" />
+    <meta name="template-engine" content="Twig" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0">
+    <!-- Le styles -->
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+      href="/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed"
+      href="/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="/ico/favicon.png">
+</head>
+<body>
+    <!--Start of navigation-->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container"> <a class="btn btn-navbar"
+            data-toggle="collapse" data-target=".nav-collapse"> <span
+              class="icon-bar"></span> <span class="icon-bar"></span> <span
+              class="icon-bar"></span> </a> <a class="brand" href="/">#irchelp</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="/">Home</a></li>
+              <li><a href="/irchelp/credit.html">About</a></li>
+              <li class="dropdown"> <a href="/irchelp/clients" class="dropdown-toggle"
+                  data-toggle="dropdown">Clients </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/clients">All Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Windows</li>
+                  <li><a href="/irchelp/clients/windows/mirc">mIRC</a></li>
+                  <li><a href="/irchelp/clients/windows/xchat">XChat</a></li>
+                  <li><a href="/irchelp/clients/windows">All Windows Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">MacOS X</li>
+                  <li><a href="/irchelp/clients/mac/textual.html">Textual</a></li>
+                  <li><a href="/irchelp/clients/mac/colloquy.html">Colloquy</a></li>
+                  <li><a href="/irchelp/clients/mac/snak.html">Snak</a></li>
+                  <li><a href="/irchelp/clients/mac">All MacOS X Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Linux/Unix Terminal</li>
+                  <li><a href="/irchelp/clients/unix/irssi">irssi</a></li>
+                  <li><a href="/irchelp/clients/unix/epic.html">EPIC</a></li>
+                  <li><a href="/irchelp/clients/unix/ircii">ircII</a></li>
+                  <li><a href="/irchelp/clients/unix/index.html#terminal">All Linux/Unix Terminal Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Linux/Unix Graphical</li>
+                  <li><a href="/irchelp/clients/unix/xchat.html">XChat</a></li>
+                  <li><a href="/irchelp/clients/unix/konversation.html">Konversation</a></li>
+                  <li><a href="/irchelp/clients/unix/index.html#gui">All Linux/Unix Graphical Clients</a></li>
+                  <li class="nav-header">Smartphones</li>
+                  <li><a href="/irchelp/clients/mobile/android">Clients for Android</a></li>
+                  <li><a href="/irchelp/clients/mobile/ios">Clients for iOS</a></li>
+                  <li><a href="/irchelp/clients/mobile">All Smartphone Clients</a></li>
+                  <li class="nav-header">Other OS and Crossplatform</li>
+                  <li><a href="/irchelp/clients/cross/java">Clients writting in Java</a></li>
+                  <li><a href="/irchelp/clients/cross">Other Crossplatform Clients</a></li>
+                  <li><a href="/irchelp/clients/otheros">Clients for other Operating Systems</a></li>
+                  <li><a href="/irchelp/clients/webclients.html">Web-based clients</a></li>
+
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/networks" class="dropdown-toggle"
+                  data-toggle="dropdown">Networks </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/networks/popular.html">Major Networks</a></li>
+                  <li><a href="/irchelp/networks/regional.html">Regional Networks</a></li>
+                  <li><a href="/irchelp/networks/topical.html">Topical Networks</a></li>
+                  <li><a href="/irchelp/networks">All Networks</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Major Networks</li>
+                  <li><a href="/irchelp/networks/efnet/">EFNet</a></li>
+                  <li><a href="/irchelp/networks/ircnet.html">IRCnet</a></li>
+                  <li><a href="/irchelp/networks/undernet.html">Undernet</a></li>
+                  <li><a href="/irchelp/networks/dalnet.html">Dalnet</a></li>
+                  <li><a href="/irchelp/networks/quakenet.html">Quakenet</a></li>
+                  <li><a href="/irchelp/networks/freenode.html">Freenode</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/security" class="dropdown-toggle"
+                  data-toggle="dropdown">Security </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/security">General Security</a></li>
+                  <li><a href="/irchelp/security/privacy.html">Privacy</a></li>
+                  <li><a href="/irchelp/security/nuke.html">Denial of Service</a></li>
+                  <li><a href="/irchelp/security/trojan.html">Trojan Horses and Other Malware</a></li>
+                  <li><a href="/irchelp/security/socialeng.html">Social Engineering</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/ircd" class="dropdown-toggle"
+                  data-toggle="dropdown">Servers </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/ircd">General ircd information</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">EFNet IRCDs</li>
+                  <li><a href="/irchelp/ircd/ratbox">ircd-ratbox</a></li>
+                  <li><a href="/irchelp/ircd/hybrid">ircd-hybrid</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="#" class="dropdown-toggle"
+                  data-toggle="dropdown">FAQs </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/new2irc.html">New user introduction</a></li>
+<!--
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+-->
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/library.html" class="dropdown-toggle"
+                  data-toggle="dropdown">Library </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/library.html">Index</a></li>
+<!--
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+-->
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form pull-right"> <input class="span2"
+                placeholder="Search" type="text"> <button type="submit"
+                class="btn">Search</button> </form>
+          </div>
+          <!--/.nav-collapse --> </div>
+      </div>
+    </div>
+<!--end of navigation-->
+
+    <div id="container" class="container">
+<!--
+                        <h1><a href="/">Untitled Page</a></h1>
+            -->        
+        
+            <div class="content">
+                                <p>_    ______                          _    ,
+&#8217; )  /        /               <em>/</em>    &#8217; )  /      <em>/</em>
+ /  / __   <strong>/ _  __  __   _  /       /&#8212;/ o _   /  __,_  , ,
+(</strong>/ /) )<em>(</em>(<em>(&lt;</em>/ (<em>/) )</em>(&lt;<em>(__     /  (</em>(<em>/</em>)_(__(_) (_(_/_
+                                                          /
+                                                         &#8216;</p>
+
+<pre><code>        THE HISTORY OF THE UNDERNET
+        ============================
+
+                     by Mandar Mirashi  - Mmmm
+
+                        August 1993
+</code></pre>
+
+<h1>Prologue</h1>
+
+<p>This file is an attempt on my behalf to record for all posterity, the
+times that the undernet has gone through. There have been the bad times
+and then there have been the good times. But the amazing tenacity of a
+few persons has kept this dream alive and rekindled the spirit of the
+Undernet. This article attempts to explore the history of the undernet
+right from the hazy beginnings through turbid times to what the Undernet
+has evolved to, today. </p>
+
+<pre><code>Since I have basically relied on _dl's archived mailing lists to 
+</code></pre>
+
+<p>assemble this information, I must remain deeply indebted to him for the 
+wonderful work he&#8217;s done in managing the wastelanders mailing list. The 
+file still lacks details of events that occurred before February, and the 
+first section will be updated after further research. If you have anything
+which may help me out in this quest, please feel free to mail me. Because
+this is a historical document, the author may be held guilty of bias, but
+wherever possible, an attempt at an impartial representation of the facts
+has been made.</p>
+
+<h1>A history of IRC</h1>
+
+<pre><code>Any kind of a historical document about the Undernet would be incomplete 
+</code></pre>
+
+<p>without a mention of the history of IRC itself. To quote from Elizabeth Reid&#8217;s
+Electropolis paper, which is essentially a thesis report on Communication and
+Community, in particular the Internet Relay Chat :</p>
+
+<p>&#8220;Jarkko Oikarinen wrote the original IRC program at the University of
+Oulu, Finland, in 1988. He designed IRC as a &#8216;client-server&#8217; program.
+The user runs a &#8216;client&#8217; program from his or her local machine, which
+then connects, via the Internet, to a &#8216;server&#8217; program which may not
+be running on that local machine. There are hundreds of IRC &#8216;servers&#8217;
+over the world, all of which communicate with each other and pass
+information back to the client programs - and users - connected to
+them. IRC was first tested on a single machine with less than twenty
+users participating. IRC&#8217;s networking capabilities were then tested
+on a suite of three machines in southern Finland. Once tested it was
+installed throughout the Finnish national network - FUNET - and then
+connected to NORDUNET, the Scandinavian branch of the Internet. By
+November of 1988, IRC had spread across the Internet. The latest
+listing of countries whose Internet branches host IRC include
+Australia, the United States, Italy, Israel and Korea.&#8221;</p>
+
+<pre><code>The original Finnish net was often termed the "O-net". The first 
+</code></pre>
+
+<p>international link established was between Finland and Sweden. Switzerland, 
+US, Canada, Norway, Poland (for a while), Netherlands, Australia, followed suit 
+shortly afterwards. In the middle of 1989, there were about 40 servers and 10 
+users on most nights. IRC had yet to come of age. But in these quiet times as
+well, trouble arose in 1990.</p>
+
+<pre><code>In the beginning of 1990, a net for server development called the 
+</code></pre>
+
+<p>ChNet was formed. It consisted of about 25 servers and no users. It was used
+to develop the 2.7 version which can be found even now (1993) on the EFnet.
+However, this was soon dissolved after a period of 3-4 months, due to
+disagreements between the programmers. By this time, Avalon (Darren Reed) had
+been approved of by Jarkko amongst others to be the official releaser of ircd
+versions. However, certain GNU programmers at MIT wanted to release code for
+ircd as well (Mycroft@IRC in particular) which did not fit in very well with
+Avalon&#8217;s plans, and so the ChNet was dissolved. Soon after, a more radical
+split was to occur on the actual IRC network itself.</p>
+
+<pre><code>To quote from Helen Trillian Rose's Networking documentation found
+</code></pre>
+
+<p>alongwith the IRC server (updated in Oct. 1990):</p>
+
+<p>&#8220;In August of 1990, IRC suffered a critical split in viewpoints of key
+people in the IRC heirarchy. The result was IRC split into two networks,
+EFnet (Eris Free network) and Anet (Anarchy network). This split continues
+today. There is some debate over whether IRC will ever reunite, however,
+neither side is willing to bend from their standpoint. Currently, there are
+about 95 servers on EFnet (and the same number of users) and 15 servers on 
+Anet (and about half the number of users).&#8221;</p>
+
+<pre><code>The A-net proposed a central server called eris.berkeley.edu in the
+</code></pre>
+
+<p>US that everyone connect to (with similar plans for such servers in Europe and 
+the rest of the world), which had was &#8220;open connect&#8221; i.e., no passwords were
+required to connect to it, and there was no limit on the no. of servers. As a
+result of opposing ideologies (the EFnet believed in a backbone plan based on
+net routes, ping times, etc.), the eris server was the first server to be Q
+(quarantine) lined from IRC (Q lining a server causes any server which
+introduces a Q lined server, to be dropped as well). The other servers along
+with eris formed the A-net. As of today (Aug. 1993), the A-net is almost non
+existent, with the EFnet having expanded rapidly.</p>
+
+<pre><code>IRC  gained  international fame during the late Persian Gulf War, when
+</code></pre>
+
+<p>updates  from  around  the world came across the wire, and most people on
+IRC gathered on a single channel to hear these reports.</p>
+
+<pre><code>Another one of the splinter nets formed once IRC became popular was
+</code></pre>
+
+<p>the TubNet. This was when EF-Net started falling apart. There were a number of
+attempts to form other networks. But because they were run by people who really 
+only wanted to talk.. and not by people who wanted the systems to work well,
+they all fell off. TubNet was formed in June 1991. It was created for all the</p>
+
+<h1>hottub&#8217;ers who did not like the netsplits. TubNet at its height had 5</h1>
+
+<p>servers, and around 100 people. The servers were located in Caltech,
+Washington DC, Montreal, South Africa and UK. It lasted from June to
+September. The net dissolved because the admins at the other sites got angry
+at unofficial servers.</p>
+
+<pre><code>Finally in the January of 1993, the Undernet was born, when the local
+</code></pre>
+
+<p>US net (started by Wildthang - Daniel Mitchell) merged with the servers in
+France and Canada run by _dl (Laurent Demailly) and Whizzard (Donnie Lambert)
+respectively. The Undernet has shown tremendous tenacity as compared to the 
+other nets, and as this document goes on to display, it is the sheer enthusiasm
+on the behalf of opers that have helped to keep the net alive during hard times.
+Today (Aug. 1993) the Undernet has over 30 servers, all over the world, with
+at least around 500-1000 users having visited it, 200 of them more than once!
+The Undernet continues to grow and confound its disparagers, and this is a story
+of a net that was born out of the wilderness, and which didn&#8217;t give in no 
+matter what the others felt, to finally start becoming more popular.</p>
+
+<h1>A new star is born - Christmas &#8216;92</h1>
+
+<pre><code>As far ago as the October of 1992, people had already started
+</code></pre>
+
+<p>feeling the effects of user overload on EFnet, not to mention many other
+factors. In an effort to strike out new territory in cyberspace, many
+&#8220;groups&#8221; of individuals had relentlessly attempted to sustain the onslaught of
+the forbidding isolation, and start up a server of their own. Many failed
+in their ventures, many just got bored of it and many just got shut down
+forcibly by paranoid system admins. Through the scattered outposts of the
+mysterious vaccum emerged 2 groups of entrepreneurs. The undernet in itself
+has two different tales to tell. Yes&#8230;the tale of two nets. One in the US,
+one in Europe-Canada. </p>
+
+<pre><code>The US undernet started off way back in Oct 92, when Wildthang
+</code></pre>
+
+<p>put up essex.ecn.uoknor.edu (and linked it to underworld [skywarrior])
+to start up a local test net. It started off as a playground to test
+bots at first, but quickly, the idea of a net hidden from the main net
+and a &#8220;friends and their friends&#8221; network grew more appealing. In mid
+November, Munchie (Andrew Daniels) joined Wildthang and set up the first
+US link essex->blackfoot.ucs.indiana.edu. Soone after Xney joined them with
+his server ux4.cso.uiuc.edu. By Christmas time, Wildthang linked the US
+net to the servers run by WHIZZARD and _dl. </p>
+
+<pre><code>A mention must also be made of the "visitor servers" which linked 
+</code></pre>
+
+<p>to the Undernet to soon proceed to the EFnet.  One of these was the server 
+run by Lightning (Edward Poffenbarger) who had troubles compiling it initially 
+on a NeXt, but with the help of his sys. admin eventually managed to compile 
+it, and later migrated to the EFnet. Another server which was temporarily 
+linked to the undernet was one run by SpUr (Mushfiqur Rahman) from Uni. of 
+Texas, (on port 6669) but was soon brought down due to pessimism expressed on 
+behalf of the co-admin (Rodder) and the lack of time to maintain it.  lonestar.
+utsa.edu (Longy) and inga1.acc.stolaf.edu (Dannyboy) joined in soon afterwards. 
+There were then also pace2.mts.edu which ran only parttime, and one at
+chip.ucdavis.edu which was run without admin approval, and almost resulted in
+the revokal of the IRC admin&#8217;s account. Another old timer was TempT who linked
+in CRUX1.cit.cornell.edu.</p>
+
+<pre><code>On the European side, _dl had already set up his server - hplyot.obspm.
+</code></pre>
+
+<p>circe.fr, and in early December linked *.fr to *.ca. The Canadian venture was 
+headed by WHIZZARD in the guise of taurus.ccs.tuns.ca. Taurus was originally
+set up in November 92, and linked to *.ariel.yorku.ca on the EFnet. Kangaman
+and Wildmage were WHIZZARD&#8217;s uplinks on EFnet. However the uplink of
+*.ariel.yorku.ca - Nevster, got Whizzard&#8217;s link on the EFnet revoked. Finally,
+Whizzard had a talk with _dl, and set up the Canada-France link. The
+*.ariel.yorku.ca server soon followed suit and linked to the Undernet as well.
+On the French side, _dl had originally set up a net to test the 2.8 series of
+servers along with dp (P. Ducrot) as well. Later on, after the dissolution of
+the test net, he linked to WHIZZARD&#8217;s server in December. dp joined him on the 
+Undernet soon afterwards, with his server ismra.ismra.fr.</p>
+
+<pre><code>In the last week of December '92, the 2 nets merged and formed what 
+</code></pre>
+
+<p>came to be called later on as the &#8220;Undernet&#8221;. A mailing list was founded by _dl 
+on Feb 5th, 1993, to start the ball rolling! A channel called #wasteland was 
+proposed by WHIZZARD and accepted by others, as the channel for opers, and a 
+bot called Wastedump was set up to &#8220;guard&#8221; the bleak landscape. </p>
+
+<pre><code>Ever since, a wide variety of servers have appeared and dissappeared
+</code></pre>
+
+<p>from the face of the Undernet, but the ones that have clung on have always 
+carried forth the spirit. In the face of all odds, against an almost 
+non-existent userbase, they have clung on to one another, each oper giving 
+encouragement to the other, trying to lighten up those gloomy days spent when 
+there were hardly any users, and not a single soul ventured to enter the 
+underworld. The reasons for servers dropping off have been many - accounts 
+no longer active, sys admin dissapproval, disheartment at the lack of 
+userbase, and so on. Nevertheless, the Undernet lived on&#8230;..</p>
+
+<pre><code>As a piece of antiquity, here's the first ever e-mail message to the
+</code></pre>
+
+<p>wastelanders mailing list.</p>
+
+<h1>5th Feb - 1993  :  The First Wastelanders e-mail message</h1>
+
+<p>From: Laurent Demailly <a href="&#109;&#x61;&#105;&#x6c;t&#111;&#x3a;&#100;&#x6c;&#64;&#104;&#x70;&#108;&#x79;&#111;&#x74;&#x2e;&#111;&#x62;&#115;&#x70;m&#46;&#x63;&#105;&#x72;c&#101;&#x2e;&#102;&#x72;">&#100;&#x6c;&#64;&#104;&#x70;&#108;&#x79;&#111;&#x74;&#x2e;&#111;&#x62;&#115;&#x70;m&#46;&#x63;&#105;&#x72;c&#101;&#x2e;&#102;&#x72;</a>
+To: wastelanders@hplyot.obspm.circe.fr
+Subject: New Mailing List !
+Date: Fri, 5 Feb 93 16:25:06 +0100</p>
+
+<pre><code>    Hi wastelanders ;) !
+</code></pre>
+
+<p>I&#8217;ve setup a begin of mailing list for our //Irc Net :</p>
+
+<p>****  <a href="&#x6d;&#97;&#105;l&#x74;&#x6f;&#58;&#119;&#x61;&#x73;&#116;&#101;l&#x61;&#110;&#100;e&#x72;&#x73;&#64;&#104;&#x70;&#x6c;&#121;&#111;t&#x2e;&#x6f;&#98;&#115;&#x70;&#x6d;&#46;&#99;&#x69;&#x72;&#99;&#101;.&#x66;&#x72;">&#119;&#x61;&#x73;&#116;&#101;l&#x61;&#110;&#100;e&#x72;&#x73;&#64;&#104;&#x70;&#x6c;&#121;&#111;t&#x2e;&#x6f;&#98;&#115;&#x70;&#x6d;&#46;&#99;&#x69;&#x72;&#99;&#101;.&#x66;&#x72;</a>  ****</p>
+
+<p>please mail me or <a href="mailto:wa&#115;&#116;&#101;&#108;&#97;&#110;&#100;&#101;&#114;&#115;&#45;&#114;&#101;&#113;&#117;&#101;&#115;&#116;&#64;&#104;&#112;&#108;&#121;&#111;&#116;&#46;&#111;&#98;&#115;&#112;&#109;&#46;&#99;&#105;&#114;&#99;&#101;&#46;&#102;&#114;">wa&#115;&#116;&#101;&#108;&#97;&#110;&#100;&#101;&#114;&#115;&#45;&#114;&#101;&#113;&#117;&#101;&#115;&#116;&#64;&#104;&#112;&#108;&#121;&#111;&#116;&#46;&#111;&#98;&#115;&#112;&#109;&#46;&#99;&#105;&#114;&#99;&#101;&#46;&#102;&#114;</a>, to
+complete the list&#8230;</p>
+
+<p>currently the list is [5 feb 3pm gmt]:
+wastelanders:
+dl,fpl1@CRUX1.cit.cornell.edu,lamberdc@newton.ccs.tuns.ca,
+ssmagals@gold.ucs.indiana.edu,jonesk@newton.ccs.tuns.edu,
+ez030724@chip.ucdavis.edu,irc@ariel.yorku.ca,neuger@inga1.acc.stolaf.edu,
+dehall@midway.ecn.uoknor.edu,dvmitche@midway.ecn.uoknor.edu</p>
+
+<pre><code>    Friendly,
+    _dl@irc
+</code></pre>
+
+<hr />
+
+<p>Of these admins, Whizzard, _dl, Dannyboy, Wildthang and Daveman still run
+servers on the Undernet. The rest of them dropped off at some period of
+time during the arduous history of the Undernet. </p>
+
+<pre><code> The remainder of this document describes events in a chronological
+</code></pre>
+
+<p>order.</p>
+
+<h1>FEBRUARY 1993 - The shaky beginning</h1>
+
+<ul>
+<li><p>Admins approve of dl&#8217;s mailing list, enthusiasm is riding high.</p></li>
+<li><p>7th Feb, updated mailing list as follows:
+wastelanders:
+dl,dp@ismra.fr,fpl1@CRUX1.cit.cornell.edu,lamberdc@newton.ccs.tuns.ca,
+ssmagals@gold.ucs.indiana.edu,jonesk@newton.ccs.tuns.ca,
+ez030724@chip.ucdavis.edu,irc@ariel.yorku.ca,neuger@inga1.acc.stolaf.edu,
+dehall@midway.ecn.uoknor.edu,dvmitche@midway.ecn.uoknor.edu,
+kmuelle1@ux4.cso.uiuc.edu,csspence@mtu.edu,cmjohnso@mtu.edu,
+smiguel@lonestar.usta.edu</p></li>
+<li><p>First messages by almost everyone on the list as soon as it is set up.
+(Basher on the 5th, Whizzard on the 7th, Ultraboy on the 8th, dp on the 9th)</p></li>
+<li><p>15th Feb, Tonto requests subscription to the wastelanders. Sets up
+freedom.iastate.edu (machine name - pv1789.vincent.iastate.edu)</p></li>
+<li><p>15th Feb, sheeba/nikita posts first message to the wastelanders.</p></li>
+<li><p>15th Feb, Tonto posts <em>first</em> ever Undernet server list, as follows:</p></li>
+</ul>
+
+<p>sandman.cco.caltech.edu         (Sheeba/Nikita/Wizcode)
+chip.ucdavis.edu                (Basher)
+cory.berkeley.edu
+magic.magic.magic.kr
+mike.cs.titech.ac.jp
+shade.princeton.edu     (IQ)
+crux1.cit.cornell.edu       (TemPt)
+cunixa.cc.columbia.edu          (hk)
+charon.njit.edu
+hplyot.obspm.circe.fr       (<em>dl)
+ismra.ismra.fr          (dp)
+newton.ccs.tuns.ca      (WHIZZARD/Ultraboy)
+taurus.cs.tuns.ca
+iris.ariel.yorku.ca             (Wildmage)
+freedom.iastate.edu             (Tonto/hop)
+essex.ecn.uoknor.edu            (Wildthang/Daveman)
+ttmath.ttu.edu
+inga1.acc.stolaf.edu            (Dannyboy)
+pace2.cts.mtu.edu       (Chris</em>S/Aeros)</p>
+
+<ul>
+<li><p>Names for the new net decided as &#8220;alternet&#8221; or &#8220;undernet&#8221;.</p></li>
+<li><p>16th Feb, Chris_S, Xney, Wildthang post first message to wastelanders.</p></li>
+<li><p>Routing concerns voiced right at the onset, and Tonto (Tony) requests everyone
+for ping times.</p></li>
+<li><p>Mailing list flooded with ping times  :)</p></li>
+<li><p>Early dissapproval/approval of L lines voiced.</p></li>
+<li><p>Shaky routing causes servers to disconnect often, and with absence of backup
+lines for one another, parts of the net get isolated often.</p></li>
+<li><p>17th Feb, freedom.iastate changed to pv1628.vincent.iastate, a more stable
+machine.</p></li>
+<li><p>23rd Feb, a new European server anatsg1.unil.ch (admin Mcfly) is linked by 
+_dl.</p></li>
+<li><p>25th Feb, hacked server policy drawn out.</p></li>
+<li><p>26th Feb, Tonto posts updated server list. New servers appearing on the
+list are: ra.msstate.edu, anatsg1.unil.ch, t3h.cs.man.ac.uk, hp825.bih.no. 
+A total of 26 servers, with 15 servers &#8220;up&#8221;.</p></li>
+<li><p>28th Feb, SIO requests subscription to wastelanders.   </p></li>
+</ul>
+
+<h1>March 1993 - link me not!</h1>
+
+<ul>
+<li><p>2nd Mar, Grant posts first message to wastelanders, a &#8220;map&#8221; of servers 
+connected.</p></li>
+<li><p>5th March, Wildmage withdraws from the Undernet, and takes off iris.ariel
+yorku.ca, citing a reason of &#8220;lack of userbase&#8221;.</p></li>
+<li><p>14th Mar, camelot.bradley gets Q-lined (first server to be Q lined) for fear
+that it is a hacked server. The Q lines are removed later&#8230;..lots of confusion
+abounds.</p></li>
+<li><p>15 Mar, crux.cit.cornell goes down. IQ wants to form his own net on port
+9876.</p></li>
+<li><p>17th Mar, due to absence of backup links, the undernet at one time holds
+only  5 servers!</p></li>
+<li><p>22nd Mar, IQ takes shade, spot and columbia off into his own net.</p></li>
+<li><p>23rd Mar, TBA (alex Skrabut) proposes new east coast server at Hofstra
+University, Long Island, NY, USA.</p></li>
+<li><p>24th Mar, Tony posts new server list. New arrivals: ball.com,
+belvoir-vmd1.army.mil, phys1.nchu.edu.tw.</p></li>
+<li><p>25th Mar, DaBigMac (Jim) joins the Undernet from Down Under, with his
+server yamabico.cs.uow.edu.au.</p></li>
+<li><p>26th Mar, Tony explores possibilities of implementing mesh connections for
+servers.</p></li>
+<li><p>27th Mar, Grant posts the first ever Undernet FAQ.</p></li>
+<li><p>28th Mar, the &#8220;hacked server net&#8221; comprising of cheetah, cheshire and hamster 
+(the server on a &#8220;modem&#8221;) gets linked in by sheeba accidentally. It gets
+delinked almost immediately by sheeba.</p></li>
+<li><p>28th Mar, Dannyboy and  Mmmm post first messages to wastelanders.</p></li>
+<li><p>29th Mar, Tony asks for new ping times from everyone.  Wastelanders is
+promptly flooded with ping stats. from everyone.</p></li>
+<li><p>30th Mar, Dregyon asks to be added to the wastelanders. Burnt from previous
+experiences, the wastelanders promise to take care when handing out new
+links.</p></li>
+<li><p>anatsg is proposed as the new European hub, based on pings.</p></li>
+</ul>
+
+<h1>April 1993 - L lines and bots!</h1>
+
+<ul>
+<li><p>3rd Apr, the first undernet oper meeting takes place. TBA discusses his
+&#8220;web&#8221; routing.</p></li>
+<li><p>6th Apr, Riot posts first wastelanders message.</p></li>
+<li><p>6th Apr, utexas enters the undernet again - flubber.cc.utexas.edu, run by 
+Celestia. Also, a new entree is tdsb-s.mais.hydro.qc.ca run by SirLance.
+flubber later is changed to tigger.</p></li>
+<li><p>6th Apr, sandman.caltech changes names to cancun.caltech</p></li>
+<li><p>8th Apr, Atlantis (Gurkan Kaymak) asks to be subscribed to the wastelanders.</p></li>
+<li><p>10th Apr., IQ declares utexas as a hub server without previous notification
+or discussion with operators. Dat declares cornell to be a hub in the same
+arrogant fashion, and refuses to reason with opers. They even go ahead and
+start changing the routing radically without asking the rest about what they
+feel. Tired of it, the wastelanders finally employ L lines to employ a good
+hub / leaf routing. _dl the opposer of any L line /die&#8217;s his server for a
+day, in protest.</p></li>
+<li><p>10th Apr, nikita proposes hostmasking regions, with a detailed plan.</p></li>
+<li><p>12th Apr, _dl is out of town, and the wastelanders mailing list has slight
+problems. hop makes a backup mailing list, but _dl gets pissed.</p></li>
+<li><p>15th Apr, Daveman posts first message to Wastelanders.</p></li>
+<li><p>15th Apr, Patina (Lucy - Tonto&#8217;s gf) sends her first wastelanders post.</p></li>
+<li><p>15th Apr, acm4.acm.rpi.edu gets linked, with Chucki as oper.</p></li>
+<li><p>16th Apr, acm4 changes to spiff.gnu.ai.mit.edu, acm4 and hermes leaf off
+spiff, and so doea sugar-bombs.</p></li>
+<li><p>17th Apr, Chucki proposes a new server at santafe.edu run by bogus.</p></li>
+<li><p>19th Apr, first message to wastelanders by mailer (admin of viminale*fr).</p></li>
+<li><p>19th Apr, camelot.bradley is pulled down by the disapproving sys admin. Mmmm
+sends letter to try and save the server to no avail.</p></li>
+<li><p>20th Apr, first post from tc (Tewwy) to the wastelanders. He posts the
+European map, the American map and a routing plan in great detail.</p></li>
+<li><p>21st Apr, curie.ualr.edu gets linked with Kham and TG as opers.</p></li>
+<li><p>22nd Apr, the great bot debate is sparked off. Finally it is decided that no
+remote bots will be allowed, and each server admin will fram his own bot
+policy. Tony posts the bot policy for pv1628*.</p></li>
+<li><p>22nd Apr, _dl puts up new mailing list server - listserv, which makes mail
+handling highly efficient.</p></li>
+<li><p>23rd Apr, TheJester posts first message to wastelanders.</p></li>
+<li><p>25th Apr, McFly takes a short leave from the Undernet.</p></li>
+<li><p>25th Apr, Mailer posts the crontab file for checking on servers.</p></li>
+<li><p>26th Apr, opers express disapproval of the 2.8 series of servers because of
+unexpected core dumps and their inability to work with old clients.</p></li>
+<li><p>29th Apr, the wastelanders user average drops to 10 as exams approach.</p></li>
+</ul>
+
+<h1>MAY 1993 - timestamps and mass posts</h1>
+
+<ul>
+<li><p>2nd May, the bot debate rages&#8230;.</p></li>
+<li><p>TempT posts first message to the wastelanders (although crux1 is no longer
+around).</p></li>
+<li><p>Chucki makes a huge mistake of deleting his ircd directory on spiff :). So
+he requests everyone to add links for Sugar-Bombs.</p></li>
+<li><p>3rd May, many admins post local bot policies.</p></li>
+<li><p>3rd May, TG posts first message to wastelanders.</p></li>
+<li><p>4th May, new link from Netherlands - sg.tn.tudelft.nl (admin Run) is set up
+by _dl.</p></li>
+<li><p>6th May, elm.circa.ufl.edu goes down temporarily.</p></li>
+<li><p>8th May, WHIZZARD proposes limiting no. of bans.</p></li>
+<li><p>12th May,Chucki (by now a very confused soul :) asks everyone to delete lines 
+to spiff and sugar-bombs, and asks to add lines for goldman.gnu.ai.mit.edu 
+instead.</p></li>
+<li><p>TempT gets overly uptight at some e-mail sent by kham in French.</p></li>
+<li><p>15th May, Wildthang hands over primary admin responsibilities to Mmmm.</p></li>
+<li><p>17th May, a new link is announced in UK - dorothy.ibmpcug.co.uk (admin
+Chucki). Another new link is also announced - piaget.phys.ksu.edu (admin epa)</p></li>
+<li><p>17th May, Goldman is down for a few days, Chucki plans to move to hermes.
+Mmmm proposes &#8220;mass post&#8221; idea.</p></li>
+<li><p>17th May, Tony releases new imrpoved of his multinet bot &#8216;ul&#8217;.</p></li>
+<li><p>21st May, new link in Europe - vilm.informatik.uni-rostock.de announced 
+(admin Uwe)</p></li>
+<li><p>21st May, &#8220;mass post&#8221; carried out by Mmmm. It turns to be a &#8220;semi&#8221; success,
+however, most newbies (500+ persons compiled clients defaulting to the
+undernet) either give up irc, or some move to EFnet. Some stay to become 
+regulars.</p></li>
+<li><p>22nd May, dorothy goes down.</p></li>
+<li><p>23rd May, chucki posts new routing plan.</p></li>
+<li><p>24th May, Run proposes the timestamp solution to netsplit ops!</p></li>
+<li><p>24th May, first post by Twilight1, radium and Maniac (SirKnight) to the 
+wastelanders.</p></li>
+<li><p>24th May, the great debate on how channels can be protected by opers - Run
+proposes /smode, a patch which would affect <em>all</em> servers. It is turned down
+and instead underworld.edu (a 2.7.2f server) is proposed as a channel saver.
+The advantage being that if it were to get abused, it is easily removable.</p></li>
+<li><p>User recruitment frenzy breaks loose&#8230;.bots, people, etc :)</p></li>
+<li><p>25th May, new link - falcon.lhup.edu us announced (admin CocoCat)</p></li>
+<li><p>26th May, the mailing list and hplyot are down for 3-4 days.</p></li>
+<li><p>27th May, curie.ualr.edu goes down for the summer. Kham&#8217;s on vacation.</p></li>
+<li><p>27th May, new link to India established - server soochak.ncst.ernet.in
+(admin Mmmm)</p></li>
+<li><p>27th May, Mmmm posts the &#8220;newlink&#8221; document which contains guidelines for
+new servers linking to the Undernet.</p></li>
+<li><p>DemiTrix (IQ&#8217;s pal) tries to get a servers linked again to the undernet but
+is turned down.</p></li>
+<li><p>Dat tries the same stunt. Boy, these people never will stay out of the
+Undernet history - IQ, Dat and Demitrix.  :)</p></li>
+<li><p>28th May, dorothy is back up for a while.</p></li>
+<li><p>29th May, mirac.eecs.usma.edu goes down.</p></li>
+</ul>
+
+<h1>June 1993 - new servers and timestamps</h1>
+
+<ul>
+<li><p>1st June, TheJester posts patches against the UTC bug in clients.</p></li>
+<li><p>A need for an east coast hub expressed again.</p></li>
+<li><p>1st June, Karll posts first message to wastelanders (admin sci.dixie.edu)</p></li>
+<li><p>1st June - hermes.acm.rpi.edu goes up again.</p></li>
+<li><p>2nd June, viminale changes to deabis*fr</p></li>
+<li><p>5th June, McFly posts new routing plans for Europe.</p></li>
+<li><p>Dat manages to gain a temporary link from <em>Canada</em>! To prevent an out of
+country link, Chucki gives him a link too.</p></li>
+<li><p>6th June, Whizzard posts wallop patch.</p></li>
+<li><p>7th June, new link announced - shadow.acc.iit.edu (admin Staffa)</p></li>
+<li><p>7th June, Dat gets delinked again, due to his own arrogance.</p></li>
+<li><p>8th June, Tony accidentally deletes his conf (luckily he has backups)</p></li>
+<li><p>10th June, Mailer takes a short vacation.</p></li>
+<li><p>Munchie pops into the Undernet again with apricot.ucs.indian.edu. He
+proposes to act as a backup for iastate.</p></li>
+<li><p>16th June, Chucki notices that some servers have still not changed links
+from acm4 to hermes :)</p></li>
+<li><p>17th June, Rob (rthomas@sequent.com) sets up a new server - sequent.sequent.
+com.</p></li>
+<li><p>17th June, Rellik (kalt@palatino.enserb.u-bordeaux.fr) obtains an oper 
+password which was easily guessable and performs the first mass kill on
+Undernet. A sad day&#8230;.</p></li>
+<li><p>17th June, epa posts first message to wastelanders.</p></li>
+<li><p>21st June, falcon moves to port 6666</p></li>
+<li><p>21st June, new server aspen.che.sdsmt.edu is set up (admin - chucki,sunil)</p></li>
+<li><p>Some servers experience technical difficulties and are a bit irregular on
+the net.</p></li>
+<li><p>28th June, Dwildstar introduces a new server which could act as a hub, on
+the west coast - goren.u.washington.edu</p></li>
+<li><p>Mmmm posts new routing plan, along with dwild and chucki.</p></li>
+<li><p>28th June, Run releases Timestamp (TSpre1)!!</p></li>
+<li><p>29th June, Twilight1 hints at a good uark server.</p></li>
+</ul>
+
+<h1>July 1993 - mass kilss and jupes</h1>
+
+<ul>
+<li><p>1st July, four servers upgrade to the timestamp protocol.</p></li>
+<li><p>1st July, Run releases more patches for upgrading to 2.8.10 with wallops
+and TS.</p></li>
+<li><p>5th July, Munchie pulls out of the undernet again! (first one was blackfoot,
+the next one was apricot).</p></li>
+<li><p>10th July, new link in Greece - Cyprus.csd.uch.gr  (admin kermit) announced</p></li>
+<li><p>12th July, midnet faces some severe problems for a day or two, due to floods
+in Iowa and Nebraska.</p></li>
+<li><p>15th July, Tony&#8217;s upset at cancun&#8217;s ridiculous ping times, and drops links
+until the problem is fixed.</p></li>
+<li><p>16th July, a new server pellava*fi (admin Sisko, S_Avatar) is set up.</p></li>
+<li><p>16th July, Run releases TSpre6.</p></li>
+<li><p>An effort on the behalf of some is made to move to 2.8 servers. But many
+are still reluctant to change because of the incompatibility of new servers
+with old clients. A soft deadline of Aug. 1st is proposed. </p></li>
+<li><p>A brief debate on whether hacked id should be allowe or not&#8230;..most agree
+that it is impossible to stop hacked id.</p></li>
+<li><p>16th July, Mmmm posts the undernetiquette document.</p></li>
+<li><p>21st July, TG sets up bolero.rahul.net</p></li>
+<li><p>23rd July, due to TG&#8217;s lapse of setting the correct modes on the conf, a
+miscreant signs on and performs a mass kill (the second in Undernet&#8217;s
+history). Hendrix is the prime suspect.</p></li>
+<li><p>24th July, Run puts up TS for FTP.</p></li>
+<li><p>26th July, a new link - imageek.york.cuny.edu is established on the east
+coast (admins - USViking, geek).</p></li>
+<li><p>26th July, the troublesome bolero server pops up again, linking to essex,
+which had not yet deleted the links&#8230;and another masskill takes place.
+Finally the links are pulled, but it is too late. TG resolves not to
+return to the Undernet again.</p></li>
+<li><p>27th July, Dregyon proposes oper meetings to move things smoothly.</p></li>
+<li><p>29th July, many opers decide to use their IRCNAME for advertising the 
+Undernet.</p></li>
+<li><p>Ping data packet size decided at 1024 bytes.</p></li>
+<li><p>29th July, geek and Rob have a fight on EFnet, Rob drags the fight over to
+the undernet and repeatedly squits imageek* without any further notice, and
+refuses to apologise. sequent.sequent.com is juped - the first server to be
+juped on undernet. Rob continues to allege that geek&#8217;s server is hacked
+without any proof to back his allegations.</p></li>
+<li><p>29th July, a flame war erupts on the wastelanders over the incident - Rob
+versus the rest.</p></li>
+<li><p>29th July, radium is tired of the bicksering on the mailing list.</p></li>
+<li><p>30th July, elm.circa.ufl.edu returns&#8230;admin TG.</p></li>
+<li><p>30th July, TG proposes to advertise Undernet on BBSes</p></li>
+<li><p>30th July, Tychy posts first message to the wastelanders.</p></li>
+<li><p>31st July, Run posts a useful &#8220;IRC Map&#8221; alias.</p></li>
+</ul>
+
+<h1>August 1993</h1>
+
+<ul>
+<li><p>Things settle down again - July was a bad month for the undernet.</p></li>
+<li><p>1st Aug, Wildthang posts about his channel link bots again</p></li>
+<li><p>2nd Aug, a new link santafe.santafe.edu (admin - bogus) is set up.</p></li>
+<li><p>2nd Aug, Discman returns to the wastelanders</p></li>
+<li><p>3rd Aug. first undernet oper meeting held. Topic discussed - Rob, no flames
+on the mailing list, cancun oper inaccesibility, limit on opers per server?,
+oper protocol, underworld.edu, nick change when away, help bots, hubs to go
+2.8+TS.</p></li>
+<li><p>4th Aug, SIO posts ban info patch.</p></li>
+<li><p>TG notices undernet as an option on the holonet.net menu.</p></li>
+<li><p>5th Aug, the second oper meeting. Topics discussed - TS, hacked servers, fast
+upgrades, channel policy, motd change, undernet billboards, /sping.</p></li>
+<li><p>6th Aug, new link in Sweden - need.hgs.se established (admin Oddy).</p></li>
+<li><p>6th Aug., Tony realeases Oper Manual.</p></li>
+<li><p>6th Aug, the third oper meeting.  Topics discussed - no oper bots, hub
+upgrades, note not working on 2.8.11, ping times, European routing, host
+masking.</p></li>
+<li><p>6th Aug., Run posts about how L lines can be used for auto routing.</p></li>
+<li><p>7th Aug, wallops fixed again by Run, also, he releases NOTE patch.</p></li>
+<li><p>7th Aug, Dregyon posts summary of topic covered in meetings.</p></li>
+<li><p>8th Aug, the &#8220;underworld&#8221; debate flares up.</p></li>
+<li><p>8th Aug. the undernet starts averaging more users than servers.</p></li>
+<li><p>10th Aug, everyone votes yes for underworld.</p></li>
+<li><p>11th Aug, SIO releases Topic patch and _dl posts summon/local kill in syslog
+patch.</p></li>
+<li><p>A need for recruiting users expressed once again.</p></li>
+<li><p>12th Aug., Rhino (oper on sci.dixie)&#8217;s first e-mail to the wastelanders.</p></li>
+<li><p>14th Aug., Mmmm opposes Karll&#8217;s opvis patch which allows opers to see
+private channels. The patch is finally removed.</p></li>
+<li><p>The undernet sets a new record of 57 users.</p></li>
+<li><p>16th Aug. auto routing discussed intensely.</p></li>
+<li><p>16th Aug, Fizzy (Adrian Hall) proposes a backbone for European routing. _dl
+also posts his own ideas.</p></li>
+<li><p>16th Aug, Run proposes a new coding idea which will help in routing.</p></li>
+<li><p>16th Aug., client connect patch released.</p></li>
+<li><p>17th Aug., it is discovered that bolero is attempting to connect to aiken
+which is fortunately L lined. The aiken admin takes off the lines when he
+discovers them.</p></li>
+<li><p>17th Aug, Fizzy (Adrian Hall) proposes the DNS alias *.undernet.org scheme,
+along with FTP/Gopehr/Wais/wastelanders at undernet.org.</p></li>
+<li><p>19th Aug., Patina posts after a <em>long</em> interval of time. Expresses some
+displeasure at the current feelings amongst undernet ops.</p></li>
+<li><p>19th Aug, with essex down for maintenance, and pv1628 out of action 
+tenporarily, the undernet is in some turmoil.</p></li>
+<li><p>20th Aug, Twilight1 sets up new server at engr.engr.uark.edu. curie is
+replaced by engr.</p></li>
+<li><p>20th AUg, bugs in TSpre6 (mode changes) found by Mmmm.</p></li>
+<li><p>23rd Aug, Fizzy applies for registering the undernet.org domain.</p></li>
+<li><p>24th Aug., the first *.undernet.org server - London.UK.EU.undernet.org
+is set up by Fizzy.</p></li>
+<li><p>24th Aug., goren1 goes down - Dwildstar pulls out of undernet citing the
+reason of &#8220;insufficient userbase&#8221;. (funny how history repeates itself :)</p></li>
+<li><p>25th Aug, undernet.org is registered, and new server names are quickly
+decided.</p></li>
+<li><p>People move too quickly to the new names, causing lots of routing headaches.</p></li>
+<li><p>26th Aug, hot debate on a Nickserv which can maintain nick uniqueness by
+means of kill/jupe launched. Opers divided into 3 groups&#8230;..no easy
+decision found yet.</p></li>
+<li><p>28th Aug. Mmmm posts the undernet history file.</p></li>
+</ul>
+
+<hr />
+
+<p>THE UNDERNET SAGA CONTINUES&#8230;&#8230;&#8230;..Watch this space as the months unfold!</p>
+
+<pre><code>                                                             Mmmm
+</code></pre>
+
+<h1>References</h1>
+
+<ol>
+<li><p>Electropolis, Communication and Community, On Internet Relay Chat,
+Elizabeth M. Reid, Honours Thesis, 1991, Univ. of Melbourne.</p></li>
+<li><p>ircd/US-Admin/Networking document - Helen Trillian Rose, Oct 1990.</p></li>
+<li><p>IRC primer, Nicholas Pioch, Edition 1.1b,  February 28, 1993.</p></li>
+<li><p>The Wastelanders mailing list archives - maintained by Laurent Demailly
+(Feb 93 - Aug 93).</p>
+
+<pre><code>                  ------x-----x--------
+</code></pre></li>
+</ol>
+
+                            </div>
+        
+        <footer>
+
+                        <p>All documents &copy; irchelp.org or original authors 2013 <br />Baked with <em><a href="http://bolt80.com/piecrust/">PieCrust</a> 1.3.0-dev</em>.</p>
+                    </footer>
+    </div>
+    
+        <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap-transition.js"></script>
+    <script src="/js/bootstrap-alert.js"></script>
+    <script src="/js/bootstrap-modal.js"></script>
+    <script src="/js/bootstrap-dropdown.js"></script>
+    <script src="/js/bootstrap-scrollspy.js"></script>
+    <script src="/js/bootstrap-tab.js"></script>
+    <script src="/js/bootstrap-tooltip.js"></script>
+    <script src="/js/bootstrap-popover.js"></script>
+    <script src="/js/bootstrap-button.js"></script>
+    <script src="/js/bootstrap-collapse.js"></script>
+    <script src="/js/bootstrap-carousel.js"></script>
+    <script src="/js/bootstrap-typeahead.js"></script>
+</body>
+</html>

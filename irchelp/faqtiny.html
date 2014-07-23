@@ -1,0 +1,400 @@
+<!doctype html>
+<html>
+<head>
+    <title>IRCHelp.org &mdash; A Hitchhiker&#039;s Guide to ircII for GAS Users</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="Comprehensive information on everything Internet Relay Chat" />
+    <meta name="author" content="irchelpers" />
+    <meta name="generator" content="PieCrust 1.3.0-dev" />
+    <meta name="template-engine" content="Twig" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0">
+    <!-- Le styles -->
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+      href="/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed"
+      href="/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="/ico/favicon.png">
+</head>
+<body>
+    <!--Start of navigation-->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container"> <a class="btn btn-navbar"
+            data-toggle="collapse" data-target=".nav-collapse"> <span
+              class="icon-bar"></span> <span class="icon-bar"></span> <span
+              class="icon-bar"></span> </a> <a class="brand" href="/">#irchelp</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="/">Home</a></li>
+              <li><a href="/irchelp/credit.html">About</a></li>
+              <li class="dropdown"> <a href="/irchelp/clients" class="dropdown-toggle"
+                  data-toggle="dropdown">Clients </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/clients">All Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Windows</li>
+                  <li><a href="/irchelp/clients/windows/mirc">mIRC</a></li>
+                  <li><a href="/irchelp/clients/windows/xchat">XChat</a></li>
+                  <li><a href="/irchelp/clients/windows">All Windows Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">MacOS X</li>
+                  <li><a href="/irchelp/clients/mac/textual.html">Textual</a></li>
+                  <li><a href="/irchelp/clients/mac/colloquy.html">Colloquy</a></li>
+                  <li><a href="/irchelp/clients/mac/snak.html">Snak</a></li>
+                  <li><a href="/irchelp/clients/mac">All MacOS X Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Linux/Unix Terminal</li>
+                  <li><a href="/irchelp/clients/unix/irssi">irssi</a></li>
+                  <li><a href="/irchelp/clients/unix/epic.html">EPIC</a></li>
+                  <li><a href="/irchelp/clients/unix/ircii">ircII</a></li>
+                  <li><a href="/irchelp/clients/unix/index.html#terminal">All Linux/Unix Terminal Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Linux/Unix Graphical</li>
+                  <li><a href="/irchelp/clients/unix/xchat.html">XChat</a></li>
+                  <li><a href="/irchelp/clients/unix/konversation.html">Konversation</a></li>
+                  <li><a href="/irchelp/clients/unix/index.html#gui">All Linux/Unix Graphical Clients</a></li>
+                  <li class="nav-header">Smartphones</li>
+                  <li><a href="/irchelp/clients/mobile/android">Clients for Android</a></li>
+                  <li><a href="/irchelp/clients/mobile/ios">Clients for iOS</a></li>
+                  <li><a href="/irchelp/clients/mobile">All Smartphone Clients</a></li>
+                  <li class="nav-header">Other OS and Crossplatform</li>
+                  <li><a href="/irchelp/clients/cross/java">Clients writting in Java</a></li>
+                  <li><a href="/irchelp/clients/cross">Other Crossplatform Clients</a></li>
+                  <li><a href="/irchelp/clients/otheros">Clients for other Operating Systems</a></li>
+                  <li><a href="/irchelp/clients/webclients.html">Web-based clients</a></li>
+
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/networks" class="dropdown-toggle"
+                  data-toggle="dropdown">Networks </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/networks/popular.html">Major Networks</a></li>
+                  <li><a href="/irchelp/networks/regional.html">Regional Networks</a></li>
+                  <li><a href="/irchelp/networks/topical.html">Topical Networks</a></li>
+                  <li><a href="/irchelp/networks">All Networks</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Major Networks</li>
+                  <li><a href="/irchelp/networks/efnet/">EFNet</a></li>
+                  <li><a href="/irchelp/networks/ircnet.html">IRCnet</a></li>
+                  <li><a href="/irchelp/networks/undernet.html">Undernet</a></li>
+                  <li><a href="/irchelp/networks/dalnet.html">Dalnet</a></li>
+                  <li><a href="/irchelp/networks/quakenet.html">Quakenet</a></li>
+                  <li><a href="/irchelp/networks/freenode.html">Freenode</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/security" class="dropdown-toggle"
+                  data-toggle="dropdown">Security </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/security">General Security</a></li>
+                  <li><a href="/irchelp/security/privacy.html">Privacy</a></li>
+                  <li><a href="/irchelp/security/nuke.html">Denial of Service</a></li>
+                  <li><a href="/irchelp/security/trojan.html">Trojan Horses and Other Malware</a></li>
+                  <li><a href="/irchelp/security/socialeng.html">Social Engineering</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/ircd" class="dropdown-toggle"
+                  data-toggle="dropdown">Servers </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/ircd">General ircd information</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">EFNet IRCDs</li>
+                  <li><a href="/irchelp/ircd/ratbox">ircd-ratbox</a></li>
+                  <li><a href="/irchelp/ircd/hybrid">ircd-hybrid</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="#" class="dropdown-toggle"
+                  data-toggle="dropdown">FAQs </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/new2irc.html">New user introduction</a></li>
+<!--
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+-->
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/library.html" class="dropdown-toggle"
+                  data-toggle="dropdown">Library </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/library.html">Index</a></li>
+<!--
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+-->
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form pull-right"> <input class="span2"
+                placeholder="Search" type="text"> <button type="submit"
+                class="btn">Search</button> </form>
+          </div>
+          <!--/.nav-collapse --> </div>
+      </div>
+    </div>
+<!--end of navigation-->
+
+    <div id="container" class="container">
+<!--
+                        <h1><a href="/">A Hitchhiker&#039;s Guide to ircII for GAS Users</a></h1>
+            -->        
+        
+            <div class="content">
+                                <p>A Hitchhiker&#8217;s Guide to ircII for GAS Users</p>
+
+<h1>Written by: linc (Chienting Lin) and jap (Juan A Posada Garcia), Apr.10,&#8217;93</h1>
+
+<pre><code>                                  CONTENTS
+                                 ~~~~~~~~~~
+</code></pre>
+
+<ol>
+<li><p>What is IRC</p></li>
+<li><p>Basic Commands</p></li>
+<li><p>Mode Commands</p></li>
+<li><p>Ban Commands</p></li>
+<li><p>About nick registration</p></li>
+<li><p>Where can I find more info</p></li>
+<li><p>ircII local FAQ</p>
+
+<ol>
+<li>How to setup IRCNAME </li>
+<li>How to produce nifty effects in ircII </li>
+<li>Partial list of irc servers </li>
+<li>Telnetable IRC clients </li>
+<li>WHAT IS IRC </li>
+</ol></li>
+</ol>
+
+<hr />
+
+<p>The best way to describe ircII is as a computerized radio ham, where you can
+join different &#8220;channels&#8221; to talk and share info with other people. As in
+radio ham seach, an IRCer must have his/her own nickname. The best way to get
+the feel for irc is through hands-on experience. So here are some tips to help
+you on your way. Good luck!</p>
+
+<p>To begin, issue the following to access irc and specify your server (the
+default server in GAS ircII is irc.caltech.edu):</p>
+
+<p>&#8216;ircII <nick> <server>&#8216;</p>
+
+<p><strong>2. BASIC COMMANDS</strong></p>
+
+<hr />
+
+<pre><code>/nick &lt;nickname&gt;      : Assign your nickname over IRC. ex: /nick test
+/join #&lt;channel&gt;      : Join a channel. If the channel does not exist,
+                        you will open a new channel. ex: /join #talk.
+/who *                : List all users on the current channel.
+/msg &lt;nick&gt; &lt;words&gt;   : Talk to someone in private.
+/msg . &lt;words&gt;        : Send words to the last one you use /msg to talk.
+/msg , &lt;words&gt;        : Send words to the last one who msg you.
+/query &lt;nick&gt;         : All you type will just be seen by &lt;nick&gt;.
+                        type "/query" to end query with &lt;nick&gt;.
+/leave &lt;channel&gt;      : Leave a channel.
+/exit                 : Leave IRC.
+/whois &lt;nick&gt;         : See details about &lt;nick&gt;,you also can use this command
+                        to check if someone is on IRC now.
+/links                : List all servers with links to your server.
+/list                 : List all channels on your server.
+/names                : Same as /list,but with visible user names.
+/server &lt;server name&gt; : Connect to a server.
+/time                 : Show the time of your server
+/time &lt;nick&gt;          : Show the time of &lt;nick&gt;'s server.
+/me &lt;action&gt;          : Used to describe what you are doing to others.
+/invite &lt;nick&gt; &lt;chan&gt; : Invite &lt;nick&gt; to join &lt;channel&gt;. If you are
+                        invited, you can use /join -invite to join it.
+/notify &lt;nick&gt;        : If you are looking for someone, use this command to
+                        detect &lt;nick&gt;. If &lt;nick&gt; appear , you will get msg.
+/set novice off       : let you join multi-channels simultaneously.
+/set hold_mode on     : pause after one screen.
+</code></pre>
+
+<p>/set show<em>channel</em>names on : list all names on this channel when you join.</p>
+
+<p><strong>3. MODE COMMANDS</strong></p>
+
+<hr />
+
+<pre><code>/mode &lt;channel&gt; +o &lt;nick&gt;       To make someone a channel operator
+/mode &lt;channel&gt; -o &lt;nick&gt;       To take away the operator status from someone
+/mode &lt;channel&gt; +i              To make channel invite-only
+/mode &lt;channel&gt; +p              To make channel private
+/mode &lt;channel&gt; +s              To make channel secret
+/mode &lt;channel&gt; +t              Only the op's can change the topic
+/mode &lt;channel&gt; +n              Messages can't be sent to this channel
+/mode &lt;channel&gt; +m              Only op's can talk (moderated)
+/kick &lt;channel&gt; &lt;nick&gt;          To "kick" someone out of the channel
+/mode &lt;channel&gt; +spitn          Give channel ultimate protection.
+</code></pre>
+
+<p><strong>4. BAN COMMANDS</strong></p>
+
+<hr />
+
+<p>The MODE command allows you to ban somebody from a channel. This is done by
+specifying a string of the form nick!user@host. For example:</p>
+
+<p>&#8216;/MODE #MyChannel +b netw1z&#8217;</p>
+
+<p>bans anybody using the nickname netw1z.</p>
+
+<p>&#8216;/MODE #MyChannel +b <em>!merklin@</em>&#8217;</p>
+
+<p>bans anybody whose user name is merklin.</p>
+
+<p>&#8216;/MODE #MyChannel +b jerk!tug@boat.edu&#8217; bans the user tug@boat.edu from the
+channel whenever he is using the nickname &#8220;jerk&#8221;.</p>
+
+<p>To lift the ban, use &#8216;-b&#8217; instead. You can list the bans in effect on a
+channel with &#8216;/MODE Chan +b&#8217; if you are a channel operator:</p>
+
+<p>&#8216;/MODE #MyCHannel +b&#8217;</p>
+
+<p><strong>5. ABOUT NICK REGISTRATION</strong></p>
+
+<hr />
+
+<p>There is no longer a nick server.</p>
+
+<p><strong>6. WHERE CAN I FIND MORE INFO?</strong></p>
+
+<hr />
+
+<p>(a) alt.irc Frequently Asked Questions (FAQ)</p>
+
+<pre><code>       Anonymous FTP pit-manager.mit.edu and get:
+       /pub/usenet/IRC_Frequently_Asked_Questions_(FAQ).Z
+</code></pre>
+
+<p>(b) Official IRC tutorial</p>
+
+<pre><code>       Tutorial of irc listed in alt.irc FAQ can be FTPed from cs.bu.edu
+       (/irc/suport/tutorial.*).  Learn basics of ircII commands.
+</code></pre>
+
+<p>(c) IRCprimer 1.1</p>
+
+<pre><code>       Most complete ircII tutorial.  A must-have toward irc wizardry.
+       Anonymous FTP cs.bu.edu and get /irc/support/IRCprimer1.1.txt
+</code></pre>
+
+<ol>
+<li>ircII LOCAL FAQ</li>
+</ol>
+
+<hr />
+
+<p>a) How can I have my own IRCNAME instead of username in /etc/passwd?</p>
+
+<p>Add the following lines to your .chsrc file so IRCII can access these shell
+variables:</p>
+
+<h1>IRC settings</h1>
+
+<p>setenv IRCNICK &#8220;YourNick&#8221;</p>
+
+<p>setenv IRCNAME &#8220;Your IRCNAME&#8221;</p>
+
+<p>setenv IRCSERVER &#8220;irc.caltech.edu penfold.ece.uiuc.edu csa.bu.edu&#8221;</p>
+
+<p>b) How to produce nifty effects in ircII?</p>
+
+<p>Bind Key Effect</p>
+
+<hr />
+
+<pre><code>   ctrl-g                produce 'beep' sound
+   ctrl-v                add underline effect
+   ctrl-_                add bold type effect
+   ctrl-w ctrl-b         video reverse (provided you set
+                        'bind ^w quote_character' in your .ircrc)  
+</code></pre>
+
+<hr />
+
+<p>c) Partial list of IRC servers to connect to:</p>
+
+<p>For a list of servers, anon ftp h.ece.uiuc.edu:/irc/servers.xxxxxx or look for
+a monthly posting in alt.irc. Always try to find the most network-wise server
+to connect to. Here is a list of major servers that proved to be quite
+reliable:</p>
+
+<p>chuang.u.washington.edu 140.142.58.1</p>
+
+<pre><code>   midway.ecn.uoknor.edu      129.15.22.30
+   penfold.ece.uiuc.edu       128.174.114.68
+   patriot.mit.edu            18.92.0.10
+   csa.bu.edu                 128.197.10.202
+</code></pre>
+
+<hr />
+
+<p>d) Telnetable IRC clients</p>
+
+<p>In case you wanna access IRC when GAS goes down temporarily. For all sites,
+login as &#8216;irc&#8217;.</p>
+
+<pre><code>   hastur.cc.edu              140.104.9.69
+   irc.nsysu.edu.tw           140.117.11.33
+   snoopy.ncku.edu.tw         140.116.2.11 
+   suncc.ccu.edu.tw           140.123.1.2
+</code></pre>
+
+<p>gopher.csie.nctu.edu.tw 140.113.17.162 (port: 4470)</p>
+
+<hr />
+
+                            </div>
+        
+        <footer>
+
+                        <p>All documents &copy; irchelp.org or original authors 2013 <br />Baked with <em><a href="http://bolt80.com/piecrust/">PieCrust</a> 1.3.0-dev</em>.</p>
+                    </footer>
+    </div>
+    
+        <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap-transition.js"></script>
+    <script src="/js/bootstrap-alert.js"></script>
+    <script src="/js/bootstrap-modal.js"></script>
+    <script src="/js/bootstrap-dropdown.js"></script>
+    <script src="/js/bootstrap-scrollspy.js"></script>
+    <script src="/js/bootstrap-tab.js"></script>
+    <script src="/js/bootstrap-tooltip.js"></script>
+    <script src="/js/bootstrap-popover.js"></script>
+    <script src="/js/bootstrap-button.js"></script>
+    <script src="/js/bootstrap-collapse.js"></script>
+    <script src="/js/bootstrap-carousel.js"></script>
+    <script src="/js/bootstrap-typeahead.js"></script>
+</body>
+</html>

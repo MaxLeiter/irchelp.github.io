@@ -1,0 +1,311 @@
+<!doctype html>
+<html>
+<head>
+    <title>IRCHelp.org &mdash; Untitled Page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="Comprehensive information on everything Internet Relay Chat" />
+    <meta name="author" content="irchelpers" />
+    <meta name="generator" content="PieCrust 1.3.0-dev" />
+    <meta name="template-engine" content="Twig" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0">
+    <!-- Le styles -->
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+      href="/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed"
+      href="/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="/ico/favicon.png">
+</head>
+<body>
+    <!--Start of navigation-->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container"> <a class="btn btn-navbar"
+            data-toggle="collapse" data-target=".nav-collapse"> <span
+              class="icon-bar"></span> <span class="icon-bar"></span> <span
+              class="icon-bar"></span> </a> <a class="brand" href="/">#irchelp</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="/">Home</a></li>
+              <li><a href="/irchelp/credit.html">About</a></li>
+              <li class="dropdown"> <a href="/irchelp/clients" class="dropdown-toggle"
+                  data-toggle="dropdown">Clients </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/clients">All Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Windows</li>
+                  <li><a href="/irchelp/clients/windows/mirc">mIRC</a></li>
+                  <li><a href="/irchelp/clients/windows/xchat">XChat</a></li>
+                  <li><a href="/irchelp/clients/windows">All Windows Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">MacOS X</li>
+                  <li><a href="/irchelp/clients/mac/textual.html">Textual</a></li>
+                  <li><a href="/irchelp/clients/mac/colloquy.html">Colloquy</a></li>
+                  <li><a href="/irchelp/clients/mac/snak.html">Snak</a></li>
+                  <li><a href="/irchelp/clients/mac">All MacOS X Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Linux/Unix Terminal</li>
+                  <li><a href="/irchelp/clients/unix/irssi">irssi</a></li>
+                  <li><a href="/irchelp/clients/unix/epic.html">EPIC</a></li>
+                  <li><a href="/irchelp/clients/unix/ircii">ircII</a></li>
+                  <li><a href="/irchelp/clients/unix/index.html#terminal">All Linux/Unix Terminal Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Linux/Unix Graphical</li>
+                  <li><a href="/irchelp/clients/unix/xchat.html">XChat</a></li>
+                  <li><a href="/irchelp/clients/unix/konversation.html">Konversation</a></li>
+                  <li><a href="/irchelp/clients/unix/index.html#gui">All Linux/Unix Graphical Clients</a></li>
+                  <li class="nav-header">Smartphones</li>
+                  <li><a href="/irchelp/clients/mobile/android">Clients for Android</a></li>
+                  <li><a href="/irchelp/clients/mobile/ios">Clients for iOS</a></li>
+                  <li><a href="/irchelp/clients/mobile">All Smartphone Clients</a></li>
+                  <li class="nav-header">Other OS and Crossplatform</li>
+                  <li><a href="/irchelp/clients/cross/java">Clients writting in Java</a></li>
+                  <li><a href="/irchelp/clients/cross">Other Crossplatform Clients</a></li>
+                  <li><a href="/irchelp/clients/otheros">Clients for other Operating Systems</a></li>
+                  <li><a href="/irchelp/clients/webclients.html">Web-based clients</a></li>
+
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/networks" class="dropdown-toggle"
+                  data-toggle="dropdown">Networks </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/networks/popular.html">Major Networks</a></li>
+                  <li><a href="/irchelp/networks/regional.html">Regional Networks</a></li>
+                  <li><a href="/irchelp/networks/topical.html">Topical Networks</a></li>
+                  <li><a href="/irchelp/networks">All Networks</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Major Networks</li>
+                  <li><a href="/irchelp/networks/efnet/">EFNet</a></li>
+                  <li><a href="/irchelp/networks/ircnet.html">IRCnet</a></li>
+                  <li><a href="/irchelp/networks/undernet.html">Undernet</a></li>
+                  <li><a href="/irchelp/networks/dalnet.html">Dalnet</a></li>
+                  <li><a href="/irchelp/networks/quakenet.html">Quakenet</a></li>
+                  <li><a href="/irchelp/networks/freenode.html">Freenode</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/security" class="dropdown-toggle"
+                  data-toggle="dropdown">Security </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/security">General Security</a></li>
+                  <li><a href="/irchelp/security/privacy.html">Privacy</a></li>
+                  <li><a href="/irchelp/security/nuke.html">Denial of Service</a></li>
+                  <li><a href="/irchelp/security/trojan.html">Trojan Horses and Other Malware</a></li>
+                  <li><a href="/irchelp/security/socialeng.html">Social Engineering</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/ircd" class="dropdown-toggle"
+                  data-toggle="dropdown">Servers </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/ircd">General ircd information</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">EFNet IRCDs</li>
+                  <li><a href="/irchelp/ircd/ratbox">ircd-ratbox</a></li>
+                  <li><a href="/irchelp/ircd/hybrid">ircd-hybrid</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="#" class="dropdown-toggle"
+                  data-toggle="dropdown">FAQs </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/new2irc.html">New user introduction</a></li>
+<!--
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+-->
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/library.html" class="dropdown-toggle"
+                  data-toggle="dropdown">Library </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/library.html">Index</a></li>
+<!--
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+-->
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form pull-right"> <input class="span2"
+                placeholder="Search" type="text"> <button type="submit"
+                class="btn">Search</button> </form>
+          </div>
+          <!--/.nav-collapse --> </div>
+      </div>
+    </div>
+<!--end of navigation-->
+
+    <div id="container" class="container">
+<!--
+                        <h1><a href="/">Untitled Page</a></h1>
+            -->        
+        
+            <div class="content">
+                                <p>@(#)$Id: NEWS,v 1.28 1999/08/23 09:54:05 mrg Exp $</p>
+
+<p>Changes since ircII 4.4:</p>
+
+<p>o  standard GNU configure &#8212;srcdir and object directory support
+     has been added.
+  o  many more bugs have been fixed.
+  o  $servertype() function has been added, which returns ICB or IRC,
+     including server version.
+  o  SOCKS version 5 support has been added.
+  o  ICB support had been added.
+  o  CAST-128 support has been changed from EBC mode to CBC mode,
+     which make sit incompatible with interium releases of 4.4-Lite.
+  o  bugs fixed all over the place
+  o  colour support added
+  o  bugs in crypto code fixed.  now works without crashing.
+  o  /exec -target ($T) works
+  o  &#8220;window query&#8221; works
+  o  new functions winvis() and querynick()
+  o  allow &#8220;window channel #chan,key&#8221; to work
+  o  various flash-style attacks have been fixed.
+  o  /timer, and several variables are now aware of the current
+     server context.
+  o  several translation tables have been updated and added.
+  o  broken servers are handled better.
+  o  long nick names are supported.
+  o  many bugs have been fixed.
+  o  support for irc2.10 has been added.
+  o  messages typically always go the right window now, rather than
+     just most of the time.
+  o  the paranoid may now easily turn of returning information
+     about oneself to various ctcp commands with &#8212;with-paranoid
+  o  several enhancements to the encryption system:
+     - the old external program interface is changed to not leak
+       information via the command line.
+     - a CAST-128 implementation has been added to provide strong
+       encryption for both normal IRC channels, messages, and also
+       DCC chat connections.
+     - several bugs fixed.
+  o  ircII is now under a BSD-style copyright.  thanks to troy rollo
+     and mike sandrof for helping this process so much, so quickly!
+  o  fix core dumps in /queue
+  o  docmentation enhancements
+  o  new script <code>nocolour' for dealing with mIRC-style colour codes
+  o  fix several configuration time problems
+  o  fix the "encryption_program".
+  o  expand ctcp to dcc.  queries only, no replies.  dcc send, actions,
+     ctcp UTC, etc. work.  prints more information when connecting.
+  o  fixes stupid "channel leave" bug.
+  o  add new configure switch</code>&#8212;paranoid&#8217; which turns of then uname
+     and finger information returned in ctcp version and finger replies.
+  o  avoid buffer overflows in dcc chat code, as noted on bugtraq.
+  o  fix problems with ctcp encryption
+  o  setting the logfile will expand `~user&#8217; expressions
+  o  fix the $rindex() function.</p>
+
+<p>Changes since ircII 2.8.2:</p>
+
+<p>o  tabkey works with nicknames with &#39;s in them.
+  o  muchly updated /window server and /window channel system.
+  o  more robust autoconfiguration.
+  o  lots of bugs fixed.
+  o  <code>idle()' functions returns idle time.
+  o</code>/dcc rename -chat old new&#8217; renames a dcc chat connection
+  o  <code>/set same_window_only' places channels in windows more often.
+  o</code>&amp;&#8217; is expanded in GCOS fields, as per BSD.
+  o  ctcp flood handling done in a more sane manner.
+  o  non blocking connects (use -DNON<em>BLOCKING</em>CONNECTS).  ircII will
+     attempt to figure out if this is available or not automatically,
+     when configuring.
+  o  new window commands <code>addgroup', and</code>delgroup&#8217;.  these allow you
+     to define a group of windows, such that they are always connected
+     to the same server.
+  o  new <code>ircbug' shell command for reporting bugs.
+  o  SOCKS support.
+  o  new</code>imap&#8217; script.
+  o  new log level <code>BEEP'.
+  o  dcc works with</code>/server localhost&#8217;, again.
+  o  <code>/set HELP_PATH' now works with ~user expansion.
+  o  lots and lots and lots of bug fixes.
+  o  new</code>undernet&#8217; script to make ircII understand undernet.org extras.
+  o  a bunch of general bug fixes.  most of the submitted-via-ircbug (the
+     correct way!) have been fixed, or at least closely analyzed.
+  o  DYNAMIC<em>SLIP is not longer available, due to ircII simply handling
+     the case properly now.
+  o  <code>/window create' might be stabler.  really this time.
+  o  removed</code>/set help</em>service&#8217; support from ircII.
+  o  added <code>help' script to replace</code>/set help<em>service&#8217; support.
+  o  almost all gcc -Wall warnings on a sane system fixed.
+  o  help files are once again distributed with ircII.
+  o  windows now default to having level of <code>NONE'.
+  o  better error reporting in some circumstances.
+  o  renamed</code>ircserv&#8217; to <code>ircio' due to continued believe that</code>ircserv&#8217;
+     was actually an IRC server.
+  o  <code>/server .' should reconnect to the server last connected in this
+     window.
+  o  fully prototyped source tree.
+  o  each window can have two status lines, using</code>/window double&#8217;, and
+     the new <code>STATUS_FORMAT1' and</code>STATUS</em>FORMAT2&#8217; varaibles.
+  o  new variable <code>SAME_WINDOW_ONLY' that controls how disconnected
+     channels are placed (if at all) in other windows.
+  o  ircII no longer use lex/flex in the build process.
+  o</code>/notify&#8217; can be more verbose.
+  o  <code>irc -b' loads the .ircrc before connecting to a server.  beware.
+  o  irc 2.9 support.
+  o  many many new translation tables, polish, russian, etc.
+  o  hopefully more consistant message levels.
+  o</code>/window server&#8217;, <code>/server', then</code>IRCSERVER&#8217; variable, and command
+     line server lists all support the server:port:password:nickname
+     format.
+  o  <code>/window sticky &lt;on|off&gt;' to control whether channels follow server
+     changes, etc.
+  o  new</code>/squery&#8217; and <code>/servlist' commands, for ircd 2.9.x.
+  o  annoying bug in</code>/server -delete&#8217; fixed.
+  0  several more bugs fixed.
+  o  window scroll now works better.</p>
+
+                            </div>
+        
+        <footer>
+
+                        <p>All documents &copy; irchelp.org or original authors 2013 <br />Baked with <em><a href="http://bolt80.com/piecrust/">PieCrust</a> 1.3.0-dev</em>.</p>
+                    </footer>
+    </div>
+    
+        <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap-transition.js"></script>
+    <script src="/js/bootstrap-alert.js"></script>
+    <script src="/js/bootstrap-modal.js"></script>
+    <script src="/js/bootstrap-dropdown.js"></script>
+    <script src="/js/bootstrap-scrollspy.js"></script>
+    <script src="/js/bootstrap-tab.js"></script>
+    <script src="/js/bootstrap-tooltip.js"></script>
+    <script src="/js/bootstrap-popover.js"></script>
+    <script src="/js/bootstrap-button.js"></script>
+    <script src="/js/bootstrap-collapse.js"></script>
+    <script src="/js/bootstrap-carousel.js"></script>
+    <script src="/js/bootstrap-typeahead.js"></script>
+</body>
+</html>

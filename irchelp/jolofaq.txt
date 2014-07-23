@@ -1,0 +1,317 @@
+<!doctype html>
+<html>
+<head>
+    <title>IRCHelp.org &mdash; Untitled Page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="Comprehensive information on everything Internet Relay Chat" />
+    <meta name="author" content="irchelpers" />
+    <meta name="generator" content="PieCrust 1.3.0-dev" />
+    <meta name="template-engine" content="Twig" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0">
+    <!-- Le styles -->
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+      href="/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed"
+      href="/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="/ico/favicon.png">
+</head>
+<body>
+    <!--Start of navigation-->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container"> <a class="btn btn-navbar"
+            data-toggle="collapse" data-target=".nav-collapse"> <span
+              class="icon-bar"></span> <span class="icon-bar"></span> <span
+              class="icon-bar"></span> </a> <a class="brand" href="/">#irchelp</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="/">Home</a></li>
+              <li><a href="/irchelp/credit.html">About</a></li>
+              <li class="dropdown"> <a href="/irchelp/clients" class="dropdown-toggle"
+                  data-toggle="dropdown">Clients </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/clients">All Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Windows</li>
+                  <li><a href="/irchelp/clients/windows/mirc">mIRC</a></li>
+                  <li><a href="/irchelp/clients/windows/xchat">XChat</a></li>
+                  <li><a href="/irchelp/clients/windows">All Windows Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">MacOS X</li>
+                  <li><a href="/irchelp/clients/mac/textual.html">Textual</a></li>
+                  <li><a href="/irchelp/clients/mac/colloquy.html">Colloquy</a></li>
+                  <li><a href="/irchelp/clients/mac/snak.html">Snak</a></li>
+                  <li><a href="/irchelp/clients/mac">All MacOS X Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Linux/Unix Terminal</li>
+                  <li><a href="/irchelp/clients/unix/irssi">irssi</a></li>
+                  <li><a href="/irchelp/clients/unix/epic.html">EPIC</a></li>
+                  <li><a href="/irchelp/clients/unix/ircii">ircII</a></li>
+                  <li><a href="/irchelp/clients/unix/index.html#terminal">All Linux/Unix Terminal Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Linux/Unix Graphical</li>
+                  <li><a href="/irchelp/clients/unix/xchat.html">XChat</a></li>
+                  <li><a href="/irchelp/clients/unix/konversation.html">Konversation</a></li>
+                  <li><a href="/irchelp/clients/unix/index.html#gui">All Linux/Unix Graphical Clients</a></li>
+                  <li class="nav-header">Smartphones</li>
+                  <li><a href="/irchelp/clients/mobile/android">Clients for Android</a></li>
+                  <li><a href="/irchelp/clients/mobile/ios">Clients for iOS</a></li>
+                  <li><a href="/irchelp/clients/mobile">All Smartphone Clients</a></li>
+                  <li class="nav-header">Other OS and Crossplatform</li>
+                  <li><a href="/irchelp/clients/cross/java">Clients writting in Java</a></li>
+                  <li><a href="/irchelp/clients/cross">Other Crossplatform Clients</a></li>
+                  <li><a href="/irchelp/clients/otheros">Clients for other Operating Systems</a></li>
+                  <li><a href="/irchelp/clients/webclients.html">Web-based clients</a></li>
+
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/networks" class="dropdown-toggle"
+                  data-toggle="dropdown">Networks </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/networks/popular.html">Major Networks</a></li>
+                  <li><a href="/irchelp/networks/regional.html">Regional Networks</a></li>
+                  <li><a href="/irchelp/networks/topical.html">Topical Networks</a></li>
+                  <li><a href="/irchelp/networks">All Networks</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Major Networks</li>
+                  <li><a href="/irchelp/networks/efnet/">EFNet</a></li>
+                  <li><a href="/irchelp/networks/ircnet.html">IRCnet</a></li>
+                  <li><a href="/irchelp/networks/undernet.html">Undernet</a></li>
+                  <li><a href="/irchelp/networks/dalnet.html">Dalnet</a></li>
+                  <li><a href="/irchelp/networks/quakenet.html">Quakenet</a></li>
+                  <li><a href="/irchelp/networks/freenode.html">Freenode</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/security" class="dropdown-toggle"
+                  data-toggle="dropdown">Security </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/security">General Security</a></li>
+                  <li><a href="/irchelp/security/privacy.html">Privacy</a></li>
+                  <li><a href="/irchelp/security/nuke.html">Denial of Service</a></li>
+                  <li><a href="/irchelp/security/trojan.html">Trojan Horses and Other Malware</a></li>
+                  <li><a href="/irchelp/security/socialeng.html">Social Engineering</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/ircd" class="dropdown-toggle"
+                  data-toggle="dropdown">Servers </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/ircd">General ircd information</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">EFNet IRCDs</li>
+                  <li><a href="/irchelp/ircd/ratbox">ircd-ratbox</a></li>
+                  <li><a href="/irchelp/ircd/hybrid">ircd-hybrid</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="#" class="dropdown-toggle"
+                  data-toggle="dropdown">FAQs </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/new2irc.html">New user introduction</a></li>
+<!--
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+-->
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/library.html" class="dropdown-toggle"
+                  data-toggle="dropdown">Library </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/library.html">Index</a></li>
+<!--
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+-->
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form pull-right"> <input class="span2"
+                placeholder="Search" type="text"> <button type="submit"
+                class="btn">Search</button> </form>
+          </div>
+          <!--/.nav-collapse --> </div>
+      </div>
+    </div>
+<!--end of navigation-->
+
+    <div id="container" class="container">
+<!--
+                        <h1><a href="/">Untitled Page</a></h1>
+            -->        
+        
+            <div class="content">
+                                <p>aol sux
+big providers like yours tend to have many abusive users, many servers &amp; channels are forced to ban everybody from there. Although it seems unfair, it&#8217;s unfortunately necessary and there&#8217;s no way around the bans. </p>
+
+<p>aol sux 2
+you can either put up with it, or switch to a smaller local provider for better service at the same cost without the bad reputation</p>
+
+<p>banned! help?
+type /names #channelname to find ops (nicks like @foo).  Then /msg foo please let me in. If /names gives no response or shows no ops, or if they ignore you, you&#8217;re out of luck, just go elsewhere.</p>
+
+<p>bot help? no!
+Sorry, bot help is beyond the scope of this channel. Instead, try #egghelp or use /list and look for &#8220;egg&#8221; or &#8220;bot&#8221; channels. NOTE: many EFnet servers do NOT allow bots at all, so first use /motd to check each server&#8217;s policies.</p>
+
+<p>bot = ?
+a (ro)bot is an automated IRC program, sometimes used to maintain channels or give info. Bots are not allowed on many servers. Type /motd to read your server&#8217;s rules on bots and other issues.</p>
+
+<p>ctcp
+CTCP (client to client protocol) gives info about someone&#8217;s client &#8212;> /ctcp $N PING  tells you how long it takes for your /msg to reach me. Try replacing PING with TIME, VERSION or USERINFO too.</p>
+
+<p>dcc
+DCC stands for Direct Client Communication, lets you transfer files or chat without lag or splits.</p>
+
+<p>dcc ignore
+For your own protection against viruses and trojan horse attacks, mirc by default ignores all but a few &#8216;safe&#8217; file types. You can change those protection settings at your own risk, see http://irchelp.org/warez for more info</p>
+
+<p>file exchange
+IRC is primarily for chat. Some people exchange files, but it is illegal, somewhat difficult, and you risk getting viruses or &#8216;hacked&#8217;. You should first chat and learn how IRC works. For more info, see http://irchelp.org/warez</p>
+
+<p>invisible
+invisible mode gives you some privacy, others won&#8217;t find your nick by /names or /who from outside a channel or with wildcards, unless they are on the same channel as you already or know your nick exactly.</p>
+
+<p>IRCNAME
+First I need to know your shell. Type this now (note capitalization!) and wait for more instructions: /exec -o echo $$SHELL</p>
+
+<p>For sh/ksh/bash:  /quit from IRC and type this at shell prompt &#8212;> export IRCNAME=&#8221;whatever&#8221; &lt;&#8212; (note caps and quotes!) To make the change permanent, use a UNIX text editor to put that into your .profile file.</p>
+
+<p>For (t)csh:  /quit from IRC and type this at shell prompt &#8212;>  setenv IRCNAME &#8220;whatever&#8221; &lt;&#8212; (note caps and quotes) To make the change permanent, use a UNIX text editor to put that into your .cshrc file.</p>
+
+<p>For vax/vms: /quit from IRC and type this at shell prompt &#8212;> define IRCNAME &#8220;John Dork&#8221; &lt;&#8212; (note caps and quotes). To make the change permanent, use a text editor to put that into your login.com file.</p>
+
+<p>irc op?
+IRC operators are everywhere including here, but they don&#8217;t usually interfere in user/channel affairs like takeovers or restoring ops. Why did you want an IRC op?</p>
+
+<p>ircii /list
+To list channels page by page, type /set hold<em>mode on. Then /list -min 5 (for channels with at least 5 people) and /flush when you&#8217;ve seen enough. Finally /set hold</em>mode off.</p>
+
+<p>list disconnect
+your current server is too impatient to send you the huge channel list, try other servers or see the searchable channel list at http://www.irchelp.org/chanlist</p>
+
+<p>logging abuse
+see http://www.irchelp.org/irchelp/misc/irclog.html for how to report abuse to the appropriate IRC operators.</p>
+
+<p>mirc
+if /help or the FAQ doesn&#8217;t answer your question, try #mirchelp or #mirc</p>
+
+<p>mirc dcc send
+do this: (1) In File|Options|Connect|LocalInfo, delete all text in Local Host and IP Address (2) Check always get LOCAL HOST, lookup method SERVER (3) Disconnect from the server and reconnect</p>
+
+<p>mode +tn
++tn turns on 2 common channel modes, <t> means only ops can change the topic and <n> means no messages from outside the channel.</p>
+
+<p>modes for channels
+Channel modes: <t> only ops set topic, <n> no msg&#8217;s from outside channel, &lt;p/s> private/secret, <k> key/passworded, <i> invite-only, <m> moderated, only ops speak, <v> voice given in moderated channel, <l> limits # people.</p>
+
+<p>msg me not
+pls ask on the channel so others can help if I&#8217;m busy/clueless.</p>
+
+<p>new2irc
+type  /ircintro  (by itself on a new line in any window) to see mirc&#8217;s built-in intro, or see a short intro to IRC at http://www.irchelp.org/irchelp/new2irc.html</p>
+
+<p>ops?
+An existing op can give you ops, or you can become an op by starting your own new channel: /join #channel-name-that-doesn&#8217;t-exist. Starting a channel is trivial, but running one properly is a very advanced subject.</p>
+
+<p>ping
+Pings are small signals used to measure lag, the delay time it takes before others see what you type, try: /ping $N or /ping $C</p>
+
+<p>ping pong
+The server PINGs you periodically to see if you&#8217;re still alive, mIRC automatically confirms with a PONG so you don&#8217;t get disconnected. These messages are normal, but you can hide them: alt-o | irc | options.</p>
+
+<p>register
+Sorry, you can&#8217;t register nicks or channels on this network (EFnet), it&#8217;s all 1st come 1st served. If those services are really important to you, try other nets like DALnet.</p>
+
+<p>server ops
+you&#8217;re describing server ops. Those people had ops before their server split, so when their server rejoined, they were given ops back.</p>
+
+<p>split = ?
+Sometimes IRC servers have technical difficulties and temporarily disconnect or &#8220;split&#8221; from each other. People on one side of the split see those on the other side signing off all at once, but they will return when the servers rejoin.</p>
+
+<p>takeover
+start a new channel (mode +stin), ban the takeover people, &amp; /invite the regulars over. Or wait a while, they may get bored &amp; leave. Also go invisible (/mode yournick +i) and change nicks temporarily so they can&#8217;t follow you.</p>
+
+<p>voice
++v channel mode (resulting in + before your nick) lets you talk on moderated channels where otherwise only ops can talk. On un-moderated channels, it does nothing at all and may just indicate a non-op regular.</p>
+
+<p>where am i
+Welcome to the #IRChelp channel on EFnet, the largest Internet Relay Chat (IRC) network. Do you have an IRC question?</p>
+
+<p>who <em>email</em>
+with a hostname (abc.foo.com) or IP (123.4.56.78), try /who <em>.foo.com or /who 123.4.56.</em> NOTE: almost never works unless they are on your channels already, since 75% of people are invisible and won&#8217;t be shown.</p>
+
+<p>XP firewall
+To disable the Internet Connection Firewall (ICF) built into Win XP, bring up Properties for your connection (dialup, cable, DSL, etc), click &#8220;Advanced&#8221; tab, uncheck the box to disable it, and reboot. This should fix your DCC send and identd problems.</p>
+
+<p>In addition, these are useful URLs for major irchelp.org directories. Note that most are really aliases, e.g. <a href="http://www.irchelp.org/mirc">http://www.irchelp.org/mirc</a> is really <a href="http://www.irchelp.org/irchelp/mirc/">http://www.irchelp.org/irchelp/mirc/</a>:
+http://www.irchelp.org/
+http://www.irchelp.org/mirc
+http://www.irchelp.org/ircd
+http://www.irchelp.org/mac
+http://www.irchelp.org/networks
+http://www.irchelp.org/nuke
+http://www.irchelp.org/script
+http://www.irchelp.org/security
+http://www.irchelp.org/trojan
+http://www.irchelp.org/chanlist
+http://www.irchelp.org/news</p>
+
+<p>These are aliases to longer URLs:
+http://www.irchelp.org/warez    file trading
+http://www.irchelp.org/download same as above, just another alias
+http://www.irchelp.org/firewall firewall issues incl identd &amp; dcc probs
+http://www.irchelp.org/chanfix  faq to chanfix
+http://www.irchelp.org/connect  efnet connection troubleshooting
+http://www.irchelp.org/rules    channel rules</p>
+
+                            </div>
+        
+        <footer>
+
+                        <p>All documents &copy; irchelp.org or original authors 2013 <br />Baked with <em><a href="http://bolt80.com/piecrust/">PieCrust</a> 1.3.0-dev</em>.</p>
+                    </footer>
+    </div>
+    
+        <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap-transition.js"></script>
+    <script src="/js/bootstrap-alert.js"></script>
+    <script src="/js/bootstrap-modal.js"></script>
+    <script src="/js/bootstrap-dropdown.js"></script>
+    <script src="/js/bootstrap-scrollspy.js"></script>
+    <script src="/js/bootstrap-tab.js"></script>
+    <script src="/js/bootstrap-tooltip.js"></script>
+    <script src="/js/bootstrap-popover.js"></script>
+    <script src="/js/bootstrap-button.js"></script>
+    <script src="/js/bootstrap-collapse.js"></script>
+    <script src="/js/bootstrap-carousel.js"></script>
+    <script src="/js/bootstrap-typeahead.js"></script>
+</body>
+</html>

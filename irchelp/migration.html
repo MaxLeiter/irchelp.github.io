@@ -1,0 +1,260 @@
+<!doctype html>
+<html>
+<head>
+    <title>IRCHelp.org &mdash; www.irchelp.org 2012 site redesign and migration</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="Comprehensive information on everything Internet Relay Chat" />
+    <meta name="author" content="irchelpers" />
+    <meta name="generator" content="PieCrust 1.3.0-dev" />
+    <meta name="template-engine" content="Twig" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0">
+    <!-- Le styles -->
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+      href="/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed"
+      href="/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="/ico/favicon.png">
+</head>
+<body>
+    <!--Start of navigation-->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container"> <a class="btn btn-navbar"
+            data-toggle="collapse" data-target=".nav-collapse"> <span
+              class="icon-bar"></span> <span class="icon-bar"></span> <span
+              class="icon-bar"></span> </a> <a class="brand" href="/">#irchelp</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="/">Home</a></li>
+              <li><a href="/irchelp/credit.html">About</a></li>
+              <li class="dropdown"> <a href="/irchelp/clients" class="dropdown-toggle"
+                  data-toggle="dropdown">Clients </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/clients">All Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Windows</li>
+                  <li><a href="/irchelp/clients/windows/mirc">mIRC</a></li>
+                  <li><a href="/irchelp/clients/windows/xchat">XChat</a></li>
+                  <li><a href="/irchelp/clients/windows">All Windows Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">MacOS X</li>
+                  <li><a href="/irchelp/clients/mac/textual.html">Textual</a></li>
+                  <li><a href="/irchelp/clients/mac/colloquy.html">Colloquy</a></li>
+                  <li><a href="/irchelp/clients/mac/snak.html">Snak</a></li>
+                  <li><a href="/irchelp/clients/mac">All MacOS X Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Linux/Unix Terminal</li>
+                  <li><a href="/irchelp/clients/unix/irssi">irssi</a></li>
+                  <li><a href="/irchelp/clients/unix/epic.html">EPIC</a></li>
+                  <li><a href="/irchelp/clients/unix/ircii">ircII</a></li>
+                  <li><a href="/irchelp/clients/unix/index.html#terminal">All Linux/Unix Terminal Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Linux/Unix Graphical</li>
+                  <li><a href="/irchelp/clients/unix/xchat.html">XChat</a></li>
+                  <li><a href="/irchelp/clients/unix/konversation.html">Konversation</a></li>
+                  <li><a href="/irchelp/clients/unix/index.html#gui">All Linux/Unix Graphical Clients</a></li>
+                  <li class="nav-header">Smartphones</li>
+                  <li><a href="/irchelp/clients/mobile/android">Clients for Android</a></li>
+                  <li><a href="/irchelp/clients/mobile/ios">Clients for iOS</a></li>
+                  <li><a href="/irchelp/clients/mobile">All Smartphone Clients</a></li>
+                  <li class="nav-header">Other OS and Crossplatform</li>
+                  <li><a href="/irchelp/clients/cross/java">Clients writting in Java</a></li>
+                  <li><a href="/irchelp/clients/cross">Other Crossplatform Clients</a></li>
+                  <li><a href="/irchelp/clients/otheros">Clients for other Operating Systems</a></li>
+                  <li><a href="/irchelp/clients/webclients.html">Web-based clients</a></li>
+
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/networks" class="dropdown-toggle"
+                  data-toggle="dropdown">Networks </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/networks/popular.html">Major Networks</a></li>
+                  <li><a href="/irchelp/networks/regional.html">Regional Networks</a></li>
+                  <li><a href="/irchelp/networks/topical.html">Topical Networks</a></li>
+                  <li><a href="/irchelp/networks">All Networks</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Major Networks</li>
+                  <li><a href="/irchelp/networks/efnet/">EFNet</a></li>
+                  <li><a href="/irchelp/networks/ircnet.html">IRCnet</a></li>
+                  <li><a href="/irchelp/networks/undernet.html">Undernet</a></li>
+                  <li><a href="/irchelp/networks/dalnet.html">Dalnet</a></li>
+                  <li><a href="/irchelp/networks/quakenet.html">Quakenet</a></li>
+                  <li><a href="/irchelp/networks/freenode.html">Freenode</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/security" class="dropdown-toggle"
+                  data-toggle="dropdown">Security </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/security">General Security</a></li>
+                  <li><a href="/irchelp/security/privacy.html">Privacy</a></li>
+                  <li><a href="/irchelp/security/nuke.html">Denial of Service</a></li>
+                  <li><a href="/irchelp/security/trojan.html">Trojan Horses and Other Malware</a></li>
+                  <li><a href="/irchelp/security/socialeng.html">Social Engineering</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/ircd" class="dropdown-toggle"
+                  data-toggle="dropdown">Servers </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/ircd">General ircd information</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">EFNet IRCDs</li>
+                  <li><a href="/irchelp/ircd/ratbox">ircd-ratbox</a></li>
+                  <li><a href="/irchelp/ircd/hybrid">ircd-hybrid</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="#" class="dropdown-toggle"
+                  data-toggle="dropdown">FAQs </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/new2irc.html">New user introduction</a></li>
+<!--
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+-->
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/library.html" class="dropdown-toggle"
+                  data-toggle="dropdown">Library </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/library.html">Index</a></li>
+<!--
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+-->
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form pull-right"> <input class="span2"
+                placeholder="Search" type="text"> <button type="submit"
+                class="btn">Search</button> </form>
+          </div>
+          <!--/.nav-collapse --> </div>
+      </div>
+    </div>
+<!--end of navigation-->
+
+    <div id="container" class="container">
+<!--
+                        <h1><a href="/">www.irchelp.org 2012 site redesign and migration</a></h1>
+            -->        
+        
+            <div class="content">
+                                <h2>Timeline</h2>
+
+<p><em>This is very preliminary, and subject to change.</em></p>
+
+<ul>
+<li>Now - converting files to Markdown and updating files.</li>
+<li>Next - Link validator.</li>
+<li>Sometime very soon - Make a copy of the website in irchelp.org/original/ then Upload new, autogenerated website over the current one, so that the current copy of any missing files remains.</li>
+<li>January 2013 - Backlog clearing - any document updates we&#8217;ve been sitting on, etc.</li>
+<li>January 2013 - March 2013 - Identify any files that aren&#8217;t being generated by the site build process, and fix them so that they are built properly.</li>
+<li>March 2013 - Start doing &#8220;clobber&#8221; builds of www.irchelp.org</li>
+</ul>
+
+<h2>Project Tracker</h2>
+
+<p>I have a tracker using Trello <a href="https://trello.com/board/irchelp-redesign/50bbdfb7bf9246b5100192f9">here</a></p>
+
+<h2>Migration Plan</h2>
+
+<p><em>This document currently describes the plans for the new and improve www.irchelp.org. The rest of this document uses present tense, since it will become the &#8220;how to write for us&#8221; guide of the new site. &#8212;Stephanie</em></p>
+
+<p><em>This section will be archived once the migration is complete.</em></p>
+
+<p>There have been some hard decisions with this migration. Several months back, we were considering moving to a real CMS like Drupal, and I was one of the cheerleaders behind such a move. It was a great plan, but the problem is, like many great plans, we lacked the initative to follow through.</p>
+
+<p>irchelp.org suffers from a serious state of neglect, going back at least as far as 1994 if not further. With a static site, this neglected state makes us look abandoned, and less useful to our audience. With a dynamic site however, the same level of neglect would be disasterous, and would long ago have led to our site becoming a platform from which to launch attacks on others, as well as a platform from which our site visitors could be exploited. This is not a disaster I wish to see happen, and the ball being dropped with the CMS transition brought a cold dose of reality to our plans. irchelp.org has been terribly neglected and irchelp.org will likely be terribly neglected again, so let&#8217;s make the best of what we can.</p>
+
+<p>After evaluating the possible alternatives to a CMS, the solution of a static site generator came to mind. We serve very little dynamic content, and the dynamic content we do serve has been effectively retired (we had a CGI for a searchable EFNet channel listing that&#8217;s probably busted now). Other than that, the site is static content - hundreds of pages that basically never, or almost never change.</p>
+
+<h3>Conclusions</h3>
+
+<ul>
+<li>After 6 months with the move to Drupal stalled by neglect, and 15 years of general disrepair before that, it&#8217;s clear that we cannot be trusted to properly maintain a website.</li>
+<li>Having a single &#8220;editor&#8221; for www.irchelp.org creates a huge bottleneck which amplifies the problem of neglect.</li>
+<li>The template system we use now (basically appending a header and footer to each file by copy and paste) is not maintainable, and creates a huge problem of inertia around any changes.</li>
+<li>We need to lower the cost of becoming an &#8220;editor&#8221; so that any interested #irchelper can get started doing it in an afternoon.</li>
+<li>Executable and script downloads on the site are dangerous - we have no reliable way to detect tampering, and no digital signatures, and even if we had them, we are not paying close enough attention to do anything about it.</li>
+</ul>
+
+<h3>The plan so far</h3>
+
+<p><em>This serves mostly as a &#8220;where we are at&#8221; on the project, as things have been hashed out over the mailing list and over IRC. While not set in stone, and input is still very much welcome, significant time has been spent debating and implementing these decisions already, and there is considerable inertia behind many of the decisions made, and any changes that may delay the relaunch of the site may be postponed until after we&#8217;re up and running on the new setup.</em> </p>
+
+<ul>
+<li>The existing CGI scripts, including the EFNet Channel List and the mail form will be retired as soon as possible due to serious security concerns, and the associated pages will be appropriately redirected via a landing page to appropriate resources elsewhere on the web. The mail form is rarely used anymore, and the channel list is obsoleted by better resources that didn&#8217;t exist when the original channel search was created.</li>
+<li>There will be no serverside code for the foreseeable future. This may be reconsidered after we have reestablished a solid history of responsible stewardship of the website, with multiple maintainers active over the course of at least several months.</li>
+<li>The format for pages on the new www.irchelp.org will be the &#8220;Markdown&#8221; format plus a simple descriptive header described later in this document. This format has been chosen because it&#8217;s easy to author content in, and because there are a wide number of implementations capable of processing that input into a working website, so we aren&#8217;t at the mercy of any particular software developer.</li>
+<li>There will be a Git repository of all site content, and read/write access to that repository will be available to #IRCHelp ops to facilitate spreading site maintainance workloads and avoid the bottleneck of having a single &#8220;editor&#8221;.</li>
+<li>Existing URLs will be carefully maintained, and redirects created as needed.</li>
+<li>A backup of the site before the move will be carefully preserved. Additionally, we&#8217;ve been well preserved by the Internet Archive, <a href="http://web.archive.org/web/19961219105056/http://irchelp.org/">all the way back to Freesoft&#8217;s time as webmaster</a>.</li>
+<li>All software downloads including executables and scripts will be removed from the website, including old copies of mIRC, Windows 95/98 era hotfixes, and similar files. Redirects will be made appropriately.</li>
+<li><strong>Initally, we will NOT be clearing out the existing files and directories, but rather uploading the new site over the top of the old one - this means that any content that didn&#8217;t migrate will still be there, unless it&#8217;s explicitly removed.</strong></li>
+<li>
+<ul>
+<li><strong>Special attention will be needed to remove the existing CGIs which are blatently insecure.</strong></li>
+</ul></li>
+</ul>
+
+<h3>In the future</h3>
+
+<p><em>These are changes which may come once the upgrades are complete.</em></p>
+
+<ul>
+<li>I&#8217;m looking at the <a href="http://gitit.net">Gitit</a> wiki software as a possible editing interface for #irchelpers in the future, after we get the site up and running and into the modern era.</li>
+</ul>
+
+                            </div>
+        
+        <footer>
+
+                        <p>All documents &copy; irchelp.org or original authors 2013 <br />Baked with <em><a href="http://bolt80.com/piecrust/">PieCrust</a> 1.3.0-dev</em>.</p>
+                    </footer>
+    </div>
+    
+        <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap-transition.js"></script>
+    <script src="/js/bootstrap-alert.js"></script>
+    <script src="/js/bootstrap-modal.js"></script>
+    <script src="/js/bootstrap-dropdown.js"></script>
+    <script src="/js/bootstrap-scrollspy.js"></script>
+    <script src="/js/bootstrap-tab.js"></script>
+    <script src="/js/bootstrap-tooltip.js"></script>
+    <script src="/js/bootstrap-popover.js"></script>
+    <script src="/js/bootstrap-button.js"></script>
+    <script src="/js/bootstrap-collapse.js"></script>
+    <script src="/js/bootstrap-carousel.js"></script>
+    <script src="/js/bootstrap-typeahead.js"></script>
+</body>
+</html>

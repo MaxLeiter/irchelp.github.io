@@ -1,0 +1,945 @@
+<!doctype html>
+<html>
+<head>
+    <title>IRCHelp.org &mdash; Untitled Page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="Comprehensive information on everything Internet Relay Chat" />
+    <meta name="author" content="irchelpers" />
+    <meta name="generator" content="PieCrust 1.3.0-dev" />
+    <meta name="template-engine" content="Twig" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0">
+    <!-- Le styles -->
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+      href="/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed"
+      href="/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="/ico/favicon.png">
+</head>
+<body>
+    <!--Start of navigation-->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container"> <a class="btn btn-navbar"
+            data-toggle="collapse" data-target=".nav-collapse"> <span
+              class="icon-bar"></span> <span class="icon-bar"></span> <span
+              class="icon-bar"></span> </a> <a class="brand" href="/">#irchelp</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="/">Home</a></li>
+              <li><a href="/irchelp/credit.html">About</a></li>
+              <li class="dropdown"> <a href="/irchelp/clients" class="dropdown-toggle"
+                  data-toggle="dropdown">Clients </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/clients">All Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Windows</li>
+                  <li><a href="/irchelp/clients/windows/mirc">mIRC</a></li>
+                  <li><a href="/irchelp/clients/windows/xchat">XChat</a></li>
+                  <li><a href="/irchelp/clients/windows">All Windows Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">MacOS X</li>
+                  <li><a href="/irchelp/clients/mac/textual.html">Textual</a></li>
+                  <li><a href="/irchelp/clients/mac/colloquy.html">Colloquy</a></li>
+                  <li><a href="/irchelp/clients/mac/snak.html">Snak</a></li>
+                  <li><a href="/irchelp/clients/mac">All MacOS X Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Linux/Unix Terminal</li>
+                  <li><a href="/irchelp/clients/unix/irssi">irssi</a></li>
+                  <li><a href="/irchelp/clients/unix/epic.html">EPIC</a></li>
+                  <li><a href="/irchelp/clients/unix/ircii">ircII</a></li>
+                  <li><a href="/irchelp/clients/unix/index.html#terminal">All Linux/Unix Terminal Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Linux/Unix Graphical</li>
+                  <li><a href="/irchelp/clients/unix/xchat.html">XChat</a></li>
+                  <li><a href="/irchelp/clients/unix/konversation.html">Konversation</a></li>
+                  <li><a href="/irchelp/clients/unix/index.html#gui">All Linux/Unix Graphical Clients</a></li>
+                  <li class="nav-header">Smartphones</li>
+                  <li><a href="/irchelp/clients/mobile/android">Clients for Android</a></li>
+                  <li><a href="/irchelp/clients/mobile/ios">Clients for iOS</a></li>
+                  <li><a href="/irchelp/clients/mobile">All Smartphone Clients</a></li>
+                  <li class="nav-header">Other OS and Crossplatform</li>
+                  <li><a href="/irchelp/clients/cross/java">Clients writting in Java</a></li>
+                  <li><a href="/irchelp/clients/cross">Other Crossplatform Clients</a></li>
+                  <li><a href="/irchelp/clients/otheros">Clients for other Operating Systems</a></li>
+                  <li><a href="/irchelp/clients/webclients.html">Web-based clients</a></li>
+
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/networks" class="dropdown-toggle"
+                  data-toggle="dropdown">Networks </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/networks/popular.html">Major Networks</a></li>
+                  <li><a href="/irchelp/networks/regional.html">Regional Networks</a></li>
+                  <li><a href="/irchelp/networks/topical.html">Topical Networks</a></li>
+                  <li><a href="/irchelp/networks">All Networks</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Major Networks</li>
+                  <li><a href="/irchelp/networks/efnet/">EFNet</a></li>
+                  <li><a href="/irchelp/networks/ircnet.html">IRCnet</a></li>
+                  <li><a href="/irchelp/networks/undernet.html">Undernet</a></li>
+                  <li><a href="/irchelp/networks/dalnet.html">Dalnet</a></li>
+                  <li><a href="/irchelp/networks/quakenet.html">Quakenet</a></li>
+                  <li><a href="/irchelp/networks/freenode.html">Freenode</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/security" class="dropdown-toggle"
+                  data-toggle="dropdown">Security </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/security">General Security</a></li>
+                  <li><a href="/irchelp/security/privacy.html">Privacy</a></li>
+                  <li><a href="/irchelp/security/nuke.html">Denial of Service</a></li>
+                  <li><a href="/irchelp/security/trojan.html">Trojan Horses and Other Malware</a></li>
+                  <li><a href="/irchelp/security/socialeng.html">Social Engineering</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/ircd" class="dropdown-toggle"
+                  data-toggle="dropdown">Servers </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/ircd">General ircd information</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">EFNet IRCDs</li>
+                  <li><a href="/irchelp/ircd/ratbox">ircd-ratbox</a></li>
+                  <li><a href="/irchelp/ircd/hybrid">ircd-hybrid</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="#" class="dropdown-toggle"
+                  data-toggle="dropdown">FAQs </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/new2irc.html">New user introduction</a></li>
+<!--
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+-->
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/library.html" class="dropdown-toggle"
+                  data-toggle="dropdown">Library </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/library.html">Index</a></li>
+<!--
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+-->
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form pull-right"> <input class="span2"
+                placeholder="Search" type="text"> <button type="submit"
+                class="btn">Search</button> </form>
+          </div>
+          <!--/.nav-collapse --> </div>
+      </div>
+    </div>
+<!--end of navigation-->
+
+    <div id="container" class="container">
+<!--
+                        <h1><a href="/">Untitled Page</a></h1>
+            -->        
+        
+            <div class="content">
+                                <p><html><title>Liz Byrne: Thesis :<em>CyberFusion</em></title>  </p>
+
+<p><BODY BGCOLOR="#000000" TEXT="#FFFFFF" LINK="#FFFF00" VLINK="#FFFF00" HLINK="#FFFF00">
+<h2>Chapter 2 : CyberTalk</h2></p>
+
+<p>When communicating with someone FTF, there are a number of aspects to  </p>
+
+<p>that communication. Social penetration theory argues that there are three  </p>
+
+<p>aspects to this: verbal behaviour, nonverbal use of the body and use of the  </p>
+
+<p>physical environment. Without these aspects of communication the formation  </p>
+
+<p>of relationships would not be possible. However, social presence theory  </p>
+
+<p>indicates that there is a difference when using CMC as the communicants are  </p>
+
+<p>invisible to each other and text on the computer screen is the only  </p>
+
+<p>information given. As a result of this, communication is not available in the  </p>
+
+<p>same way as it is FTF and if relationships are to be formed using CMC, users  </p>
+
+<p>must adapt the medium to reproduce verbal, nonverbal and environmental  </p>
+
+<p>aspects of communication.   <p></p>
+
+<p>In this chapter it will be shown how the users of IRC have in fact adapted the  </p>
+
+<p>medium so that the formation of relationships can take place developing new  </p>
+
+<p>forms of expression to compensate for the lack of physical presence. This will  </p>
+
+<p>be done by investigating, first, the use of verbal and NVC on IRC, and  </p>
+
+<p>secondly, the &#8216;physical environment&#8217; of IRC.  <p></p>
+
+<h3>A. Verbal and Nonverbal Communication  </h3>
+
+<p>Verbal and NVC are vital to the forming of interpersonal relationships on a  </p>
+
+<p>FTF level. Verbal communication consists of words and sentences, while  </p>
+
+<p>NVC is obtained from the physical movements of another person during a  </p>
+
+<p>conversation. For the purposes of this thesis, verbal refers to communication  </p>
+
+<p>using words generally, including written text. NVC on IRC is also textual but  </p>
+
+<p>involves the manipulation of keyboard commands and symbols.  <p></p>
+
+<p>According to Forgas (1989), verbal communication is &#8220;the messages sent  </p>
+
+<p>using words and sentences&#8221;, whereas NVCs &#8220;support, modify or even  </p>
+
+<p>completely replace the verbal message  consisting  of  eye  gaze,  smiles,   </p>
+
+<p>gestures,  postural  changes, and  so  on.&#8221; (p 137) Forgas goes on to argue that  </p>
+
+<p>NVC is not simply another alternative to using language, but has very  </p>
+
+<p>different characteristics to language. He says that there are three ways in  </p>
+
+<p>which NVC differs from verbal communication. First, NVC is &#8220;much more  </p>
+
+<p>immediate and automatic&#8221; (p 140) and so takes less time to decode than do  </p>
+
+<p>verbal messages. A whole sentence takes longer to understand, interpret and  </p>
+
+<p>to prepare a reply to than simply smiling at a friend. Secondly, NVC is often  </p>
+
+<p>less subject to conscious interpretation and monitoring than is the case with  </p>
+
+<p>language. As a result, nonverbal cues may often give a speaker away,  </p>
+
+<p>revealing attitudes, feelings and emotions which they may not want to reveal.  </p>
+
+<p>This is known as nonverbal leakage. Thirdly, NVC tends to be much more  </p>
+
+<p>efficient in transmitting information about attitudes and emotions. For  </p>
+
+<p>example, a smiling friend who runs over to hug someone expresses their joy  </p>
+
+<p>in being able to see that person with a simple gesture rather than having to  </p>
+
+<p>express this emotion in words. Forgas (1989) concludes that the consequence  </p>
+
+<p>of these differences is that &#8220;language is primarily suited to conveying  </p>
+
+<p>information about the external world, tasks to be solved and the like &#8221; while  </p>
+
+<p>NVC plays &#8220; a particularly important role in social life, communicating  </p>
+
+<p>values, attitudes, liking, and other personal reactions.&#8221; (p 141)  <p></p>
+
+<p>The combination of verbal and NVC, then, provides a complementary  </p>
+
+<p>richness in the expression of information and emotions in the formation of  </p>
+
+<p>relationships. However, on IRC, this communication cannot take place in the  </p>
+
+<p>same way as there is no physical person that can be seen. Hence, to convey a  </p>
+
+<p>communicative richness, both verbal and NVC appear as text on the screen. It  </p>
+
+<p>has therefore been argued that because communication is never spoken on  </p>
+
+<p>IRC, all communication is therefore nonverbal. Yet, it appears that written  </p>
+
+<p>text does contain elements of both verbal and NVC. While verbal  </p>
+
+<p>communication appears as the written sentences, NVC is seen textually in the  </p>
+
+<p>use of bold, underlining, italics, etc, which act in the same way as someone  </p>
+
+<p>saying something loudly to attract attention (Daniels and Spiker, 1991).  <p></p>
+
+<p>Users of IRC have recognised the importance of both verbal and NVC in  </p>
+
+<p>forming relationships and so have adapted the medium to allow them to  </p>
+
+<p>distinguish between the two. This is achieved by representing verbal  </p>
+
+<p>communication in the form of sentences while NVC is characterised in three  </p>
+
+<p>ways: a) the manipulation of keyboard symbols to create &#8216;emoticons&#8217; (iconic  </p>
+
+<p>representations of emotions), b) a combination of IRC commands  and   </p>
+
+<p>words  known  as  &#8216;actions&#8217;  (eg,  <em>hug</em>  to  indicate  hugging),  and c) &#8216;textual  </p>
+
+<p>markers&#8217; (changes in spelling and the use of underlining, bold, exclamation  </p>
+
+<p>marks, etc).  <p></p>
+
+<h4>a) Emoticons  </h4>
+
+<p>Emoticons involve the manipulation of keyboard symbols to form facial  </p>
+
+<p>expressions. Their use is varied and there are an endless amount of  </p>
+
+<p>combinations. Some examples of these are as follows (for the best effect they  </p>
+
+<p>should be viewed side on):  <p></p>
+
+<p><pre>  </p>
+
+<p>:-) or :) a smiling face (known as smilies)  </p>
+
+<p>:-( or :( a sad face   </p>
+
+<p>:'-( a person crying   </p>
+
+<p>;-) a wink  </p>
+
+<p>*8) a person wearing glasses with funny hair   </p>
+
+<p>=) a person with squinting eyes  </p>
+
+<p></pre><p></p>
+
+<p>The use of these emoticons are quite frequent in the flow of conversation and  </p>
+
+<p>are used to convey humour, sarcasm, happiness, sadness, anger, confusion,  </p>
+
+<p>etc. They are also used quite often in conjunction with the other forms of  </p>
+
+<p>NVC. The following log is an example of the use of emoticons and other  </p>
+
+<p>NVC in a typical enthusiastic greeting as people who are known join  </p>
+
+<h1>Aussies:  <p></h1>
+
+<p><pre>  </p>
+
+<p>[metta] mikey :)  </p>
+
+<ul>
+<li>hari thumps richard and steals the choccy MINE MINE MINE  </li>
+</ul>
+
+<p>[Wiccan] hey hari.  </p>
+
+<p>[hari] hi lisabeth :-) <em>lick</em>  </p>
+
+<p>[hari] hi metta <em>lick</em>  </p>
+
+<p>[hari] hi tz <em>puke</em> :-))))  </p>
+
+<p>*** McAdder ... has joined channel #aussies  </p>
+
+<ul>
+<li>SmogNut huggles her bertie  </li>
+</ul>
+
+<p>[SmogNut] (:  </p>
+
+<p>[tz] adderyone  </p>
+
+<p>[Wiccan] McAdder! :) hey.  </p>
+
+<p>[McAdder] hey els :)  </p>
+
+<p>[GrayElf] Hey Mc! :-)  </p>
+
+<p>[Lisabeth] mcadder!!!!!!  </p>
+
+<p>[McAdder] tz, wiccan :) paul, l' :))  </p>
+
+<p></pre><p>  </p>
+
+<p>As can been seen, the use of emoticons is quite frequent. If the smilies were  </p>
+
+<p>not present, many of the statements made in the above log may have  </p>
+
+<p>appeared impersonal or been misunderstood. Their use is considered quite  </p>
+
+<p>important for conveying meaning especially as much of the conversation is casual </p>
+
+<p>and informal and attempts to simulate conversation on a FTF level as far as possible. </p>
+
+<p>One interviewee reflected upon this:  <p></p>
+
+<p>M: <i>you can change the whole meaning of something with a smiley.  </i><br></p>
+
+<p>Elisabeth: <i>I tend to forget to put a smiley on the end of my sentences and  </p>
+
+<p>when that happens it sounds really cold. </i><br> </p>
+
+<p>M: <i>some times I&#8217;ll say things that have a time period between the sentence  </p>
+
+<p>and the smiley, so they think about what I have said and then the smiley will  </p>
+
+<p>come and they&#8217;ll understand. People also do that in real life with sarcasm.  </i><p></p>
+
+<h3>b) Actions  </h3>
+
+<p>Actions are a way of expressing a particular nonverbal event without actually  </p>
+
+<p>describing it. While the person has to actually say that they are doing  </p>
+
+<p>something, a new convention has been created which indicates a particular  </p>
+
+<p>word construction is an &#8216;action&#8217; rather than describing that action.  <p></p>
+
+<p>These actions take two forms. One form is accomplished by writing the action  </p>
+
+<p>in asterisks such as <em>hug</em>, <em>smile</em>, <em>cry</em>, <em>nod</em>, <em>yawn</em>, <em>sneeze</em>, etc.  </p>
+
+<p>The second form uses the action command itself which involves typing &#8220;/me&#8221;  </p>
+
+<p>followed by a string of text. For example, a person with the nick (nickname)  </p>
+
+<p>Fred may type &#8220;/me scratches his nose&#8221; which when sent to a channel will  </p>
+
+<p>look like &#8220;*Fred scratches his nose&#8221;. The following log shows how these  </p>
+
+<p>actions are used:   <p></p>
+
+<p><pre>  </p>
+
+<ul>
+<li>SmogNut throws pebbles at everyone  </li>
+</ul>
+
+<p>[SmogNut] <em>toink</em>  </p>
+
+<p>[SmogNut] <em>toink</em>  </p>
+
+<p>[Lisabeth] everyone has gone suddenly quiet  </p>
+
+<ul>
+<li>muz threatens elsie with a live bunsen burner  </li>
+</ul>
+
+<p>[Lisabeth] you can hear a pin drop... or pebble rather  </p>
+
+<ul>
+<li>Bram grabs the pebble and eats it <em>crunch</em>  </li>
+</ul>
+
+<p>[SmogNut] is it on a safety flame, muz? (:  </p>
+
+<ul>
+<li><p>Lisabeth picks up the pebbles and throws them back  </p></li>
+<li><p>SmogNut ducks  </p></li>
+</ul>
+
+<p></pre><p>  </p>
+
+<h3>c) Textual Markers  </h3>
+
+<p>The textual markers of NVC on IRC are found in the use of non-conventional  </p>
+
+<p>spelling and the use of bold, underlining and exclamation marks. These  </p>
+
+<p>elements serve to mimic speech patterns and features not always available in  </p>
+
+<p>written words.  <p></p>
+
+<p>Unconventional spelling is often used on IRC to reproduce the way words  </p>
+
+<p>sound in speech instead of complying with the conventions of written  </p>
+
+<p>spelling. This element may help to convey a characteristic way of speaking of  </p>
+
+<p>a particular person that would not be known about unless heard. It is also  </p>
+
+<p>used to reflect the informal and often jovial nature of conversation on IRC.  </p>
+
+<p>Words that are commonly changed include: enough = enuf, you = u, what =  </p>
+
+<p>wot, because = coz, want to = wanna, don&#8217;t know = dunno, etc.  <p></p>
+
+<p>The use of bold, underlining, exclamation marks and capitals serve as they do  </p>
+
+<p>in other written forms, to emphasise particular words and phrases and to  </p>
+
+<p>indicate tone. There are commands which will highlight a particular word and  </p>
+
+<p>exclamation marks work in a similar way to their conventional use in writing  </p>
+
+<p>but are sometimes over used for added emphasis. It is not possible to  </p>
+
+<p>underline something on IRC so instead words are emphasised by adding one  </p>
+
+<p>underline before and after the word or phrase, eg, <em>both</em>. The use of capitals  </p>
+
+<p>on IRC indicates that someone is shouting, eg:  <p></p>
+
+<p><pre>  </p>
+
+<p>[IronEagle] I HATE EDNA, EDNA IS A BITCH..........OF A MACHINE  </p>
+
+<p>[IronEagle] I HAVE BUT ONE QUESTION.........WHY?  </p>
+
+<p></pre><p> </p>
+
+<p>The problem with substituting textual forms for NVC is that it becomes  </p>
+
+<p>conscious and highly constructed. In FTF communication, NVC is, as Forgas  </p>
+
+<p>(1989) argues, more immediate and unconscious. Most of the time we are  </p>
+
+<p>unaware of our body movements or our facial expressions and so they are  </p>
+
+<p>more likely to reflect feelings that are not expressed in words. This factor  </p>
+
+<p>alone makes it more difficult to tell what a person is feeling or thinking on  </p>
+
+<p>IRC. This is something that IRC users are aware of:  <p></p>
+
+<p>M: <i>Its not unconscious. I am sitting here wiggling my feet around. I know I  </p>
+
+<p>wiggle my feet around when I think and I didn&#8217;t know about that until I  </p>
+
+<p>started going out with Ginnie ; I might scratch or stretch or yawn or take off  </p>
+
+<p>my clothes and run around naked. You can&#8217;t make up for that on IRC ; I  </p>
+
+<p>think it is another thing that goes with using IRC for a while. Very often I will  </p>
+
+<p>cough and most likely I&#8217;ll type that in, just <em>cough</em> or <em>yawn</em> and people  </p>
+
+<p>will ask me if I am bored and I&#8217;ll say, &#8220;no, I&#8217;m just yawning&#8221;, it has no  </p>
+
+<p>underlying meaning to anything else on the channel ; It is conscious though.  </p>
+
+<p>I mean I have been using IRC for 4 years and I don&#8217;t subconsciously type  </p>
+
+<p>stuff, even my yawns are conscious, I have to type them in.</i><p>  </p>
+
+<p>NVC is also used in FTF communication to validate statements. It is often  </p>
+
+<p>thought to show the truth in something someone says. On IRC it becomes  </p>
+
+<p>much easier to use an appropriate emoticon to validate a statement even  </p>
+
+<p>though the truth may not being told. Given this potential, IRC relationships  </p>
+
+<p>involve more trust in what someone is saying is true as there is no  </p>
+
+<p>unconscious NVC that can be used to suggest otherwise. This is something  </p>
+
+<p>that many users of IRC worry about when attempting to form relationships  </p>
+
+<p>and was reflected in comments from the survey:  <p></p>
+
+<p>They are not tangible coz I need something physical to see when I talk to  </p>
+
+<p>someone. It helps me determine what is true and what is not. Body language  </p>
+
+<p>is SO important in the way people perceive others and without that tone of  </p>
+
+<p>voice a relationship is difficult to solidify.  <p></p>
+
+<p>This point was also brought up in the interviews:  <p></p>
+
+<p>B:<i>Talking to her on IRC you don&#8217;t really know what she is doing or thinking.  </p>
+
+<p>So like on IRC there was always this bit of paranoia, that she didn&#8217;t like me  </p>
+
+<p>and all that. But comparing that to being with her, you could here her voice,  </p>
+
+<p>see her smile, you could hear her smile; brought on a bit more confidence that  </p>
+
+<p>she liked me and appreciated me.  </i><br></p>
+
+<p>Elisabeth:<i> So you think that nonverbal is still important?  </i><br></p>
+
+<p>B:<i> Yeah, not just words, like a head shake or nod. You don&#8217;t actually have to  </p>
+
+<p>say those things to know they are happening.  </i><p></p>
+
+<p>Nevertheless, these technologies provide a communicative richness regarding  </p>
+
+<p>emotions, tone and so on which compensates for the absence of physical  </p>
+
+<p>presence and NVC on IRC.  <p></p>
+
+<p>It is obvious that users of IRC recognised the need for both verbal and NVC  </p>
+
+<p>for the formation of their relationships and so adapted the medium to allow  </p>
+
+<p>for both to occur. This form of communication has become an agreed  </p>
+
+<p>convention for users of IRC, however, agreement is also needed for a key  </p>
+
+<p>aspect of communication ( context.  <p></p>
+
+<h3>B. Context   </h3>
+
+<p>The physical environment also plays an important role in the formation of  </p>
+
+<p>FTF relationships. Altman and Taylor (1973) define physical environment as  </p>
+
+<p>the use of physical areas and objects and the manipulation of space between  </p>
+
+<p>people. Physical areas and objects provide a context for relationship  </p>
+
+<p>formation, providing information about the other person and appropriate  </p>
+
+<p>behaviour for that situation. The manipulation of personal space between  </p>
+
+<p>people, for example, provides information about the relationship. Such space  </p>
+
+<p>is thought to decrease as intimacy increases (Altman &amp;  Taylor, 1973). The  </p>
+
+<p>physical environment is also of importance to Levinger and Snoek (1972)  </p>
+
+<p>who argue that people in close physical proximity are more likely to form  </p>
+
+<p>relationships. Being geographically close to others provides increased  </p>
+
+<p>opportunities to become aware of and develop relationships with them.  <p></p>
+
+<p>However, on IRC there is no physical environment in which people meet to  </p>
+
+<p>communicate and for that reason could be considered &#8216;contextless&#8217;. As users  </p>
+
+<p>are not in each others&#8217; physical presence, there are no areas, objects or  </p>
+
+<p>personal space from which to become aware of others or gain conversation  </p>
+
+<p>cues. Yet IRC becomes the context for different types of relationships in two  </p>
+
+<p>ways: a) through the recognition by users that IRC provides a common  </p>
+
+<p>location for communication, and b) by the creation of channels.   <p></p>
+
+<h3>a) Common Location  </h3>
+
+<p>With no common area in which to meet, IRC itself becomes the context. IRC,  </p>
+
+<p>while not a physical area, provides a &#8220;virtual&#8221; space or location for  </p>
+
+<p>communication, hence the use of terms such as cyberspace. However, it is  </p>
+
+<p>only through an &#8220;imagined shared context&#8221;  (Rheingold, 1994, p 176) that  </p>
+
+<p>users can have such a context. Stone (1991) points out that the use of CMC  </p>
+
+<p>has brought about a new mode of interpersonal interaction and &#8220;a new  </p>
+
+<p>manifestation of a social space that has been better known in its older and  </p>
+
+<p>more familiar forms in conference calls,  letters, and  fireside chats. It can  </p>
+
+<p>be characterised as &#8216;virtual&#8217; space - an imaginary locus of interaction created  </p>
+
+<p>by communal agreement.&#8221; (pp 83-84) While the context created is a common  </p>
+
+<p>space or location, the context is also &#8220;a cognitive and social one&#8221; (Rheingold,  </p>
+
+<p>1994, p 61) in which contextual meaning for the formation of relationships is  </p>
+
+<p>found: &#8220;It&#8217;s like having the corner bar, complete with old buddies and  </p>
+
+<p>delightful newcomers and new tools waiting to take home and fresh graffiti  </p>
+
+<p>and letters, except instead of putting on my coat, shutting down the  </p>
+
+<p>computer, and walking down to the corner, I just invoke my telecom program  </p>
+
+<p>and there they are. It&#8217;s a place.&#8221; (Rheingold, 1994, p 24)  <p></p>
+
+<p>Without a context, formation of relationships would be impossible. It seems  </p>
+
+<p>that users of IRC have accepted the concept of &#8216;virtual&#8217; space or cyberspace to  </p>
+
+<p>provide the context for their communications.  This acceptance was found in  </p>
+
+<p>the surveys and logs on IRC. One survey participant stated that &#8220;it is like a  </p>
+
+<p>favourite coffee-house one drops in for a chat.&#8221; In the following log it can be  </p>
+
+<p>seen how the context becomes accepted to the point where it is no longer a  </p>
+
+<p>conscious part of communication on IRC:  <p></p>
+
+<p><pre></p>
+
+<p><em>Mistic</em> we all come on IRC to talk to ppl  </p>
+
+<p><em>Mistic</em> no other reason ...  </p>
+
+<p><em>Lisabeth</em> thats true, how then do we etablish relationships... we have to  </p>
+
+<p>have some sort of overall setting that enables us to communicate ...  </p>
+
+<p><em>Mistic</em> like hmmm  </p>
+
+<p><em>Mistic</em> ya just tlak to ppl cause you can i think  </p>
+
+<p><em>Mistic</em> and you don't need an introduction  </p>
+
+<p><em>Mistic</em> there is no hesitation...  </p>
+
+<p><em>Mistic</em> like all that stuff is discarded when you IRC..  </p>
+
+<p><em>Lisabeth</em> ok, is it because as a group of people, all users of IRC agree that it  </p>
+
+<p>is a place to talk, that there are no boundaries and you can talk to or reject  </p>
+
+<p>people ...  </p>
+
+<p><em>Mistic</em> yeah ...  </p>
+
+<p><em>Lisabeth</em> so IRC becomes a "place" or a location like you would when you  </p>
+
+<p>go to a party for instnace ...  </p>
+
+<p><em>Mistic</em> yeah  </p>
+
+<p><em>Mistic</em> IRC as a whole..  </p>
+
+<p></pre><p>  </p>
+
+<p>With acceptance of IRC as being a virtual environment, there are certain  </p>
+
+<p>characteristics of this environment which affect communication and the  </p>
+
+<p>formation of relationships. Such a characteristic is time. On IRC it takes  </p>
+
+<p>longer to communicate with someone than it would on a FTF level as text  </p>
+
+<p>must be typed, sent to another person, read by that other person and a reply  </p>
+
+<p>typed and returned. Often there will be added time lag between the sending of  </p>
+
+<p>messages and the receiving of them because the connection is slow or the  </p>
+
+<p>communications system is overloaded. This would indicate that it takes much  </p>
+
+<p>longer to reach comparable stages in the formation of a relationship on IRC  </p>
+
+<p>than it does FTF. Users of IRC wishing to form a relationship will need to  </p>
+
+<p>have a certain amount of patience. As one interviewee said:  <p></p>
+
+<p>A:<i> Just as easy as it is to make relationships, it is just as easy to break them as  </p>
+
+<p>well. Just because of one simple word that is lacking in most ppl on the net:  </p>
+
+<p>patience. They might express, &#8220;oh, look, you can send email around the world  </p>
+
+<p>in less than ten seconds&#8221;, or however quick it is, and if you mail someone,  </p>
+
+<p>and if they don&#8217;t mail you back, you might think that there is something  </p>
+
+<p>wrong here and they start to panic and stuff. And it happens because they  </p>
+
+<p>don&#8217;t have patience.  </i><p></p>
+
+<p>Communication does take longer on IRC and as a consequence relationships  </p>
+
+<p>would require more time to progress through conventional stages of  </p>
+
+<p>development. However, a result of this aspect of the medium is that a  </p>
+
+<p>relationship may progress to intimate levels more quickly, bypassing the more  </p>
+
+<p>physical dimensions of small talk. When talking on IRC finding out about  </p>
+
+<p>people is the prime focus. In a FTF context people talk about their  </p>
+
+<p>surroundings, the weather, and so on, to avoid talking about themselves.  </p>
+
+<p>People also go to the movies or somewhere which becomes the basis of a  </p>
+
+<p>conversation. Yet, on IRC, with no physical environment to talk about, the  </p>
+
+<p>crossroads of a relationship may be reached rather quickly. One participant of  </p>
+
+<p>the survey noted the rapid development and decline of relationships on IRC:   <p></p>
+
+<p>IRC relationships come and go alot easier they tend to be more &#8216;passionate&#8217; or  </p>
+
+<p>&#8216;exciting&#8217; but then tend to fade away just as fast.   <p></p>
+
+<p>With the obvious frustration that some people experience when trying to  </p>
+
+<p>communicate with friends on IRC, some users will resort to other forms of  </p>
+
+<p>communication to explore their relationships further. When users were asked  </p>
+
+<p>in the survey whether their IRC relationships had gone beyond  </p>
+
+<p>communication on IRC, every participant had. The most common forms of  </p>
+
+<p>additional communication were the exchange of photos (either on-line or  </p>
+
+<p>through the post), writing letters, phone calls, and &#8216;real life&#8217; meetings.   <p></p>
+
+<p>In other words, for many IRC users, communication on IRC is inserted into  </p>
+
+<p>&#8216;traditional&#8217; means of communication in relationship formation.  <p></p>
+
+<h3>b) Channels  </h3>
+
+<p>Social demographic similarity is one factor that brings together people to form  </p>
+
+<p>relationships. It is more likely that someone will notice and come across  </p>
+
+<p>people who are of the same, ethnicity, religion, status or occupation as their  </p>
+
+<p>own (Levinger &amp;  Snoek, 1972). These demographics often provide social  </p>
+
+<p>contexts for communication. On IRC, the creation of channels also serves as  </p>
+
+<p>social contexts, often forming around demographic similarities.  <p></p>
+
+<p>Channels are public areas which people can enter to talk with a group of  </p>
+
+<p>people. Joining a channel is similar to walking down a corridor with many  </p>
+
+<p>doors on either side and picking one door to enter. Walking through one of  </p>
+
+<p>these doorways is like walking into a room. Inside these rooms there maybe  </p>
+
+<p>many people or just one or two. Channels have names, and it is usually the  </p>
+
+<p>name that will influence someone to join it. These names indicate either a  </p>
+
+<p>demographic, topic of conversation or the name of the person who started the  </p>
+
+<p>channel. Channels therefore serve to bring people with similar demographics  </p>
+
+<p>into contact so that they can form relationships.  <p></p>
+
+<p>There are a wide range of demographics which are reflected in IRC channels.  </p>
+
+<p>There are many channels for people with computer interests such as #linux,  </p>
+
+<h1>mac, #dos, etc which are a result of a majority of people on IRC being male</h1>
+
+<p>university students who study some form of computing or graduates working  </p>
+
+<p>in the computer industry. These channels therefore reflect a similar  </p>
+
+<p>occupation or status. Channels such as #Islam, #Wicca, #Christian, etc, bring  </p>
+
+<p>people of the same religion or spirituality together. There are also channels  </p>
+
+<p>that refer to nationality such as #Aussies, #Canada, #Taiwan, etc.  <p></p>
+
+<p>Channels also form around similar interests. #BDSM (Bondage, discipline,  </p>
+
+<p>sadism and masochism) allows people who are involved in that sort of  </p>
+
+<p>behaviour, or just curious about it to communicate. #NBA allows people who  </p>
+
+<p>are interested in basketball to come into contact. When asked about this factor  </p>
+
+<p>on IRC, one user responded:  <p></p>
+
+<p><pre>  </p>
+
+<p>[Pax] ... #'s are the communication...ppl gather at their interests  </p>
+
+<p></pre><p>  </p>
+
+<p>While the channels bring together people with common interests, they also  </p>
+
+<p>serve to bring people together who may never have come into contact  </p>
+
+<p>otherwise. As one survey participant said, &#8220;I find that many interesting chats  </p>
+
+<p>take place with people from ethnic, national, or age groups that I would not  </p>
+
+<p>usually be in touch with.&#8221;  <p></p>
+
+<p>There are also channels created on IRC that have no bearing at all on  </p>
+
+<p>demographic characteristics. Some are merely formed for the purposed of  </p>
+
+<p>chatting with others, eg, #chat, #talk, etc. While this may not seem to provide  </p>
+
+<p>a context, Rheingold (1994) says that &#8220;idle talk <em>is</em> context-setting. Idle talk  </p>
+
+<p>is where people learn what kind of person you are, why you should be trusted  </p>
+
+<p>or mistrusted, what interests you.&#8221; (p 60) Idle talk is only seen to be  </p>
+
+<p>contextless when viewed from a task-related perspective. If it is viewed in the  </p>
+
+<p>context of forming relationships, idle talk is not pointless, but the point of  </p>
+
+<p>communication.   <p></p>
+
+<p>With a common space and social context for communication, IRC users have  </p>
+
+<p>the means to form relationships and find out about other people. However,  </p>
+
+<p>finding out what &#8220;kind of person you are&#8221; is a far more complex phenomenon  </p>
+
+<p>than may first be thought. This will be discussed in the following chapter.  <p></p>
+
+<h3>next&#8230; <a href="/irchelp/communication-research/academic/byrne-e-cyberfusion-1993/thesis1-chapt3.html">Chapter 
+  Three</a></h3>
+
+<p><p></p>
+
+<h6>HTML by Stephen Gillies : max@magna.com.au<br>
+
+Copyright Elisabeth Byrne 1994 : University of Western Sydney, Nepean</h6>
+
+<p></body></p>
+
+<p></html></p>
+
+                            </div>
+        
+        <footer>
+
+                        <p>All documents &copy; irchelp.org or original authors 2013 <br />Baked with <em><a href="http://bolt80.com/piecrust/">PieCrust</a> 1.3.0-dev</em>.</p>
+                    </footer>
+    </div>
+    
+        <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap-transition.js"></script>
+    <script src="/js/bootstrap-alert.js"></script>
+    <script src="/js/bootstrap-modal.js"></script>
+    <script src="/js/bootstrap-dropdown.js"></script>
+    <script src="/js/bootstrap-scrollspy.js"></script>
+    <script src="/js/bootstrap-tab.js"></script>
+    <script src="/js/bootstrap-tooltip.js"></script>
+    <script src="/js/bootstrap-popover.js"></script>
+    <script src="/js/bootstrap-button.js"></script>
+    <script src="/js/bootstrap-collapse.js"></script>
+    <script src="/js/bootstrap-carousel.js"></script>
+    <script src="/js/bootstrap-typeahead.js"></script>
+</body>
+</html>

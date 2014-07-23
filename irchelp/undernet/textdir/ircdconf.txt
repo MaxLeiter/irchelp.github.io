@@ -1,0 +1,675 @@
+<!doctype html>
+<html>
+<head>
+    <title>IRCHelp.org &mdash; Untitled Page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="Comprehensive information on everything Internet Relay Chat" />
+    <meta name="author" content="irchelpers" />
+    <meta name="generator" content="PieCrust 1.3.0-dev" />
+    <meta name="template-engine" content="Twig" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0">
+    <!-- Le styles -->
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+      href="/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed"
+      href="/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="/ico/favicon.png">
+</head>
+<body>
+    <!--Start of navigation-->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container"> <a class="btn btn-navbar"
+            data-toggle="collapse" data-target=".nav-collapse"> <span
+              class="icon-bar"></span> <span class="icon-bar"></span> <span
+              class="icon-bar"></span> </a> <a class="brand" href="/">#irchelp</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="/">Home</a></li>
+              <li><a href="/irchelp/credit.html">About</a></li>
+              <li class="dropdown"> <a href="/irchelp/clients" class="dropdown-toggle"
+                  data-toggle="dropdown">Clients </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/clients">All Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Windows</li>
+                  <li><a href="/irchelp/clients/windows/mirc">mIRC</a></li>
+                  <li><a href="/irchelp/clients/windows/xchat">XChat</a></li>
+                  <li><a href="/irchelp/clients/windows">All Windows Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">MacOS X</li>
+                  <li><a href="/irchelp/clients/mac/textual.html">Textual</a></li>
+                  <li><a href="/irchelp/clients/mac/colloquy.html">Colloquy</a></li>
+                  <li><a href="/irchelp/clients/mac/snak.html">Snak</a></li>
+                  <li><a href="/irchelp/clients/mac">All MacOS X Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Linux/Unix Terminal</li>
+                  <li><a href="/irchelp/clients/unix/irssi">irssi</a></li>
+                  <li><a href="/irchelp/clients/unix/epic.html">EPIC</a></li>
+                  <li><a href="/irchelp/clients/unix/ircii">ircII</a></li>
+                  <li><a href="/irchelp/clients/unix/index.html#terminal">All Linux/Unix Terminal Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Linux/Unix Graphical</li>
+                  <li><a href="/irchelp/clients/unix/xchat.html">XChat</a></li>
+                  <li><a href="/irchelp/clients/unix/konversation.html">Konversation</a></li>
+                  <li><a href="/irchelp/clients/unix/index.html#gui">All Linux/Unix Graphical Clients</a></li>
+                  <li class="nav-header">Smartphones</li>
+                  <li><a href="/irchelp/clients/mobile/android">Clients for Android</a></li>
+                  <li><a href="/irchelp/clients/mobile/ios">Clients for iOS</a></li>
+                  <li><a href="/irchelp/clients/mobile">All Smartphone Clients</a></li>
+                  <li class="nav-header">Other OS and Crossplatform</li>
+                  <li><a href="/irchelp/clients/cross/java">Clients writting in Java</a></li>
+                  <li><a href="/irchelp/clients/cross">Other Crossplatform Clients</a></li>
+                  <li><a href="/irchelp/clients/otheros">Clients for other Operating Systems</a></li>
+                  <li><a href="/irchelp/clients/webclients.html">Web-based clients</a></li>
+
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/networks" class="dropdown-toggle"
+                  data-toggle="dropdown">Networks </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/networks/popular.html">Major Networks</a></li>
+                  <li><a href="/irchelp/networks/regional.html">Regional Networks</a></li>
+                  <li><a href="/irchelp/networks/topical.html">Topical Networks</a></li>
+                  <li><a href="/irchelp/networks">All Networks</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Major Networks</li>
+                  <li><a href="/irchelp/networks/efnet/">EFNet</a></li>
+                  <li><a href="/irchelp/networks/ircnet.html">IRCnet</a></li>
+                  <li><a href="/irchelp/networks/undernet.html">Undernet</a></li>
+                  <li><a href="/irchelp/networks/dalnet.html">Dalnet</a></li>
+                  <li><a href="/irchelp/networks/quakenet.html">Quakenet</a></li>
+                  <li><a href="/irchelp/networks/freenode.html">Freenode</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/security" class="dropdown-toggle"
+                  data-toggle="dropdown">Security </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/security">General Security</a></li>
+                  <li><a href="/irchelp/security/privacy.html">Privacy</a></li>
+                  <li><a href="/irchelp/security/nuke.html">Denial of Service</a></li>
+                  <li><a href="/irchelp/security/trojan.html">Trojan Horses and Other Malware</a></li>
+                  <li><a href="/irchelp/security/socialeng.html">Social Engineering</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/ircd" class="dropdown-toggle"
+                  data-toggle="dropdown">Servers </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/ircd">General ircd information</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">EFNet IRCDs</li>
+                  <li><a href="/irchelp/ircd/ratbox">ircd-ratbox</a></li>
+                  <li><a href="/irchelp/ircd/hybrid">ircd-hybrid</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="#" class="dropdown-toggle"
+                  data-toggle="dropdown">FAQs </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/new2irc.html">New user introduction</a></li>
+<!--
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+-->
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/library.html" class="dropdown-toggle"
+                  data-toggle="dropdown">Library </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/library.html">Index</a></li>
+<!--
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+-->
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form pull-right"> <input class="span2"
+                placeholder="Search" type="text"> <button type="submit"
+                class="btn">Search</button> </form>
+          </div>
+          <!--/.nav-collapse --> </div>
+      </div>
+    </div>
+<!--end of navigation-->
+
+    <div id="container" class="container">
+<!--
+                        <h1><a href="/">Untitled Page</a></h1>
+            -->        
+        
+            <div class="content">
+                                <h1>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-</h1>
+
+<h1>IRC configuration file</h1>
+
+<h1>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-</h1>
+
+<h1>based on Version 1.0, internal revision number 19930701 &#8212;from Nap</h1>
+
+<p>#</p>
+
+<h1>Changes by _dl for easier use&#8230; [and undernet patches]</h1>
+
+<h1>_dl vers 5 - 030993</h1>
+
+<p>#</p>
+
+<h1>there is a lot of crap at the beggining&#8230; jump to the end to make</h1>
+
+<h1>your changes or search for %%%%</h1>
+
+<p>#</p>
+
+<h1>&#8212;- technical details : &#8212;&#8212;&#8212;&#8212;</h1>
+
+<h1> </h1>
+
+<h1>This ircd.conf uses m4 to lighten the configuration work.</h1>
+
+<h1>You need to have #define M4_PREPROC in the server config.h</h1>
+
+<h1>for this to work, and have a file called &#8220;ircd.m4&#8221; in the IRCD directory.</h1>
+
+<h1>ircd.m4 is created by &#8220;make install&#8221;</h1>
+
+<h1>Currently I don&#8217;t use the macros in ircd.m4, so it can be empty :)</h1>
+
+<h1>it just has to be there&#8230; so that m4 doesn&#8217;t fail miserably.</h1>
+
+<h1>&#8220;touch ircd.m4&#8221; >:-)</h1>
+
+<p>#</p>
+
+<h1>The defaults classes for the CLIENTS and the SERVERS should be quite okay,</h1>
+
+<h1>basically you only need to setup the SERVER INFO at the beginning and</h1>
+
+<h1>insert uplinks and downlinks at the bottom.</h1>
+
+<p>#</p>
+
+<h1>Remember this is only some <em>basic</em> settings to keep things <em>simple</em>.</h1>
+
+<h1>You don&#8217;t get the full features in there, but it should be more than</h1>
+
+<h1>enough for normal use.</h1>
+
+<h1>You should check doc/example.conf and doc/INSTALL</h1>
+
+<h1>for more detailed explanations of all available options.</h1>
+
+<p>#</p>
+
+<h1>The ircd.conf is parsed and stored in such a way that it&#8217;s as if</h1>
+
+<h1>it was read <em>backwards</em>, so if you want for instance to have a C/N</h1>
+
+<h1>pair tried first, it should be located <em>LAST</em> in the ircd.conf.</h1>
+
+<p>#</p>
+
+<h1>To get to a traditionnal ircd.conf, all you need to type is:</h1>
+
+<p>#</p>
+
+<h1>m4 ircd.conf | grep -v ^# | uniq</h1>
+
+<p>#</p>
+
+<h1>Also remember to run &#8220;ircd/chkconf&#8221; and see if there is no problem!!!</h1>
+
+<p>#</p>
+
+<h1>&#8212;&#8212;&#8212;- Macros definitions&#8230; don&#8217;t edit unless you&#8217;re really sure &#8212;&#8212;&#8212;</h1>
+
+<h1>&#8212;&#8212;&#8212;- of what you are doing ! Skip that part&#8230; search %%%%      &#8212;&#8212;&#8212;</h1>
+
+<p>#</p>
+
+<h1>PING_SERVER : server ping frequency in seconds</h1>
+
+<h1>PING_CLIENT : client ping frequency in seconds</h1>
+
+<p>define(PING<em>SERVER,120)
+define(PING</em>CLIENT,300)</p>
+
+<h1>&#8212;- Client Class.</h1>
+
+<h1>CLIENT_MAX   : is the maximum number of clients you want connected.</h1>
+
+<h1>CLIENT_CLASS : we&#8217;ll put clients in class 1, no change needed.</h1>
+
+<h1>CLIENT_SENDQ : limit in SendQ for clients, in bytes.</h1>
+
+<p>define(CLIENT<em>MAX,100)
+define(CLIENT</em>CLASS,1)
+define(CLIENT_SENDQ,40000)</p>
+
+<h1>&#8212;- Server Class.</h1>
+
+<h1>I usually define those classes for the servers, they may or may not</h1>
+
+<h1>be appropriate for you.</h1>
+
+<h1>A basic installation may not need the AUTOCON class, you can fairly</h1>
+
+<h1>do with DOWNLINK and UPLINK.</h1>
+
+<p>#</p>
+
+<h1>Class explanations:</h1>
+
+<h1>DOWNLINK : many downlinks, no autoconnect.</h1>
+
+<h1>UPLINK   : max 1 server connected, autoconnect.</h1>
+
+<h1>AUTOCON  : no max, autoconnect.</h1>
+
+<h1>Note that uplinks you don&#8217;t connect to normally go into the DOWNLINK class.</h1>
+
+<h1>DOWNLINK_CLASS    : we&#8217;ll put downlinks in class 5, no change needed.</h1>
+
+<h1>AUTOCON_CLASS     : we&#8217;ll put autoconnect in class 8, no change needed.</h1>
+
+<h1>UPLINK_CLASS      : we&#8217;ll put uplinks in class 9, no change needed.</h1>
+
+<p>define(DOWNLINK<em>CLASS,5)
+define(AUTOCON</em>CLASS,8)
+define(UPLINK_CLASS,9)</p>
+
+<h1>SERVER_SENDQ      : limit in SendQ for servers, in bytes.</h1>
+
+<h1>SERVER_MAXCONNECT : limit in the number of servers connected, per class.</h1>
+
+<h1>UPLINK_CONNECT    : seconds for autoconnecting to the uplink.</h1>
+
+<h1>AUTOCON_CONNECT   : seconds for autoconnecting to the servers.</h1>
+
+<p>define(SERVER<em>SENDQ,400000)
+define(SERVER</em>MAXCONNECT,20)
+define(UPLINK<em>CONNECT,100)
+define(AUTOCON</em>CONNECT,300)
+Y:CLIENT<em>CLASS:PING</em>CLIENT:0:CLIENT<em>MAX:CLIENT</em>SENDQ
+Y:DOWNLINK<em>CLASS:PING</em>SERVER:0:SERVER<em>MAXCONNECT:SERVER</em>SENDQ
+Y:AUTOCON<em>CLASS:PING</em>SERVER:AUTOCON<em>CONNECT:SERVER</em>MAXCONNECT:SERVER<em>SENDQ
+Y:UPLINK</em>CLASS:PING<em>SERVER:UPLINK</em>CONNECT:1:SERVER_SENDQ</p>
+
+<h1>client auth&#8230; [I lines] macros</h1>
+
+<p>define(IDENT,<code>ifelse(len($1),0,,*@$1)')
+define(CLIENT_DOAUTH,
+I:</code>IDENT($1)&#8217;:$3:<code>IDENT(ifelse(len($2),0,$1,$2))'::CLIENT_CLASS)
+define(CLIENT_NOAUTH,I:$1:$3:</code>ifelse(len($2),0,$1,$2)&#8217;::CLIENT_CLASS)</p>
+
+<h1>operator macros&#8230;</h1>
+
+<p>define(OPERATOR,O:$2:$3:$1::CLIENT<em>CLASS)
+define(LOCOP,o:$2:$3:$1::CLIENT</em>CLASS)</p>
+
+<h1>K lines macros</h1>
+
+<p>define(CLIENT_KILLED,K:$1::`ifelse(len($2),0,*,$2)&#8217;)</p>
+
+<h1>Port lines macros</h1>
+
+<p>define(ADD_PORT,P:`ifelse(len($2),0,*,$2)&#8217;:::$1)</p>
+
+<h1>Server macros</h1>
+
+<p>#</p>
+
+<h1>changed by _dl in order that HUBS get automatically H * lines&#8230;</h1>
+
+<h1>and that .UnderNet.Org is automatically added !</h1>
+
+<p>#</p>
+
+<h1>if you need non &#8216;UnderNet.org&#8217; versions use _STD macros&#8230;</h1>
+
+<p>#
+define(SERVER<em>LEAF</em>STD,L:$2::$1:$3)
+define(SERVER<em>LEAF,L:<code>ifelse(len($2),0,,$2.UnderNet.org)'::$1.UnderNet.org:$3)
+define(SERVER_HUB_STD,H:</code>ifelse(len($2),0,<em>,$2)&#8217;:</em>:$1)
+define(SERVER</em>HUB,H:<code>ifelse(len($2),0,*,$2.UnderNet.org)':*:$1.UnderNet.org)
+define(SERVER_DOWNLINK_STD,</code>
+C:$1:$2:ifelse(len($3),0,$1,$3)::DOWNLINK<em>CLASS
+N:$1:$2:ifelse(len($3),0,$1,$3):$4:DOWNLINK</em>CLASS
+&#8216;)
+define(SERVER<em>DOWNLINK,<code>C:$1:$2:ifelse(len($3),0,$1,$3.UnderNet.org)::DOWNLINK_CLASS
+N:$1:$2:ifelse(len($3),0,$1,$3.UnderNet.org):$4:DOWNLINK_CLASS
+')
+define(SERVER_AUTOCON_STD,</code>
+C:$1:$2:ifelse(len($3),0,$1,$3):ifelse(len($4),0,6667,$4):AUTOCON</em>CLASS
+N:$1:$2:ifelse(len($3),0,$1,$3):$5:AUTOCON<em>CLASS
+&#8216;)
+define(SERVER</em>AUTOCON,<code>C:$1:$2:ifelse(len($3),0,$1,$3.UnderNet.org):ifelse(len($4),0,7000,$4):AUTOCON_CLASS
+N:$1:$2:ifelse(len($3),0,$1,$3.UnderNet.org):$5:AUTOCON_CLASS
+')
+define(SERVER_UPLINK_STD,</code>
+C:$1:$2:ifelse(len($3),0,$1,$3):ifelse(len($4),0,6667,$4):UPLINK<em>CLASS
+N:$1:$2:ifelse(len($3),0,$1,$3):$5:UPLINK</em>CLASS
+SERVER<em>HUB</em>STD(ifelse(len($3),0,$1,$3))
+&#8216;)
+define(SERVER<em>UPLINK,`
+C:$1:$2:ifelse(len($3),0,$1,$3.UnderNet.org):ifelse(len($4),0,7000,$4):UPLINK</em>CLASS
+N:$1:$2:ifelse(len($3),0,$1,$3.UnderNet.org):$5:UPLINK<em>CLASS
+SERVER</em>HUB_STD(ifelse(len($3),0,$1,$3.UnderNet.org))
+&#8216;)</p>
+
+<h1>&#8212;&#8212;&#8212;- end of macros definition, editable part is below : &#8212;-</h1>
+
+<p>#</p>
+
+<h1>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-</h1>
+
+<p>#</p>
+
+<h1>EDIT ONLY BELOW : (after the %%%%)</h1>
+
+<p>#</p>
+
+<h1>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-</h1>
+
+<h1>SERVERNAME : name of the server</h1>
+
+<h1>SERVERTEXT : text name</h1>
+
+<h1>SERVERPORT : port number the server will operate on. (7000 usually)</h1>
+
+<p>#</p>
+
+<h1>Configure the output of the ADMIN command.</h1>
+
+<h1>ADMINLOCATION : where the server is located</h1>
+
+<h1>ADMINISTRATOR : who should be asked for problems related to the server</h1>
+
+<h1>ADMIN_EMAIL   : the administrator&#8217;s electronic mail address</h1>
+
+<p>#</p>
+
+<h1>[.UnderNet.org is added automatically]</h1>
+
+<p>#</p>
+
+<h1>%%%%</h1>
+
+<p>define(SERVERNAME,<code>MyTown.MyCountry_or_State.My_Continent_or_zone')
+define(SERVERTEXT,</code>Univerity of Schmolldu -MyTown - MyCountry&#8217;)</p>
+
+<h1>You may will to put another port if 7000 is used  :</h1>
+
+<p>define(SERVERPORT,7000)</p>
+
+<h1>have a look at other&#8217;s /admin to get ideas&#8230;</h1>
+
+<p>define(ADMINLOCATION, <code>Univerity of Schmolldu - Undernet server')
+define(ADMINISTRATOR,</code>Myname - My Department&#8217;)
+define(ADMIN_EMAIL,   `My email - my Irc nick name&#8217;)
+#</p>
+
+<h1>just skip those 2 next lines, don&#8217;t edit them !</h1>
+
+<p>M:SERVERNAME.UnderNet.org::SERVERTEXT:SERVERPORT
+A:ADMINLOCATION:ADMINISTRATOR:ADMIN_EMAIL</p>
+
+<h1>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-</h1>
+
+<h1>Use the following to accept clients:</h1>
+
+<h1>The first parameter should be an IP address, second a hostname.</h1>
+
+<h1>You can add a passwd as field 3 if you want.</h1>
+
+<p>#</p>
+
+<h1>CLIENT_DOAUTH(ip#mask [,hostmask [,passwd]]) to allow clients and do auth,</h1>
+
+<h1>CLIENT_NOAUTH(ip#mask [,hostmask [,passwd]]) to bypass auth for clients.</h1>
+
+<h1>You should be aware that the ip#mask and the hostmask are <em>NOT</em> related!</h1>
+
+<h1>They only put the matching clients in the same class&#8230;</h1>
+
+<h1>%%%%</h1>
+
+<p>CLIENT_DOAUTH(*)</p>
+
+<h1>Most french servers have no authd</h1>
+
+<h1>CLIENT_NOAUTH(*.fr)</h1>
+
+<h1>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-</h1>
+
+<h1>%%%% Use the following to define operators:</h1>
+
+<h1>OPERATOR(nick,user@host,password)</h1>
+
+<p>OPERATOR(mynick,*@mymachine.mysite.etc,put_here_a_crypted_passwd)</p>
+
+<h1>if you use LOCAL Operator defines in config.h :</h1>
+
+<h1>LOCOP(anothernick,*@mymachine.mysite.etc,put_here_a_crypted_passwd)</h1>
+
+<h1>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-</h1>
+
+<h1>Use the following to forbid use of the server to troublesome users:</h1>
+
+<h1>CLIENT_KILLED(hostmask [,user])</h1>
+
+<h1>CLIENT_KILLED(*,root)</h1>
+
+<h1>CLIENT_KILLED(*.oxy.edu)</h1>
+
+<h1>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-</h1>
+
+<h1>Use the following to add additionnal ports to listen to</h1>
+
+<h1>Portnum : what the port is called</h1>
+
+<h1>Where   : directory for unix-domain sockets,</h1>
+
+<h1>IP# mask to accept connections from, for internet sockets.</h1>
+
+<p>#</p>
+
+<h1>ADD_PORT(portnum [,where])</h1>
+
+<h1>%%%% if you want to listen on some other ports&#8230; add theses :</h1>
+
+<p>ADD_PORT(6667)</p>
+
+<h1>ADD_PORT(6666)</h1>
+
+<h1>unix domain sockets :</h1>
+
+<h1>ADD_PORT(6666,/tmp/.ircd)</h1>
+
+<h1>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-</h1>
+
+<h1>you can skip to %%%% for simpler definition&#8230;</h1>
+
+<p>#</p>
+
+<h1>Syntax for the definition of server links is:</h1>
+
+<h1>servername        : user@host of the remote server</h1>
+
+<h1>masked_servername : under which mask will the remote server will be known</h1>
+
+<h1>serverport        : remote server port number</h1>
+
+<h1>passwd            : password of the link</h1>
+
+<h1>stripcount        : how many parts of <em>MY</em> server name to strip.</h1>
+
+<h1>for instance, if my servername is a.b.c.d.edu</h1>
+
+<h1>and my stripcount 2, then the server will be seen on</h1>
+
+<h1>the network as *.c.d.edu</h1>
+
+<p>#</p>
+
+<h1>SERVER_DOWNLINK(Servername,Passwd [,MaskedServername [,Stripcount]] )</h1>
+
+<h1>SERVER_AUTOCON(Servername,Passwd</h1>
+
+<h1>[,MaskedServername [,Serverport [,Stripcount]] )</h1>
+
+<h1>SERVER_UPLINK(Servername,Passwd</h1>
+
+<h1>[,MaskedServername [,Serverport [,Stripcount]] )</h1>
+
+<p>#</p>
+
+<h1>If no MaskedServername, it&#8217;s assumed to be the same as Servername.</h1>
+
+<h1>If Serverport is not specified a default value of 7000 is assumed.</h1>
+
+<h1>If Stripcount is not there, your server won&#8217;t be hostmasked.</h1>
+
+<p>#</p>
+
+<h1>Remember, backup uplinks you don&#8217;t connect to normally (no autoconnect)</h1>
+
+<h1>go into the DOWNLINK list! sorry if the name is a little misguiding&#8230;</h1>
+
+<p>#</p>
+
+<h1>MaskedServername is the <em>EXACT</em> name of the server as masked on the IRCnet.</h1>
+
+<h1>ServerForbidden or ServerAllowed can have wildcards.</h1>
+
+<h1>For SERVER_LEAF :</h1>
+
+<h1>the link to that server will be dropped if it tries to introduce</h1>
+
+<h1>- a server matching the ServerForbidden mask</h1>
+
+<h1>- more servers than the specified count</h1>
+
+<h1>For SERVER_HUB :</h1>
+
+<h1>the link will be dropped if the server tries to introduce</h1>
+
+<h1>- a server for which a matching ServerAllowed mask does not exist.</h1>
+
+<p>#</p>
+
+<h1>SERVER_LEAF(MaskedServername [,ServerForbidden [,count]] )</h1>
+
+<h1>SERVER_HUB(MaskedServername [,ServerAllowed] )</h1>
+
+<p>#</p>
+
+<h1>.undernet.org is added automagically, if you need</h1>
+
+<h1>non &#8216;UnderNet.org&#8217; versions use _STD macros&#8230;</h1>
+
+<p>#</p>
+
+<h1>%%%%</h1>
+
+<h1>simply put</h1>
+
+<h1>SERVER<em>UPLINK(ip</em>of<em>your</em>uplink_no1,passwd,NameOfUplink[,port if different</h1>
+
+<h1>than 7000])</h1>
+
+<h1>for all your uplinks, don&#8217;t add .UnderNet.org, it is added automatically</h1>
+
+<h1>do the same with your downlinks if you have&#8230;(using SERVER_DOWNLINK())</h1>
+
+<h1>(H lines for uplinks are added too)</h1>
+
+<h1>This is a downlink which can introduce any server for france.</h1>
+
+<h1>They use AUTHD do I can put &#8220;irc@&#8221; in the server part.</h1>
+
+<h1>SERVER_DOWNLINK(irc@ip.ip.ip.ip,zzz,Perpet.Fr.Eu)</h1>
+
+<h1>SERVER_HUB(Perpet.Fr.Eu,*.Fr.Eu)</h1>
+
+<h1>A Leaf that can introduce 5 server and don&#8217;t use ident max.</h1>
+
+<h1>SERVER_DOWNLINK(ip.ip.ip.ip,passwd,SmallTown.SmallCountry.Continent)</h1>
+
+<h1>SERVER_LEAF(SmallTown.SmallCountry.Continent,,5)</h1>
+
+<h1>*.fi is hostmasked! can you believe that? :)</h1>
+
+<h1>SERVER_DOWNLINK(128.214.6.100,finally,*.fi.Eu)</h1>
+
+<h1>SERVER_HUB(*.fi.Eu)</h1>
+
+<h1>The list of my uplinks, HUBS for the whole network.</h1>
+
+<h1>for servers on port 6667 and still not on new 7000 :</h1>
+
+<h1>SERVER_UPLINK(#ip.ip.ip.ip,passwd,Lame.Serv.WW,6667)</h1>
+
+<h1>_dl&#8217;s Hub :</h1>
+
+<h1>SERVER_UPLINK(130.84.202.10,yourpasswdwithdl,Paris.Fr.EU)</h1>
+
+<h1>McFly&#8217;s Hub :</h1>
+
+<h1>SERVER_UPLINK(130.223.205.3,yourpasswdwithmcfly,Lausanne.Ch.EU)</h1>
+
+<h1>&#8212;- that&#8217;s all folks ! &#8212;- It wasn&#8217;t that hard eh ?</h1>
+
+                            </div>
+        
+        <footer>
+
+                        <p>All documents &copy; irchelp.org or original authors 2013 <br />Baked with <em><a href="http://bolt80.com/piecrust/">PieCrust</a> 1.3.0-dev</em>.</p>
+                    </footer>
+    </div>
+    
+        <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap-transition.js"></script>
+    <script src="/js/bootstrap-alert.js"></script>
+    <script src="/js/bootstrap-modal.js"></script>
+    <script src="/js/bootstrap-dropdown.js"></script>
+    <script src="/js/bootstrap-scrollspy.js"></script>
+    <script src="/js/bootstrap-tab.js"></script>
+    <script src="/js/bootstrap-tooltip.js"></script>
+    <script src="/js/bootstrap-popover.js"></script>
+    <script src="/js/bootstrap-button.js"></script>
+    <script src="/js/bootstrap-collapse.js"></script>
+    <script src="/js/bootstrap-carousel.js"></script>
+    <script src="/js/bootstrap-typeahead.js"></script>
+</body>
+</html>

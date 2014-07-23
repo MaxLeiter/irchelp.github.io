@@ -1,0 +1,557 @@
+<!doctype html>
+<html>
+<head>
+    <title>IRCHelp.org &mdash; Untitled Page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="Comprehensive information on everything Internet Relay Chat" />
+    <meta name="author" content="irchelpers" />
+    <meta name="generator" content="PieCrust 1.3.0-dev" />
+    <meta name="template-engine" content="Twig" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0">
+    <!-- Le styles -->
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+      href="/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed"
+      href="/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="/ico/favicon.png">
+</head>
+<body>
+    <!--Start of navigation-->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container"> <a class="btn btn-navbar"
+            data-toggle="collapse" data-target=".nav-collapse"> <span
+              class="icon-bar"></span> <span class="icon-bar"></span> <span
+              class="icon-bar"></span> </a> <a class="brand" href="/">#irchelp</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="/">Home</a></li>
+              <li><a href="/irchelp/credit.html">About</a></li>
+              <li class="dropdown"> <a href="/irchelp/clients" class="dropdown-toggle"
+                  data-toggle="dropdown">Clients </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/clients">All Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Windows</li>
+                  <li><a href="/irchelp/clients/windows/mirc">mIRC</a></li>
+                  <li><a href="/irchelp/clients/windows/xchat">XChat</a></li>
+                  <li><a href="/irchelp/clients/windows">All Windows Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">MacOS X</li>
+                  <li><a href="/irchelp/clients/mac/textual.html">Textual</a></li>
+                  <li><a href="/irchelp/clients/mac/colloquy.html">Colloquy</a></li>
+                  <li><a href="/irchelp/clients/mac/snak.html">Snak</a></li>
+                  <li><a href="/irchelp/clients/mac">All MacOS X Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Linux/Unix Terminal</li>
+                  <li><a href="/irchelp/clients/unix/irssi">irssi</a></li>
+                  <li><a href="/irchelp/clients/unix/epic.html">EPIC</a></li>
+                  <li><a href="/irchelp/clients/unix/ircii">ircII</a></li>
+                  <li><a href="/irchelp/clients/unix/index.html#terminal">All Linux/Unix Terminal Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Linux/Unix Graphical</li>
+                  <li><a href="/irchelp/clients/unix/xchat.html">XChat</a></li>
+                  <li><a href="/irchelp/clients/unix/konversation.html">Konversation</a></li>
+                  <li><a href="/irchelp/clients/unix/index.html#gui">All Linux/Unix Graphical Clients</a></li>
+                  <li class="nav-header">Smartphones</li>
+                  <li><a href="/irchelp/clients/mobile/android">Clients for Android</a></li>
+                  <li><a href="/irchelp/clients/mobile/ios">Clients for iOS</a></li>
+                  <li><a href="/irchelp/clients/mobile">All Smartphone Clients</a></li>
+                  <li class="nav-header">Other OS and Crossplatform</li>
+                  <li><a href="/irchelp/clients/cross/java">Clients writting in Java</a></li>
+                  <li><a href="/irchelp/clients/cross">Other Crossplatform Clients</a></li>
+                  <li><a href="/irchelp/clients/otheros">Clients for other Operating Systems</a></li>
+                  <li><a href="/irchelp/clients/webclients.html">Web-based clients</a></li>
+
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/networks" class="dropdown-toggle"
+                  data-toggle="dropdown">Networks </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/networks/popular.html">Major Networks</a></li>
+                  <li><a href="/irchelp/networks/regional.html">Regional Networks</a></li>
+                  <li><a href="/irchelp/networks/topical.html">Topical Networks</a></li>
+                  <li><a href="/irchelp/networks">All Networks</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Major Networks</li>
+                  <li><a href="/irchelp/networks/efnet/">EFNet</a></li>
+                  <li><a href="/irchelp/networks/ircnet.html">IRCnet</a></li>
+                  <li><a href="/irchelp/networks/undernet.html">Undernet</a></li>
+                  <li><a href="/irchelp/networks/dalnet.html">Dalnet</a></li>
+                  <li><a href="/irchelp/networks/quakenet.html">Quakenet</a></li>
+                  <li><a href="/irchelp/networks/freenode.html">Freenode</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/security" class="dropdown-toggle"
+                  data-toggle="dropdown">Security </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/security">General Security</a></li>
+                  <li><a href="/irchelp/security/privacy.html">Privacy</a></li>
+                  <li><a href="/irchelp/security/nuke.html">Denial of Service</a></li>
+                  <li><a href="/irchelp/security/trojan.html">Trojan Horses and Other Malware</a></li>
+                  <li><a href="/irchelp/security/socialeng.html">Social Engineering</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/ircd" class="dropdown-toggle"
+                  data-toggle="dropdown">Servers </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/ircd">General ircd information</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">EFNet IRCDs</li>
+                  <li><a href="/irchelp/ircd/ratbox">ircd-ratbox</a></li>
+                  <li><a href="/irchelp/ircd/hybrid">ircd-hybrid</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="#" class="dropdown-toggle"
+                  data-toggle="dropdown">FAQs </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/new2irc.html">New user introduction</a></li>
+<!--
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+-->
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/library.html" class="dropdown-toggle"
+                  data-toggle="dropdown">Library </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/library.html">Index</a></li>
+<!--
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+-->
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form pull-right"> <input class="span2"
+                placeholder="Search" type="text"> <button type="submit"
+                class="btn">Search</button> </form>
+          </div>
+          <!--/.nav-collapse --> </div>
+      </div>
+    </div>
+<!--end of navigation-->
+
+    <div id="container" class="container">
+<!--
+                        <h1><a href="/">Untitled Page</a></h1>
+            -->        
+        
+            <div class="content">
+                                <p>EFnet Oper Guide
+Last update : 02-20-2002
+Written and maintained by Riedel
+E-Mail : dennisv@vuurwerk.nl</p>
+
+<ol>
+<li>Commands you should know about</li>
+<li>The client of your choice</li>
+<li>Your primary responsibilities</li>
+<li>Re-routing
+4.1 Re-routing other servers and remote connects</li>
+<li>Kills and klines</li>
+<li>Kill and K-Line requests</li>
+<li>Happy birthday!</li>
+<li>Security</li>
+<li><p>Know who your friends are</p>
+
+<ol>
+<li>The TCM bot</li>
+<li>Services </li>
+<li><p>G-Lines</p></li>
+<li><p>Commands you should know about</p></li>
+</ol>
+
+<p>This is no longer covered here. IRCD-hybrid is changing too rapidly, so
+this section would be outdated in no time ;) For an up-to-date version,
+please download the latest hybrid at www.ircd-hybrid.org.</p>
+
+<ol>
+<li>The client of your choice</li>
+</ol>
+
+<p>There are many IRC clients around for a wide variety of operating systems.
+Being an IRC Operator doesn&#8217;t <em>require</em> you to use a UNIX client, however
+I personally prefer UNIX-based clients. If you&#8217;re familiar with UNIX and
+use UNIX for opering, I suggest ircII / epic. There are a lot of scripts
+available for those two clients, and it&#8217;s not that hard to write scripts
+yourself to suite your needs. It is important that you know how to operate
+your client, and familiarize yourself with the options and features. For
+whatever client you chose this goes for any of them : You should be in
+control of your client, instead of the client being in control of you.</p></li>
+</ol>
+
+<p>Resources :</p>
+
+<p>www.mirc.co.uk    - mIRC (MS-Windows)
+  www.irchelp.org   - a variety of clients and scripts
+  ftp.blackened.com - several UNIX based clients available</p>
+
+<ol>
+<li><p>Your primary responsibilities</p>
+
+<p>As an IRC Operator, you&#8217;re responsible for maintaining the server on a
+real-time basis. You represent your server, and you represent the network.
+Irresponsible / rude / offensive / stupid behavior may discredit your server
+and the network. You should focus on the task you were chosen for&#8230;
+maintainance.  Sounds simple, no ? It means getting rid of users that abuse
+the service, enforcing the server&#8217;s policy and keeping the server linked.
+Users will ask you questions, and expect you to know all the answers.. after
+all, you&#8217;re the oper!</p>
+
+<p>Be prepared for users trying to fool you, sweet talk you into things you
+don&#8217;t want, lie and deceive. Most users are handling in good faith&#8230;
+however, the abusers have learned how to manipulate opers. They have studied
+the alien creature &#8216;oper&#8217; for ages like biologists study animals. Be
+paranoid, be curious and be suspicious. I can&#8217;t stress the importancy of that
+often enough.</p>
+
+<p>Second priority has the network. You were not chosen to maintain the network
+but you were chosen to maintain the server. However, you may want to be able
+to reroute servers. If you see something broken, don&#8217;t be afraid to fix it.
+If you do, be sure you fix things and don&#8217;t make it worse. Before you
+step into routing, be sure you&#8217;ve familiarized yourself with the network&#8217;s
+topology, and be confident enough to perform such actions. (re)routing is
+covered in the next chapter.</p>
+
+<p>Opers on the network depend on a trusting relationship. You can usually take
+the word from an oper. Other opers are considered -trusted-. However, there
+are exceptions. Sometimes even opers lie to opers to get things done. Don&#8217;t
+be afraid to ask for proof of a certain statement. For example, logs.
+This doesn&#8217;t mean you distrust the oper in question, but -you- and you alone
+are responsible for your actions. You call the shots on your server, unless
+your admin says otherwise.</p></li>
+<li><p>Re-routing</p>
+
+<p>Re-routing is not hard, and it&#8217;s not scary but it is important that you do it
+right. The commands you&#8217;ll use are SQUIT and CONNECT. First, a very simple
+example. Let&#8217;s say your server, irc.yourserver.com is lagged to it&#8217;s uplink,
+irc.uplink.com and you want to reroute your server. You have to think about
+where you want your server to be linked, and you have to time your reroute.
+An example topology :</p></li>
+</ol>
+
+<p>irc.yourserver.com &#8212;&#8212; irc.uplink.com
+                        |      |      \
+                        B      C      D
+                       / \
+                      E   F
+                         / \
+                        G   H &#8212;- O
+                      / | \ | \
+                     I  J K L  M
+                                \
+                                 N</p>
+
+<p>In this case, you&#8217;re uplinked by irc.uplink.com
+  irc.uplink.com also hubs B, C and D. Server B functions as hub for E and F,
+  F hubs G and H, H hubs L, M and O. G hubs I, J and K. M hubs N.
+  Your server is allowed to connect to server B, F and G. So you consider the
+  servers you&#8217;re able to connect to. Is the lag caused by a server that uplinks
+  irc.uplink.com ? Use /stats ? irc.uplink.com to determine lag to the other
+  servers. If irc.uplink.com does not respond, the lag is to your uplink. If
+  so, you cannot be sure about the state of the other uplinks, so you&#8217;d have to
+  get on a remote server and determine lag by using /stats ? and /trace. For
+  example, you could connect to server N, and /trace yournick. Yournick, being
+  the nick on your server. You&#8217;ll see which route it takes, and what the
+  problem server is. Example /trace output :</p>
+
+<p>S:[SERVER-N       ] V:[2.8/hybrid] U:[SERVER-M            ]
+S:[SERVER-M       ] V:[2.8/hybrid] U:[SERVER-H            ]
+S:[SERVER-H       ] V:[2.8/hybrid] U:[SERVER-F            ]
+S:[SERVER-F       ] V:[2.8/hybrid] U:[SERVER-B            ]
+S:[SERVER-B       ] V:[2.8/hybrid] U:[irc.uplink.com      ]
+S:[irc.uplink.com ] V:[2.8/hybrid] U:[irc.yourserver.com  ]</p>
+
+<p>The trace doesn&#8217;t complete&#8230; server-b announces irc.uplink.com, and
+  irc.uplink.com announces your server. Your server should return something
+  like :</p>
+
+<p>S:[irc.yourserver.] OPER [yournick!user@yourhost]</p>
+
+<p>If it doesn&#8217;t, we know the lag is only between yourserver and uplink.
+  Usually if there is lag between your server and your uplink, the send-queue
+  rises. This is not always the case. Sometimes your server can write perfectly
+  to your uplink, but not reverse. That is called one sided lag.</p>
+
+<p>We pick server B to link to. It means we have to SQUIT and CONNECT.
+  To unlink from irc.uplink.com and connect to SERVER<em>B we&#8217;d type :
+  /quote SQUIT irc.uplink.com :reroute
+  /connect SERVER</em>B</p>
+
+<p>we <em>DON&#8217;T</em> SQUIT irc.yourserver.com&#8230; and I&#8217;ll try to explain why :
+  If we wanted to remove hub M from the network, and with it N, we&#8217;d issue
+  a SQUIT M. An SQUIT follows a path, relays the SQUIT request to each server
+  in that path. Finally it reaches server H, which is the hub for M. Server H
+  sees the SQUIT and drops the link to M.</p>
+
+<p>Now a different situation, we want to separate yourserver, uplink, C and D
+  from the rest of the network, in order to reroute. We&#8217;d have to SQUIT server
+  B, since we want the -uplink- of server B (being irc.uplink.com) to drop the
+  link to server B.</p>
+
+<p>If you&#8217;d SQUIT irc.yourserver.com, you ask yourserver.com to drop the link to
+  itself, which is impossible. If you SQUIT irc.uplink.com, you ask yourserver
+  to drop the link to uplink, which is what we want to do.</p>
+
+<p>After the SQUIT and CONNECT, the new situation looks like this :</p>
+
+<pre><code>                    irc.uplink.com
+                    |      |      \
+</code></pre>
+
+<p>irc.yourserver.com &#8212; B      C      D
+                       / \
+                      E   F
+                         / \
+                        G   H &#8212;- O
+                      / | \ | \
+                     I  J K L  M
+                                \
+                                 N</p>
+
+<p>If yourserver is a Hub, it makes the situation more complex, since your
+  actions have more impact.</p>
+
+<p>4.1 - Re-routing other servers and remote connects</p>
+
+<p>Example topology :</p>
+
+<pre><code>                    irc.uplink.com
+                    |      |      \
+</code></pre>
+
+<p>irc.yourserver.com &#8212; B      C      D
+                       / \
+                      E   F
+                         / \
+                        G   H &#8212;- O
+                      / | \ | \
+                     I  J K L  M
+                                \
+                                 N</p>
+
+<p>Let&#8217;s say, hub H is way lagged to F, but G to F is fine&#8230; we want to reroute
+  H, and stick H to G.</p>
+
+<p>We&#8217;d do :</p>
+
+<p>/quote SQUIT serverh :re-routing you babe
+  /connect serverh 6667 serverg</p>
+
+<p>A global wallops will be sent :
+  !serverg! Remote CONNECT serverh 6667 from ItsMe</p>
+
+<p>When re-routing, always give the server some time to prevent nick collides.
+  When there is lag, people will connect to another server. When you SQUIT and
+  CONNECT to fast, a lot of those clients will be collided. Also, stick to your
+  territory. How enthusiastic you may be, you cannot route the world. If you&#8217;re
+  an oper on the US side, stick to the US side when re-routing. Needless to
+  say, if you&#8217;re EU, keep it to EU ;)</p>
+
+<ol>
+<li><p>Kills and klines</p>
+
+<p>As an oper, you&#8217;re given the incredible power <em>cough</em> of KILL and KLINE.
+/kill nick reason  disconnects a client from IRC with the specified reason.
+A /quote kline <em>evil@</em>.dude.org :reason here  bans the user from your server.
+Abusive kills and klines may draw attacks to your server, so always consider
+if a kline or kill is deserved. If the server gets attacked after a valid
+kill or kline, well.. tough luck. You should never be &#8216;afraid&#8217; to kline
+anyone on your server. If it&#8217;s a good reason, make it so. Even if you know
+it may cause the server to be attacked. Maybe good to think about is this :</p>
+
+<ul>
+<li>if /ignore solves the problem rather than a kick, /ignore</li>
+<li>kick if a ban is unneeded</li>
+<li>ban if a /kill is unwarranted for</li>
+<li>kill rather than kline if that solves the problem</li>
+<li>kline when a server ban is really needed.</li>
+</ul>
+
+<p>You kline a user when you absolutely don&#8217;t want this user to use the service
+your server is providing.</p>
+
+<p>Crosskills (killing users on another server) are another issue. Some admins
+don&#8217;t care if users get /kill&#8217;ed off their server, for any reason or no
+reason at all&#8230; and other admins are very anal about it. A good way to go
+(IMO) is to issue a KILL if there is an absolute need for the target user to
+be disconnected. If there are active opers on that server, let them handle
+it.  They&#8217;ll be upset if you /kill a user off their server, without
+contacting them.  /stats p irc.server.here shows the active opers on a
+particular server. Some opers have multiple o-lines and are not watching all
+sessions. If you can&#8217;t find an active oper on a server, you can 
+/quote operwall a request for opers from that server.</p>
+
+<p>Ghost KILLs are another story, an often misunderstood one.
+When you see a /KILL from an oper with the reason &#8216;ghosted&#8217; they usually
+KILL a client that&#8217;s about to ping timeout. That is not what a ghost is!
+To quote Dianora : &#8220;a ghost happens because a client misses being killed when
+it should be. Its a race condition due to nick chasing&#8221;. In other words,
+Server X thinks client A has been KILLed, while server Y missed the KILL
+for that client.</p></li>
+<li><p>Kill and K-Line requests</p>
+
+<p>As previously mentioned, if an oper from another server contacts you and
+requests a kill or a kline for a local client with a good reason, you can
+usually trust this request. Opers depend on a trusting relationship. However,
+since you&#8217;re responsible for the kill or kline, it is not rude to ask for
+proof. It depends on the oper making the request how thats interpreted, but
+the way they respond to asking for proof tells more about them than about
+you.</p>
+
+<p>The more and longer you oper, how better you get to know the other opers.
+You know who is Mr. honest, you&#8217;ll know who are lying and deceiving. Before
+you acquire this knowledge, you can merely rely on common sense and
+instincts.  You&#8217;ll probably make mistakes occasionally, and thats nothing to
+be ashamed of.  Opers are - despite contrary believes - human.</p>
+
+<p>Users occasionally will ask you to kill or kline a user/bot too. Some
+requests are straight-forward and clear, others require you to be cautious. I
+recommend to always investigate such requests, and when you&#8217;re confident the
+request is valid, issue the kill or kline.</p></li>
+<li><p>Happy birthday!</p>
+
+<p>It is a custom on EFnet to birthday /kill opers of whom it is his/her
+birthday.  Not all opers like this, but typically those opers don&#8217;t let
+others know about their birthday. You&#8217;ll notice that the KILLS say a lot
+about who likes who and who is friends with who.  Whether you want to
+participate, is entirely up to you.</p></li>
+<li><p>Security</p>
+
+<p>As with any privilege, you have to handle it cautiously and responsibly.
+Be sure that your o/O line doesn&#8217;t get compromised! Oper only from secure
+hosts. You and only you should know your password. Don&#8217;t share your oper
+account, and make your oper password a UNIQUE one. If your o/O line gets
+compromised, nasty things may/will happen. Imagine an oper with crosskill
+capabilities who&#8217;s operline gets &#8216;hacked&#8217;&#8230; the results are often
+disastrous and you will lose respect and trust from others. It can cause
+your oper privileges to be revoked, or even the server to be (temporarily)
+de-linked.</p></li>
+<li><p>Know who your friends are</p>
+
+<p>As an oper you will get a lot of users that want to be &#8216;friends&#8217; with you.
+Users offer you free* access to their <em>nix servers, ops in channels,
+unlimited leech access to the biggest and fastest warez sites *gasp</em> and
+more. They want favors in return. They say they don&#8217;t but they truly want
+something in return. They -expect- something in return. You could either
+don&#8217;t respond to such offers, or use them. The last option creates an even
+more distorted image of opers and doesn&#8217;t do any good for the user -> oper
+relationship.  Your <em>real</em> friends are usually the persons who were your
+friends <em>before</em> you acquired the extra privileges.</p></li>
+<li><p>The TCM Bot</p>
+
+<p>A TCM bot can be a valuable tool for opers. It keeps record of all connected
+clients, flags clients with multiple connections and has all sorts of other
+useful commands. There are three different kind of TCM&#8217;s in use on EFnet,
+being OOMon, TCM-Dianora and TCM-Hybrid. Every one of them requires you to
+log in to be able to access the privileged commands. On OOMon you DCC chat
+the TCM bot and do &#8216;.auth yournick yourpass&#8217; where yournick is your oper
+name in your o/O line. In TCM-Dianora and TCM-Hybrid you register with :
+&#8216;.register yourpass&#8217;, where yourpass is your password ;)
+All TCM commands start with a period. If you forget the period, the text goes
+into the &#8216;partyline&#8217;, where it is echoed to all connected opers.</p>
+
+<p>Resources :   http://toast.blackened.com/oomon/
+    http://www.db.net/~db/tcm.html</p>
+
+<p>Questions / Comments / Suggestions are welcome.
+You can e-mail me : dennisv@vuurwerk.nl</p></li>
+<li><p>Services</p>
+
+<p>A recent addition to EFNet is Channel Fixer aka JUPES. This is an automated
+service that re-ops clients on opless channels. There are a few restrictions.
+First, the channel has to be of significant size for jupes to store it in its
+database. Second, it only logs static addresses.</p>
+
+<p>How does it work ? Periodically it stores information about the channel state
+in its database, for every channel in there. On every &#8216;run&#8217;, a channel
+operator gets one point. These scores make a top-5 of &#8216;most frequent opped
+clients&#8217;.
+When a channel becomes opless, JUPES will join and op the top-5 opped clients
+CURRENTLY IN THE CHANNEL.</p>
+
+<p>Chanfix can be invoked manually to. /msg jupes chanfix #channel is the command
+to do it. JUPES will join, and treat the channel as if it were opless. It
+lowers TS by one (resulting in a deop of the entire channel) and re-ops the
+top-5 clients currently in the channel. The Channel fixer won&#8217;t log or
+actively fix channels when there&#8217;s a split of significant size. Needless to
+say, the chanfix command must be used with caution.</p></li>
+<li><p>G-Lines</p>
+
+<p>Oh yes! A G-Line section. Currently, a part of EFNet (eu-efnet) has G-Lines
+enabled. This was decided by the EU admin community and is now mandatory
+within EU-EFnet. In order for a G-Line to be activated, three opers from
+three different servers need to issue the <em>exact</em> same G-Line. This includes
+a reason.</p>
+
+<p>G-Lines work ideally when the EU side of EFNet is not fragmented. If you oper
+on an EU-Server and EU is split in two (ie, one part linked to *.gblx and
+another part to lightning), two G-Lines need to be issued on both &#8216;sides&#8217; of
+EU-EFnet.  Hybrid 5 and comstud servers do not support G-Lines and will not
+propagate G-Line requests.  Hybrid 6 servers with G-Lines disabled will not
+allow G-Lines to be set, but will still pass them.</p></li>
+</ol>
+
+<h2>Best regards,</h2>
+
+<p>Dennis &#8220;Riedel&#8221; Vink       <strong><em>~</em></strong>  Email - dennisv@vuurwerk.nl
+Unix System Administrator  \  |  /  Phone - +31 23 5111111
+Vuurwerk Internet           &#8216;|.|&#8217;   PGP   - 0xD68A7AAB</p>
+
+<p>And on the seventh day, He exited from append mode.</p>
+
+                            </div>
+        
+        <footer>
+
+                        <p>All documents &copy; irchelp.org or original authors 2013 <br />Baked with <em><a href="http://bolt80.com/piecrust/">PieCrust</a> 1.3.0-dev</em>.</p>
+                    </footer>
+    </div>
+    
+        <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap-transition.js"></script>
+    <script src="/js/bootstrap-alert.js"></script>
+    <script src="/js/bootstrap-modal.js"></script>
+    <script src="/js/bootstrap-dropdown.js"></script>
+    <script src="/js/bootstrap-scrollspy.js"></script>
+    <script src="/js/bootstrap-tab.js"></script>
+    <script src="/js/bootstrap-tooltip.js"></script>
+    <script src="/js/bootstrap-popover.js"></script>
+    <script src="/js/bootstrap-button.js"></script>
+    <script src="/js/bootstrap-collapse.js"></script>
+    <script src="/js/bootstrap-carousel.js"></script>
+    <script src="/js/bootstrap-typeahead.js"></script>
+</body>
+</html>

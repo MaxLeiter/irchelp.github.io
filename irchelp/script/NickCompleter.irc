@@ -1,0 +1,400 @@
+<!doctype html>
+<html>
+<head>
+    <title>IRCHelp.org &mdash; Untitled Page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="Comprehensive information on everything Internet Relay Chat" />
+    <meta name="author" content="irchelpers" />
+    <meta name="generator" content="PieCrust 1.3.0-dev" />
+    <meta name="template-engine" content="Twig" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0">
+    <!-- Le styles -->
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+      href="/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed"
+      href="/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="/ico/favicon.png">
+</head>
+<body>
+    <!--Start of navigation-->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container"> <a class="btn btn-navbar"
+            data-toggle="collapse" data-target=".nav-collapse"> <span
+              class="icon-bar"></span> <span class="icon-bar"></span> <span
+              class="icon-bar"></span> </a> <a class="brand" href="/">#irchelp</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="/">Home</a></li>
+              <li><a href="/irchelp/credit.html">About</a></li>
+              <li class="dropdown"> <a href="/irchelp/clients" class="dropdown-toggle"
+                  data-toggle="dropdown">Clients </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/clients">All Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Windows</li>
+                  <li><a href="/irchelp/clients/windows/mirc">mIRC</a></li>
+                  <li><a href="/irchelp/clients/windows/xchat">XChat</a></li>
+                  <li><a href="/irchelp/clients/windows">All Windows Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">MacOS X</li>
+                  <li><a href="/irchelp/clients/mac/textual.html">Textual</a></li>
+                  <li><a href="/irchelp/clients/mac/colloquy.html">Colloquy</a></li>
+                  <li><a href="/irchelp/clients/mac/snak.html">Snak</a></li>
+                  <li><a href="/irchelp/clients/mac">All MacOS X Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Linux/Unix Terminal</li>
+                  <li><a href="/irchelp/clients/unix/irssi">irssi</a></li>
+                  <li><a href="/irchelp/clients/unix/epic.html">EPIC</a></li>
+                  <li><a href="/irchelp/clients/unix/ircii">ircII</a></li>
+                  <li><a href="/irchelp/clients/unix/index.html#terminal">All Linux/Unix Terminal Clients</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Linux/Unix Graphical</li>
+                  <li><a href="/irchelp/clients/unix/xchat.html">XChat</a></li>
+                  <li><a href="/irchelp/clients/unix/konversation.html">Konversation</a></li>
+                  <li><a href="/irchelp/clients/unix/index.html#gui">All Linux/Unix Graphical Clients</a></li>
+                  <li class="nav-header">Smartphones</li>
+                  <li><a href="/irchelp/clients/mobile/android">Clients for Android</a></li>
+                  <li><a href="/irchelp/clients/mobile/ios">Clients for iOS</a></li>
+                  <li><a href="/irchelp/clients/mobile">All Smartphone Clients</a></li>
+                  <li class="nav-header">Other OS and Crossplatform</li>
+                  <li><a href="/irchelp/clients/cross/java">Clients writting in Java</a></li>
+                  <li><a href="/irchelp/clients/cross">Other Crossplatform Clients</a></li>
+                  <li><a href="/irchelp/clients/otheros">Clients for other Operating Systems</a></li>
+                  <li><a href="/irchelp/clients/webclients.html">Web-based clients</a></li>
+
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/networks" class="dropdown-toggle"
+                  data-toggle="dropdown">Networks </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/networks/popular.html">Major Networks</a></li>
+                  <li><a href="/irchelp/networks/regional.html">Regional Networks</a></li>
+                  <li><a href="/irchelp/networks/topical.html">Topical Networks</a></li>
+                  <li><a href="/irchelp/networks">All Networks</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Major Networks</li>
+                  <li><a href="/irchelp/networks/efnet/">EFNet</a></li>
+                  <li><a href="/irchelp/networks/ircnet.html">IRCnet</a></li>
+                  <li><a href="/irchelp/networks/undernet.html">Undernet</a></li>
+                  <li><a href="/irchelp/networks/dalnet.html">Dalnet</a></li>
+                  <li><a href="/irchelp/networks/quakenet.html">Quakenet</a></li>
+                  <li><a href="/irchelp/networks/freenode.html">Freenode</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/security" class="dropdown-toggle"
+                  data-toggle="dropdown">Security </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/security">General Security</a></li>
+                  <li><a href="/irchelp/security/privacy.html">Privacy</a></li>
+                  <li><a href="/irchelp/security/nuke.html">Denial of Service</a></li>
+                  <li><a href="/irchelp/security/trojan.html">Trojan Horses and Other Malware</a></li>
+                  <li><a href="/irchelp/security/socialeng.html">Social Engineering</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/ircd" class="dropdown-toggle"
+                  data-toggle="dropdown">Servers </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/ircd">General ircd information</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">EFNet IRCDs</li>
+                  <li><a href="/irchelp/ircd/ratbox">ircd-ratbox</a></li>
+                  <li><a href="/irchelp/ircd/hybrid">ircd-hybrid</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="#" class="dropdown-toggle"
+                  data-toggle="dropdown">FAQs </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/new2irc.html">New user introduction</a></li>
+<!--
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+-->
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="/irchelp/library.html" class="dropdown-toggle"
+                  data-toggle="dropdown">Library </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/irchelp/library.html">Index</a></li>
+<!--
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+-->
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form pull-right"> <input class="span2"
+                placeholder="Search" type="text"> <button type="submit"
+                class="btn">Search</button> </form>
+          </div>
+          <!--/.nav-collapse --> </div>
+      </div>
+    </div>
+<!--end of navigation-->
+
+    <div id="container" class="container">
+<!--
+                        <h1><a href="/">Untitled Page</a></h1>
+            -->        
+        
+            <div class="content">
+                                <h3>Nick Completer by DC-itsme (carabalo@hilbert.geom.umn.edu)</h3>
+
+<h3>version 0.70 ALPHA (preliminary test version)</h3>
+
+<h3>This script claims ^n and ^t .</h3>
+
+<h2>modified by Jolo to ^k and ^t</h2>
+
+<h3>This is a fairly simple script to run.  Start typing the nick of someone</h3>
+
+<h3>on the channel to which you are currently speaking.  Then press Ctrl-n.</h3>
+
+<h3>This script fills in a nick for you.  If choices are given (i.e., if</h3>
+
+<h3>several nicks match the search string &#8212; whatever you typed after the</h3>
+
+<h3>last space preceding your pressing Ctrl-n), press Ctrl-t to switch among</h3>
+
+<h3>these.  Typing a 2 or 3 letter search string will make using Ctrl-t</h3>
+
+<h3>unnecessary in most cases.</h3>
+
+<h3>KNOWN BUG:  This script will not work properly if the search string</h3>
+
+<h3>ends in a &#46;  This has already been fixed in version 0.80, which is not</h3>
+
+<h3>yet ready for release however.  This bug is easily avoided.  e.g., if</h3>
+
+<h3>&#92;bot_jerk is on the channel, you can type &#92;b and then press Ctrl-n .</h3>
+
+<h3>Simply do not press Ctrl-n right after typing a &#46;</h3>
+
+<h3>To cycle through all of the nicks on the channel, simply press Ctrl-n</h3>
+
+<h3>at the beginning of the input line, or after a space &#8212; pressing Ctrl-t</h3>
+
+<h3>then moves you from nick to nick.</h3>
+
+<h3>FEATURES/LIMITATIONS</h3>
+
+<h3>Even though this version is unfinished, it is by far the best Nick</h3>
+
+<h3>Completion script I have written.</h3>
+
+<h3>1) Like my earlier versions (such as NiComplete.irc, and earlier versions</h3>
+
+<h3>of this very script), many odd characters (like {,},|,-, _, ^, and &#41;</h3>
+
+<h3>can be handled (\ can be anywhere in the nick, but it should NOT be at</h3>
+
+<h3>the end of the search string &#8212; see KNOWN BUG above).</h3>
+
+<h3>2) This script can be activated from anywhere on the input line.</h3>
+
+<h3>3) If multiple nicks match the search string, all such nicks are shown,</h3>
+
+<h3>and you can switch among them by pressing Ctrl-t, as noted above.</h3>
+
+<h3>WARNING:  Do not press Ctrl-t until this script displays the list of</h3>
+
+<h3>possibilities.</h3>
+
+<h3>4) This script should be reasonably portable, but it has only been tested</h3>
+
+<h3>on my ircii 2.8.2 client.  It should be compatible with other scripts,</h3>
+
+<h3>for the most part, the most obvious possible conflict being the binding</h3>
+
+<h3>of ^n and ^t by this script.</h3>
+
+<h3>NOTES ON CODING</h3>
+
+<h3>1) Handling of odd characters was accomplished by using $^\^^variable</h3>
+
+<h3>when appropriate, and by judicious use of  command [$variable] in place</h3>
+
+<h3>of  eval command $variable .  eval can really mess things up in a</h3>
+
+<h3>script like this.</h3>
+
+<h2>#</h2>
+
+<h3>2) Because delete<em>previous</em>word does not function properly in ircii (e.g.,</h3>
+
+<h3>it counts a-b-c-d as four words), I needed some other way to get the</h3>
+
+<h3>search string.  Cutting the whole line saves it to $U .  At that point,</h3>
+
+<h3>I wanted to make use of the $~ variable, which stores the last word in</h3>
+
+<h3>the current buffer.  In order to put $U in the right place, I made it</h3>
+
+<h3>a parameter of the get_search routine.</h3>
+
+<h3>DISCLAIMER:  This program is being tested on a clean installation of</h3>
+
+<h3>ircii 2.8.2, not running other scripts.  I do not know how it will work</h3>
+
+<h3>on other clients.  There may be bugs, as this is a test version (see</h3>
+
+<h3>KNOWN BUG above).</h3>
+
+<h3>Please direct all comments to the author.</h3>
+
+<h3>Copyright (c) by David G. Caraballo, July 1996</h3>
+
+<p>//^bind ^k parse<em>command complete</em>the<em>nick
+//^bind ^t parse</em>command change_nicks</p>
+
+<p>//alias becho echo $0-</p>
+
+<p>becho Nick Completer 0.70 ALPHA</p>
+
+<h1>becho Nick Completer 0.70 ALPHA TEST (by DC-itsme!carabalo@hilbert.geom.umn.edu)</h1>
+
+<h1>becho USAGE:  Start typing the nick, and then press Ctrl-n.</h1>
+
+<h1>becho         If several choices appear, press Ctrl-t to switch among them.</h1>
+
+<h1>becho For more details, read the discussion in the script.</h1>
+
+<h3>deletes $0 chars from the end of the input line</h3>
+
+<p>//alias delchars {
+      @ delchars<em>ctr = 0
+      //while ([$delchars</em>ctr]&lt;[$0]) {
+         //parsekey backspace;@ delchars<em>ctr = delchars</em>ctr + 1 }
+      //^assign -delchars_ctr
+}</p>
+
+<p>//alias get_search {
+      //^assign nic.search.temp [$~]
+      @ nic.search.len = [$@nic.search.temp] - 2
+      @ nic.search = [$mid(1 $nic.search.len [$~])]
+      //^assign -nic.search.temp
+}</p>
+
+<p>//alias complete<em>the</em>nick {
+   //parsekey erase<em>line;//parsekey yank</em>from_cutbuffer</p>
+
+<p>@ nic.toggle=0
+   //^assign -thenick;//^assign -nic.list
+   //^assign -nic.search;//^assign -nic.search.len</p>
+
+<h3>Get search string.</h3>
+
+<p>if ([$right(1 $U)]== [ ]) {
+      @ nic.search = [$right(0 [])]
+      }{
+      get_search $U
+   }</p>
+
+<h3>Now print the first match and THEN create a list of all nicks in $C</h3>
+
+<h3>starting with nic.search .</h3>
+
+<pre><code>^assign -nic.chanusers
+@ nic.chanusers = [$chanusers($C)]
+</code></pre>
+
+<h3>The next line won&#8217;t work right without the ^\^^ in front of nic.chanusers.</h3>
+
+<p>@ nic.search2 = [${nic.search##[<em>]}]
+   @ listnum = [$match($^\^^nic.search2 $^\^^nic.chanusers)]
+   @ thenick = [$word(${listnum - 1} $nic.chanusers)]
+   @ nic.ctr1 = [$listnum] 
+   //^assign -listnum;//^assign -nic.search2
+   delchars $nic.search.len
+   //type $^\^^thenick
+   @ nic.toggle = 1;@nic.ctr2 = 0
+   @ nic.list = [$thenick]
+   //while ([$nic.ctr1] &lt;= [$#nic.chanusers]) {
+      if (  match($^\^^nic.search</em> $word($nic.ctr1 $^\^^nic.chanusers)) > 0 ) {
+         @ nic.list = [$nic.list $word($nic.ctr1 $nic.chanusers)]
+      }{}
+      @ nic.ctr1 = nic.ctr1 + 1
+   }
+   if ([$#nic.list] > 1) {
+      becho Press Ctrl-t to switch among the nicks in []&#8217;s:  [$nic.list]
+      }{
+      if ([$#nic.list] &lt; 1) {
+         eval becho *** Nick Completer did not find a nick beginning with &#8216;$^\^^nic.search&#8217; on channel ${ C }.
+         }{}
+   }
+}</p>
+
+<p>//alias change_nicks {
+   if (nic.toggle) {
+      if (nic.ctr2 &lt; [$#nic.list] - 1) {
+         @ nic.ctr2 = nic.ctr2 + 1
+      }{ @ nic.ctr2 = 0}
+      delchars $@thenick
+      @ thenick = [$word($nic.ctr2 $nic.list)]
+      //type $^\^^{ thenick }
+      //^assign -nic.chanusers
+   }{}
+}</p>
+
+<h3>CREDITS</h3>
+
+<h3>Written by DC-itsme!carabalo@hilbert.geom.umn.edu</h3>
+
+<h3>Thanks to kylania!kylania@radiks.net and MHz!girard@obelix.seas.upenn.edu</h3>
+
+<h3>for testing!</h3>
+
+                            </div>
+        
+        <footer>
+
+                        <p>All documents &copy; irchelp.org or original authors 2013 <br />Baked with <em><a href="http://bolt80.com/piecrust/">PieCrust</a> 1.3.0-dev</em>.</p>
+                    </footer>
+    </div>
+    
+        <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap-transition.js"></script>
+    <script src="/js/bootstrap-alert.js"></script>
+    <script src="/js/bootstrap-modal.js"></script>
+    <script src="/js/bootstrap-dropdown.js"></script>
+    <script src="/js/bootstrap-scrollspy.js"></script>
+    <script src="/js/bootstrap-tab.js"></script>
+    <script src="/js/bootstrap-tooltip.js"></script>
+    <script src="/js/bootstrap-popover.js"></script>
+    <script src="/js/bootstrap-button.js"></script>
+    <script src="/js/bootstrap-collapse.js"></script>
+    <script src="/js/bootstrap-carousel.js"></script>
+    <script src="/js/bootstrap-typeahead.js"></script>
+</body>
+</html>
